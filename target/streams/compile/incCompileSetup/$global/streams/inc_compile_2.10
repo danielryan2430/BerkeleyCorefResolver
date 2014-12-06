@@ -1,0 +1,458 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /Users/dimberman/Code/SBTCorefResolver/target/scala-2.10/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.10.4
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+17 items
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> /Users/dimberman/Code/SBTCorefResolver/target/scala-2.10/classes/resolver/parser/document/CoNLLParser$$anonfun$1.class
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> /Users/dimberman/Code/SBTCorefResolver/target/scala-2.10/classes/resolver/parser/document/CoNLLParser$$anonfun$completeCorefs$1.class
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> /Users/dimberman/Code/SBTCorefResolver/target/scala-2.10/classes/resolver/parser/document/CoNLLParser$$anonfun$findCorefEndDistance$1.class
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> /Users/dimberman/Code/SBTCorefResolver/target/scala-2.10/classes/resolver/parser/document/CoNLLParser.class
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> /Users/dimberman/Code/SBTCorefResolver/target/scala-2.10/classes/resolver/parser/document/CoNLLSentence.class
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> /Users/dimberman/Code/SBTCorefResolver/target/scala-2.10/classes/resolver/parser/document/Coref.class
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> /Users/dimberman/Code/SBTCorefResolver/target/scala-2.10/classes/resolver/parser/document/Document.class
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> /Users/dimberman/Code/SBTCorefResolver/target/scala-2.10/classes/resolver/parser/document/Word.class
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/StanfordNLPSentenceParser.scala -> /Users/dimberman/Code/SBTCorefResolver/target/scala-2.10/classes/resolver/parser/document/StanfordNLPSentenceParser.class
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> /Users/dimberman/Code/SBTCorefResolver/target/scala-2.10/classes/resolver/parser/document/FeatureSet.class
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> /Users/dimberman/Code/SBTCorefResolver/target/scala-2.10/classes/resolver/parser/document/SurfaceFeatureExtractor$$anonfun$1$$anonfun$apply$1.class
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> /Users/dimberman/Code/SBTCorefResolver/target/scala-2.10/classes/resolver/parser/document/SurfaceFeatureExtractor$$anonfun$1.class
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> /Users/dimberman/Code/SBTCorefResolver/target/scala-2.10/classes/resolver/parser/document/SurfaceFeatureExtractor$$anonfun$2.class
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> /Users/dimberman/Code/SBTCorefResolver/target/scala-2.10/classes/resolver/parser/document/SurfaceFeatureExtractor$$anonfun$3.class
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> /Users/dimberman/Code/SBTCorefResolver/target/scala-2.10/classes/resolver/parser/document/SurfaceFeatureExtractor$$anonfun$4.class
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> /Users/dimberman/Code/SBTCorefResolver/target/scala-2.10/classes/resolver/parser/document/SurfaceFeatureExtractor$$anonfun$extract$1.class
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> /Users/dimberman/Code/SBTCorefResolver/target/scala-2.10/classes/resolver/parser/document/SurfaceFeatureExtractor.class
+binary dependencies:
+10 items
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> /Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/rt.jar
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> /Users/dimberman/.ivy2/cache/edu.stanford.nlp/stanford-corenlp/jars/stanford-corenlp-3.5.0.jar
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> /Users/dimberman/.sbt/boot/scala-2.10.4/lib/scala-library.jar
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> /Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/rt.jar
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> /Users/dimberman/.ivy2/cache/edu.stanford.nlp/stanford-corenlp/jars/stanford-corenlp-3.5.0.jar
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> /Users/dimberman/.sbt/boot/scala-2.10.4/lib/scala-library.jar
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/StanfordNLPSentenceParser.scala -> /Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/rt.jar
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/StanfordNLPSentenceParser.scala -> /Users/dimberman/.ivy2/cache/edu.stanford.nlp/stanford-corenlp/jars/stanford-corenlp-3.5.0.jar
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> /Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/rt.jar
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> /Users/dimberman/.sbt/boot/scala-2.10.4/lib/scala-library.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+2 items
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> /Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> /Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+17 items
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> resolver.parser.document.CoNLLParser
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> resolver.parser.document.CoNLLParser$$anonfun$1
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> resolver.parser.document.CoNLLParser$$anonfun$completeCorefs$1
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> resolver.parser.document.CoNLLParser$$anonfun$findCorefEndDistance$1
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> resolver.parser.document.CoNLLSentence
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> resolver.parser.document.Coref
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> resolver.parser.document.Document
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> resolver.parser.document.Word
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/StanfordNLPSentenceParser.scala -> resolver.parser.document.StanfordNLPSentenceParser
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> resolver.parser.document.FeatureSet
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> resolver.parser.document.SurfaceFeatureExtractor
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> resolver.parser.document.SurfaceFeatureExtractor$$anonfun$1
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> resolver.parser.document.SurfaceFeatureExtractor$$anonfun$1$$anonfun$apply$1
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> resolver.parser.document.SurfaceFeatureExtractor$$anonfun$2
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> resolver.parser.document.SurfaceFeatureExtractor$$anonfun$3
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> resolver.parser.document.SurfaceFeatureExtractor$$anonfun$4
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> resolver.parser.document.SurfaceFeatureExtractor$$anonfun$extract$1
+used names:
+276 items
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> &&
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> +
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> ++
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> :+
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> <init>
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> ==
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> AnyRef
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> Boolean
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> CoNLLParser
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> CoNLLSentence
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> Codec
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> Coref
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> Document
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> Int
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> Iterator
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> List
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> Nil
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> Predef
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> Seq
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> Source
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> String
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> StringCanBuildFrom
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> Tree
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> Tuple2
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> _1
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> _2
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> a
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> acc
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> add
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> apply
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> augmentString
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> b
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> canBuildFrom
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> cf
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> charWrapper
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> collection
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> completeCorefs
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> coref
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> corefs
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> createCorefs
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> currCorefs
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> currIsHead
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> currSentence
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> currType
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> currentSpot
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> cutLine
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> distance
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> document
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> edu
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> endDistances
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> ends
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> fallbackSystemCodec
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> fileName
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> filter
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> findCorefEndDistance
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> findCorefStarts
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> findEndForStart
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> foldLeft
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> fromFile
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> getLines
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> hasEnding
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> hasNext
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> head
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> hold
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> i
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> immutable
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> ind
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> index
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> io
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> isDigit
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> isEmpty
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> isHead
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> last
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> lines
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> makeTree
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> mkString
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> next
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> nlp
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> package
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> parseByLine
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> parseCoref
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> parser
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> pullOutInt
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> refArrayOps
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> resolver
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> rest
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> restOfDoc
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> s
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> scala
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> sentenceNum
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> sentenceNum_=
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> source
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> split
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> stanford
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> start
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> starts
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> t
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> tail
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> tmp
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> toInt
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> treePiece
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> treeSegs
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> trees
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> unary_!
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> valueOf
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> word
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> wordType
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> zip
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> ||
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> &&
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> -
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> <init>
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> ==
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> AnyRef
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> Boolean
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> CoNLLSentence
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> Coref
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> Document
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> Int
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> List
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> Predef
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> Seq
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> String
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> Tree
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> Tuple6
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> Word
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> _1
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> _2
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> _3
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> _4
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> _5
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> _6
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> apply
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> c
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> cfEnd
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> corefID
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> corefs
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> doc
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> document
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> edu
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> end
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> getWord
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> i
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> isEmpty
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> isHd
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> isHeaad
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> isHead
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> length
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> nlp
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> other
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> package
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> parser
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> resolver
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> scala
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> sentence
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> sentenceList
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> sentenceNum
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> st
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> stanford
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> start
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> t
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> tail
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> text
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> tree
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> trees
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> wT
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> wordType
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> words
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/StanfordNLPSentenceParser.scala -> <init>
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/StanfordNLPSentenceParser.scala -> AnyRef
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/StanfordNLPSentenceParser.scala -> ModCollinsHeadFinder
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/StanfordNLPSentenceParser.scala -> Sentence
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/StanfordNLPSentenceParser.scala -> StanfordNLPSentenceParser
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/StanfordNLPSentenceParser.scala -> Tree
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/StanfordNLPSentenceParser.scala -> document
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/StanfordNLPSentenceParser.scala -> edu
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/StanfordNLPSentenceParser.scala -> ling
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/StanfordNLPSentenceParser.scala -> nlp
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/StanfordNLPSentenceParser.scala -> parser
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/StanfordNLPSentenceParser.scala -> resolver
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/StanfordNLPSentenceParser.scala -> scala
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/StanfordNLPSentenceParser.scala -> stanford
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/StanfordNLPSentenceParser.scala -> trees
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> &&
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> +
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> ++
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> -
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> :+
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> <=
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> <init>
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> ==
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> >=
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> AnyRef
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> Boolean
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> CoNLLSentence
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> Coref
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> Document
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> FeatureSet
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> Function2
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> Function3
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> Int
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> List
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> Nil
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> Predef
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> String
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> SurfaceFeatureExtractor
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> Tuple2
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> _1
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> _2
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> _root_
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> a
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> anaylzeCoref
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> apply
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> c
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> cString
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> canBuildFrom
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> completeString
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> corefExistsInSentence
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> corefID
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> corefPhrase
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> corefs
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> d
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> doc
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> document
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> end
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> extractFeatures
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> fWord
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> filter
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> firstWord
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> foldLeft
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> getSentence
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> getWord
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> hasCoref
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> head
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> i
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> immutable
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> isEmpty
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> l
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> lWord
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> lastWord
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> length
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> mID
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> mType
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> mentionID
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> mentionType
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> nWord
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> nextWord
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> nums
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> pWord
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> package
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> parser
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> prevWord
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> previousWord
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> pullPhrase
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> rID
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> refID
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> referenceID
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> referenceID_=
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> relevent
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> resolver
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> reverse
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> s
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> sHead
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> sNum
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> scala
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> semanticHead
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> sentenceList
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> sentenceNum
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> start
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> substring
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> tail
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> text
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> wordNums
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> words
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> zip
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> ||
+product stamps:
+17 items
+/Users/dimberman/Code/SBTCorefResolver/target/scala-2.10/classes/resolver/parser/document/CoNLLParser$$anonfun$1.class -> lastModified(1417907206000)
+/Users/dimberman/Code/SBTCorefResolver/target/scala-2.10/classes/resolver/parser/document/CoNLLParser$$anonfun$completeCorefs$1.class -> lastModified(1417907206000)
+/Users/dimberman/Code/SBTCorefResolver/target/scala-2.10/classes/resolver/parser/document/CoNLLParser$$anonfun$findCorefEndDistance$1.class -> lastModified(1417907206000)
+/Users/dimberman/Code/SBTCorefResolver/target/scala-2.10/classes/resolver/parser/document/CoNLLParser.class -> lastModified(1417907206000)
+/Users/dimberman/Code/SBTCorefResolver/target/scala-2.10/classes/resolver/parser/document/CoNLLSentence.class -> lastModified(1417907205000)
+/Users/dimberman/Code/SBTCorefResolver/target/scala-2.10/classes/resolver/parser/document/Coref.class -> lastModified(1417907205000)
+/Users/dimberman/Code/SBTCorefResolver/target/scala-2.10/classes/resolver/parser/document/Document.class -> lastModified(1417907205000)
+/Users/dimberman/Code/SBTCorefResolver/target/scala-2.10/classes/resolver/parser/document/FeatureSet.class -> lastModified(1417907637000)
+/Users/dimberman/Code/SBTCorefResolver/target/scala-2.10/classes/resolver/parser/document/StanfordNLPSentenceParser.class -> lastModified(1417818326000)
+/Users/dimberman/Code/SBTCorefResolver/target/scala-2.10/classes/resolver/parser/document/SurfaceFeatureExtractor$$anonfun$1$$anonfun$apply$1.class -> lastModified(1417907637000)
+/Users/dimberman/Code/SBTCorefResolver/target/scala-2.10/classes/resolver/parser/document/SurfaceFeatureExtractor$$anonfun$1.class -> lastModified(1417907637000)
+/Users/dimberman/Code/SBTCorefResolver/target/scala-2.10/classes/resolver/parser/document/SurfaceFeatureExtractor$$anonfun$2.class -> lastModified(1417907637000)
+/Users/dimberman/Code/SBTCorefResolver/target/scala-2.10/classes/resolver/parser/document/SurfaceFeatureExtractor$$anonfun$3.class -> lastModified(1417907637000)
+/Users/dimberman/Code/SBTCorefResolver/target/scala-2.10/classes/resolver/parser/document/SurfaceFeatureExtractor$$anonfun$4.class -> lastModified(1417907637000)
+/Users/dimberman/Code/SBTCorefResolver/target/scala-2.10/classes/resolver/parser/document/SurfaceFeatureExtractor$$anonfun$extract$1.class -> lastModified(1417907637000)
+/Users/dimberman/Code/SBTCorefResolver/target/scala-2.10/classes/resolver/parser/document/SurfaceFeatureExtractor.class -> lastModified(1417907637000)
+/Users/dimberman/Code/SBTCorefResolver/target/scala-2.10/classes/resolver/parser/document/Word.class -> lastModified(1417907205000)
+source stamps:
+4 items
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> hash(02a868f0d332879be2e06867dfb181cb8f91a80d)
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> hash(c562238e9fa122effaaefb03649ce775545c9234)
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/StanfordNLPSentenceParser.scala -> hash(2c0b55f0cdbd55c061f0a93307b0aac0d2734fa4)
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> hash(3f1f25ea91d013271da2d2192cd70808136b5552)
+binary stamps:
+3 items
+/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1381238674000)
+/Users/dimberman/.ivy2/cache/edu.stanford.nlp/stanford-corenlp/jars/stanford-corenlp-3.5.0.jar -> lastModified(1414787689000)
+/Users/dimberman/.sbt/boot/scala-2.10.4/lib/scala-library.jar -> lastModified(1395179187000)
+class names:
+3 items
+/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.Object
+/Users/dimberman/.ivy2/cache/edu.stanford.nlp/stanford-corenlp/jars/stanford-corenlp-3.5.0.jar -> edu.stanford.nlp.trees.Tree
+/Users/dimberman/.sbt/boot/scala-2.10.4/lib/scala-library.jar -> scala.collection.SeqLike
+internal apis:
+4 items
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDOGKUiAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAIXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cBUCOIJ0AA9maW5kRW5kRm9yU3RhcnRzcQB+AAyayiCldAAGbm90aWZ5c3EAfgAMijMTSnQAFGZpbmRDb3JlZkVuZERpc3RhbmNlc3EAfgAMfCHZDnQABHdhaXRzcQB+AAzZsp1zdAANJGFzSW5zdGFuY2VPZnNxAH4ADNC1LgV0AAhtYWtlVHJlZXNxAH4ADMh+x5Z0AAZlcXVhbHNzcQB+AAzi6vA8dAAMYXNJbnN0YW5jZU9mc3EAfgAMkvRm9HQADHN5bmNocm9uaXplZHNxAH4ADAiei850AA0kaXNJbnN0YW5jZU9mc3EAfgAMQK2L8nQAD2ZpbmRDb3JlZlN0YXJ0c3NxAH4ADOceBzV0AA5jb21wbGV0ZUNvcmVmc3NxAH4ADMIW5/J0AAlub3RpZnlBbGxzcQB+AAzbetOwdAAKcHVsbE91dEludHNxAH4ADHNhhu90AAxpc0luc3RhbmNlT2ZzcQB+AAw7UOWGdAAGaXNIZWFkc3EAfgAMx9uXk3QADGNyZWF0ZUNvcmVmc3NxAH4ADOe1cDJ0AAY8aW5pdD5zcQB+AAxoA1UudAALcGFyc2VCeUxpbmVzcQB+AAxN/vnWdAAFcGFyc2VzcQB+AAxRRozAdAACPT1zcQB+AAy67d09dAAFY2xvbmVzcQB+AAwTdVp0dAALQ29OTExQYXJzZXJzcQB+AAzk++5EdAAIdG9TdHJpbmdzcQB+AAwwgO9FdAACIT1zcQB+AAxkloLZdAALc2VudGVuY2VOdW1zcQB+AAzqo87ZdAAIZ2V0Q2xhc3NzcQB+AAxwiKfVdAACbmVzcQB+AAwtF5xjdAAKcGFyc2VDb3JlZnNxAH4ADPq9xDl0AAJlcXNxAH4ADFHhI2x0AAIjI3NxAH4ADNwpDu90AAhmaW5hbGl6ZXNxAH4ADPeVPqt0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AFl4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0ACRyZXNvbHZlci5wYXJzZXIuZG9jdW1lbnQuQ29OTExQYXJzZXJ1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cAFzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwcHNxAH4AcQFzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AWUwACWluaGVyaXRlZHEAfgBZTAAHcGFyZW50c3EAfgBZeHEAfgB4c3EAfgBxAXVxAH4AVAAAAABwc3EAfgBxAXVxAH4AVAAAAABwc3EAfgBxAXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4Ad3QABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4Ad3NyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4AkHQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AkXNxAH4AhHQAA0FueXNxAH4AiHNxAH4Ai3VxAH4AjgAAAAJzcQB+AJB0AAVzY2FsYXEAfgCXcHB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAA3NyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AA9yZXNvbHZlci5wYXJzZXJzcQB+AKF0AAhyZXNvbHZlcnNxAH4AoXQAGHJlc29sdmVyLnBhcnNlci5kb2N1bWVudHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSiHa9D11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABAL1VzZXJzL2RpbWJlcm1hbi9Db2RlL1NCVENvcmVmUmVzb2x2ZXIvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFAKoaPDTMoeb4uBoZ9+xgcuPkagN
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDgOFU5AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAALXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cKZnuIp0AAZub3RpZnlzcQB+AAyJQhmSdAAIbGFzdFdvcmRzcQB+AAxbynX7dAAEd2FpdHNxAH4ADOHe7aR0AAxzZW50ZW5jZUxpc3RzcQB+AAzBPV1jdAANJGFzSW5zdGFuY2VPZnNxAH4ADJOrA3t0AAZlcXVhbHNzcQB+AAyKa1M0dAAEaGVhZHNxAH4ADC53LPJ0AAxhc0luc3RhbmNlT2ZzcQB+AAzDaiVTdAAMc3luY2hyb25pemVkc3EAfgAMczBgdnQABmNvcmVmc3NxAH4ADD8wJ8F0AA0kaXNJbnN0YW5jZU9mc3EAfgAM4fQNXnQAC2dldFNlbnRlbmNlc3EAfgAMA5c763QABHRleHRzcQB+AAzfLa0ddAAHaXNIZWFhZHNxAH4ADMxhe7h0AAR0YWlsc3EAfgAMccVhm3QACWZpcnN0V29yZHNxAH4ADOHFfax0AA1Db05MTFNlbnRlbmNlc3EAfgAMcPx6NXQACW5vdGlmeUFsbHNxAH4ADCvaMoN0AAVDb3JlZnNxAH4ADEPxCMR0AAxpc0luc3RhbmNlT2ZzcQB+AAzyvhBJdAAGaXNIZWFkc3EAfgAMUu4tUnQABjxpbml0PnNxAH4ADHcqaIJ0AAI9PXNxAH4ADJs8DLp0AAVjbG9uZXNxAH4ADLE0ShZ0AAV3b3Jkc3NxAH4ADEbO6D50AANlbmRzcQB+AAw7PDnHdAAIaGFzQ29yZWZzcQB+AAywxlsgdAAIdG9TdHJpbmdzcQB+AAyGUoV6dAAEdHJlZXNxAH4ADIgGNfx0AAZsZW5ndGhzcQB+AAxFw9ZPdAAHZ2V0V29yZHNxAH4ADHyc6ct0AAIhPXNxAH4ADAu2azV0AAtzZW50ZW5jZU51bXNxAH4ADKiSBXJ0AAhnZXRDbGFzc3NxAH4ADPdvFp90AAVzdGFydHNxAH4ADAoVdlZ0AAdpc0VtcHR5c3EAfgAMi/v1YHQAAm5lc3EAfgAMlIndVnQACHdvcmRUeXBlc3EAfgAM5eceP3QAB2NvcmVmSURzcQB+AAw0gV1mdAACZXFzcQB+AAxkEyHSdAAEV29yZHNxAH4ADDKaytJ0AAIjI3NxAH4ADOu8qGh0AAhmaW5hbGl6ZXNxAH4ADGVoZX50AAhoYXNoQ29kZXNxAH4ADK5ZyJB0AAhEb2N1bWVudHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAARzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AHF4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0ACFyZXNvbHZlci5wYXJzZXIuZG9jdW1lbnQuRG9jdW1lbnR1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AIp4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AIkAcHNxAH4AjnNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBxTAAJaW5oZXJpdGVkcQB+AHFMAAdwYXJlbnRzcQB+AHF4cQB+AJJzcQB+AIkAcHNxAH4AjnVxAH4AbAAAAABzcQB+AIkAcHNxAH4AjnVxAH4AbAAAAABzcQB+AIkAcHNxAH4AjnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AkXQABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AkXNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4ArnQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4Ar3NxAH4AonQAA0FueXNxAH4ApnNxAH4AqXVxAH4ArAAAAAJzcQB+AK50AAVzY2FsYXEAfgC1c3EAfgBucQB+AHt1cQB+AHwAAAAAc3EAfgB+AHQAJnJlc29sdmVyLnBhcnNlci5kb2N1bWVudC5Db05MTFNlbnRlbmNldXEAfgCBAAAAAHEAfgCFdXEAfgCHAAAAAHNxAH4AiQBwc3EAfgCOcQB+AJNzcQB+AIkAcHNxAH4AjnNxAH4AlnNxAH4AiQBwc3EAfgCOdXEAfgBsAAAAAHNxAH4AiQBwc3EAfgCOdXEAfgBsAAAAAHNxAH4AiQBwc3EAfgCOdXEAfgCgAAAAAnNxAH4AonEAfgClc3EAfgCmc3EAfgCpdXEAfgCsAAAAA3NxAH4ArnEAfgCxc3EAfgCucQB+ALNxAH4AtXNxAH4AonEAfgC3c3EAfgCmc3EAfgCpdXEAfgCsAAAAAnNxAH4ArnEAfgC8cQB+ALVzcQB+AG5xAH4Ae3VxAH4AfAAAAABzcQB+AH4AdAAdcmVzb2x2ZXIucGFyc2VyLmRvY3VtZW50LldvcmR1cQB+AIEAAAAAcQB+AIV1cQB+AIcAAAAAc3EAfgCJAHBzcQB+AI5xAH4Ak3NxAH4AiQBwc3EAfgCOc3EAfgCWc3EAfgCJAHBzcQB+AI51cQB+AGwAAAAAc3EAfgCJAHBzcQB+AI51cQB+AGwAAAAAc3EAfgCJAHBzcQB+AI51cQB+AKAAAAACc3EAfgCicQB+AKVzcQB+AKZzcQB+AKl1cQB+AKwAAAADc3EAfgCucQB+ALFzcQB+AK5xAH4As3EAfgC1c3EAfgCicQB+ALdzcQB+AKZzcQB+AKl1cQB+AKwAAAACc3EAfgCucQB+ALxxAH4AtXNxAH4AbnEAfgB7dXEAfgB8AAAAAHNxAH4AfgB0AB5yZXNvbHZlci5wYXJzZXIuZG9jdW1lbnQuQ29yZWZ1cQB+AIEAAAAAcQB+AIV1cQB+AIcAAAAAc3EAfgCJAHBzcQB+AI5xAH4Ak3NxAH4AiQBwc3EAfgCOc3EAfgCWc3EAfgCJAHBzcQB+AI51cQB+AGwAAAAAc3EAfgCJAHBzcQB+AI51cQB+AGwAAAAAc3EAfgCJAHBzcQB+AI51cQB+AKAAAAACc3EAfgCicQB+AKVzcQB+AKZzcQB+AKl1cQB+AKwAAAADc3EAfgCucQB+ALFzcQB+AK5xAH4As3EAfgC1c3EAfgCicQB+ALdzcQB+AKZzcQB+AKl1cQB+AKwAAAACc3EAfgCucQB+ALxxAH4AtXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAADc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAD3Jlc29sdmVyLnBhcnNlcnNxAH4BHHQACHJlc29sdmVyc3EAfgEcdAAYcmVzb2x2ZXIucGFyc2VyLmRvY3VtZW50c3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFKIdroSHVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AEAvVXNlcnMvZGltYmVybWFuL0NvZGUvU0JUQ29yZWZSZXNvbHZlci90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUxWIjjp+hIu/6rvsDZJzndVRckjQ=
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/StanfordNLPSentenceParser.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAp5p3/AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cLL8VmR0AAZub3RpZnlzcQB+AAyf/0n9dAAEd2FpdHNxAH4ADBgExMZ0AA0kYXNJbnN0YW5jZU9mc3EAfgAM9O9x03QAGVN0YW5mb3JkTkxQU2VudGVuY2VQYXJzZXJzcQB+AAy8IazGdAAGZXF1YWxzc3EAfgAMHMNSY3QADGFzSW5zdGFuY2VPZnNxAH4ADBgQ9sl0AAxzeW5jaHJvbml6ZWRzcQB+AAx785mKdAANJGlzSW5zdGFuY2VPZnNxAH4ADDcf7rV0AAlub3RpZnlBbGxzcQB+AAxVfBbLdAAMaXNJbnN0YW5jZU9mc3EAfgAM7sjzYnQABjxpbml0PnNxAH4ADFE3dMp0AAI9PXNxAH4ADHnnq5x0AAVjbG9uZXNxAH4ADLqmtct0AAh0b1N0cmluZ3NxAH4ADG+YM610AAIhPXNxAH4ADJsh5HR0AAhnZXRDbGFzc3NxAH4ADOknuKh0AAJuZXNxAH4ADDbT0fZ0AAJlcXNxAH4ADHw5dIF0AAIjI3NxAH4ADJ0tkQl0AAhmaW5hbGl6ZXNxAH4ADGCkkC10AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEF4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0ADJyZXNvbHZlci5wYXJzZXIuZG9jdW1lbnQuU3RhbmZvcmROTFBTZW50ZW5jZVBhcnNlcnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AWnhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AWQBwc3EAfgBec3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AEFMAAlpbmhlcml0ZWRxAH4AQUwAB3BhcmVudHNxAH4AQXhxAH4AYnNxAH4AWQBwc3EAfgBedXEAfgA8AAAAAHNxAH4AWQBwc3EAfgBedXEAfgA8AAAAAHNxAH4AWQBwc3EAfgBedXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBhdAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBhc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgB+dAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB/c3EAfgBydAADQW55c3EAfgB2c3EAfgB5dXEAfgB8AAAAAnNxAH4AfnQABXNjYWxhcQB+AIV1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAA3NyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AA9yZXNvbHZlci5wYXJzZXJzcQB+AI90AAhyZXNvbHZlcnNxAH4Aj3QAGHJlc29sdmVyLnBhcnNlci5kb2N1bWVudHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABShyOvC91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABAL1VzZXJzL2RpbWJlcm1hbi9Db2RlL1NCVENvcmVmUmVzb2x2ZXIvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFCwLVfDNvVXAYfCpMwewqsDSc0+k
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAPxBuHAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAJ3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cDzwrUB0AAZub3RpZnlzcQB+AAx47cbrdAAIbGFzdFdvcmRzcQB+AAzHVM5hdAAJbWVudGlvbklEc3EAfgAMOD0GoHQADmNvbXBsZXRlU3RyaW5nc3EAfgAMxA4XD3QABHdhaXRzcQB+AAzlxIHAdAANJGFzSW5zdGFuY2VPZnNxAH4ADPoK0F10AAhuZXh0V29yZHNxAH4ADMp2bC90AAxhbmF5bHplQ29yZWZzcQB+AAzKtylRdAAGZXF1YWxzc3EAfgAMmgN28HQADGFzSW5zdGFuY2VPZnNxAH4ADGDMGg10AAxwcmV2aW91c1dvcmRzcQB+AAzeWavLdAAKRmVhdHVyZVNldHNxAH4ADCTG/I90AAxzeW5jaHJvbml6ZWRzcQB+AAzNBVqhdAAId29yZE51bXNzcQB+AAzVS4STdAANJGlzSW5zdGFuY2VPZnNxAH4ADD2SQXJ0ABdTdXJmYWNlRmVhdHVyZUV4dHJhY3RvcnNxAH4ADDlQAjh0AAxzZW1hbnRpY0hlYWRzcQB+AAwhqPzDdAAJZmlyc3RXb3Jkc3EAfgAM4P9Dp3QACW5vdGlmeUFsbHNxAH4ADE3+drp0AAxpc0luc3RhbmNlT2ZzcQB+AAyiDTFUdAAGPGluaXQ+c3EAfgAMVBMs73QAC21lbnRpb25UeXBlc3EAfgAMsyOeVXQAC3JlZmVyZW5jZUlEc3EAfgAMjCdb+XQAAj09c3EAfgAMoJbp1HQABWNsb25lc3EAfgAMnzS1H3QAFWNvcmVmRXhpc3RzSW5TZW50ZW5jZXNxAH4ADGQGpnN0AAh0b1N0cmluZ3NxAH4ADOsJXf50AAIhPXNxAH4ADEXACfR0AAtzZW50ZW5jZU51bXNxAH4ADKSu3GV0AAhnZXRDbGFzc3NxAH4ADPlsWTh0AApwdWxsUGhyYXNlc3EAfgAMxW2d3XQAAm5lc3EAfgAM5NuioXQAD2V4dHJhY3RGZWF0dXJlc3NxAH4ADEA3aYF0AAJlcXNxAH4ADNW6kyB0AAVyZWZJRHNxAH4ADGWAlGR0AAIjI3NxAH4ADK1GWcJ0AAhmaW5hbGl6ZXNxAH4ADM5/L390AAdleHRyYWN0c3EAfgAMIb36gXQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAnNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AZXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAMHJlc29sdmVyLnBhcnNlci5kb2N1bWVudC5TdXJmYWNlRmVhdHVyZUV4dHJhY3RvcnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAXNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBwc3EAfgB9AXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBlTAAJaW5oZXJpdGVkcQB+AGVMAAdwYXJlbnRzcQB+AGV4cQB+AIRzcQB+AH0BdXEAfgBgAAAAAHBzcQB+AH0BdXEAfgBgAAAAAHBzcQB+AH0BdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgCDdAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgCDc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgCcdAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCdc3EAfgCQdAADQW55c3EAfgCUc3EAfgCXdXEAfgCaAAAAAnNxAH4AnHQABXNjYWxhcQB+AKNwcHNxAH4AYnEAfgBvdXEAfgBwAAAAAHNxAH4AcgB0ACNyZXNvbHZlci5wYXJzZXIuZG9jdW1lbnQuRmVhdHVyZVNldHVxAH4AdQAAAABxAH4AeXVxAH4AewAAAABzcQB+AH0BcQB+AIVwc3EAfgB9AXNxAH4Ah3NxAH4AfQF1cQB+AGAAAAAAcHNxAH4AfQF1cQB+AGAAAAAAcHNxAH4AfQF1cQB+AI4AAAACc3EAfgCQcQB+AJNzcQB+AJRzcQB+AJd1cQB+AJoAAAADc3EAfgCccQB+AJ9zcQB+AJxxAH4AoXEAfgCjc3EAfgCQcQB+AKVzcQB+AJRzcQB+AJd1cQB+AJoAAAACc3EAfgCccQB+AKpxAH4Ao3BwdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAANzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAPcmVzb2x2ZXIucGFyc2Vyc3EAfgDHdAAIcmVzb2x2ZXJzcQB+AMd0ABhyZXNvbHZlci5wYXJzZXIuZG9jdW1lbnRzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAUoh4YQMdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAQC9Vc2Vycy9kaW1iZXJtYW4vQ29kZS9TQlRDb3JlZlJlc29sdmVyL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQ/HyXqkdATJx2i0hks1wgIE2tVUg==
+external apis:
+0 items
+source infos:
+4 items
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala -> 
+AAAAAAAAAAA=
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala -> 
+AAAAAAAAAAA=
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/StanfordNLPSentenceParser.scala -> 
+AAAAAAAAAAA=
+/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala -> 
+AAAAAAAAAAA=
+compilations:
+33 items
+00 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABShyOvC91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQC9Vc2Vycy9kaW1iZXJtYW4vQ29kZS9TQlRDb3JlZlJlc29sdmVyL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+01 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABShym6tF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQC9Vc2Vycy9kaW1iZXJtYW4vQ29kZS9TQlRDb3JlZlJlc29sdmVyL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+02 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABShzPmKt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQC9Vc2Vycy9kaW1iZXJtYW4vQ29kZS9TQlRDb3JlZlJlc29sdmVyL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+03 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABShzcXBl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQC9Vc2Vycy9kaW1iZXJtYW4vQ29kZS9TQlRDb3JlZlJlc29sdmVyL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+04 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABShzh75V1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQC9Vc2Vycy9kaW1iZXJtYW4vQ29kZS9TQlRDb3JlZlJlc29sdmVyL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+05 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABShzjynN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQC9Vc2Vycy9kaW1iZXJtYW4vQ29kZS9TQlRDb3JlZlJlc29sdmVyL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+06 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABShznKj91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQC9Vc2Vycy9kaW1iZXJtYW4vQ29kZS9TQlRDb3JlZlJlc29sdmVyL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+07 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABShzrTgB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQC9Vc2Vycy9kaW1iZXJtYW4vQ29kZS9TQlRDb3JlZlJlc29sdmVyL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+08 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABShzvH5B1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQC9Vc2Vycy9kaW1iZXJtYW4vQ29kZS9TQlRDb3JlZlJlc29sdmVyL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+09 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABShzwE451cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQC9Vc2Vycy9kaW1iZXJtYW4vQ29kZS9TQlRDb3JlZlJlc29sdmVyL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+10 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABShz08ch1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQC9Vc2Vycy9kaW1iZXJtYW4vQ29kZS9TQlRDb3JlZlJlc29sdmVyL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+11 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABShz2Chh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQC9Vc2Vycy9kaW1iZXJtYW4vQ29kZS9TQlRDb3JlZlJlc29sdmVyL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+12 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABShz3e6p1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQC9Vc2Vycy9kaW1iZXJtYW4vQ29kZS9TQlRDb3JlZlJlc29sdmVyL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+13 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABShz9fgB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQC9Vc2Vycy9kaW1iZXJtYW4vQ29kZS9TQlRDb3JlZlJlc29sdmVyL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+14 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSh0T/XV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQC9Vc2Vycy9kaW1iZXJtYW4vQ29kZS9TQlRDb3JlZlJlc29sdmVyL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+15 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSh0XNT51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQC9Vc2Vycy9kaW1iZXJtYW4vQ29kZS9TQlRDb3JlZlJlc29sdmVyL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+16 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSh0Xywt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQC9Vc2Vycy9kaW1iZXJtYW4vQ29kZS9TQlRDb3JlZlJlc29sdmVyL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+17 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSh0YECR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQC9Vc2Vycy9kaW1iZXJtYW4vQ29kZS9TQlRDb3JlZlJlc29sdmVyL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+18 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSh0obP91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQC9Vc2Vycy9kaW1iZXJtYW4vQ29kZS9TQlRDb3JlZlJlc29sdmVyL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+19 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSh0pA+x1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQC9Vc2Vycy9kaW1iZXJtYW4vQ29kZS9TQlRDb3JlZlJlc29sdmVyL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+20 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSh0pyMF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQC9Vc2Vycy9kaW1iZXJtYW4vQ29kZS9TQlRDb3JlZlJlc29sdmVyL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+21 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSh0qajZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQC9Vc2Vycy9kaW1iZXJtYW4vQ29kZS9TQlRDb3JlZlJlc29sdmVyL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+22 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSh0tyjx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQC9Vc2Vycy9kaW1iZXJtYW4vQ29kZS9TQlRDb3JlZlJlc29sdmVyL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+23 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSh1Vtvx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQC9Vc2Vycy9kaW1iZXJtYW4vQ29kZS9TQlRDb3JlZlJlc29sdmVyL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+24 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSh1bYnt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQC9Vc2Vycy9kaW1iZXJtYW4vQ29kZS9TQlRDb3JlZlJlc29sdmVyL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+25 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSiFxf7B1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQC9Vc2Vycy9kaW1iZXJtYW4vQ29kZS9TQlRDb3JlZlJlc29sdmVyL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+26 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSiFycEp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQC9Vc2Vycy9kaW1iZXJtYW4vQ29kZS9TQlRDb3JlZlJlc29sdmVyL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+27 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSiHa6Eh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQC9Vc2Vycy9kaW1iZXJtYW4vQ29kZS9TQlRDb3JlZlJlc29sdmVyL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+28 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSiHa9D11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQC9Vc2Vycy9kaW1iZXJtYW4vQ29kZS9TQlRDb3JlZlJlc29sdmVyL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+29 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSiHdA451cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQC9Vc2Vycy9kaW1iZXJtYW4vQ29kZS9TQlRDb3JlZlJlc29sdmVyL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+30 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSiHe6qp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQC9Vc2Vycy9kaW1iZXJtYW4vQ29kZS9TQlRDb3JlZlJlc29sdmVyL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+31 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSiHhBxh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQC9Vc2Vycy9kaW1iZXJtYW4vQ29kZS9TQlRDb3JlZlJlc29sdmVyL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+32 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSiHhhAx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQC9Vc2Vycy9kaW1iZXJtYW4vQ29kZS9TQlRDb3JlZlJlc29sdmVyL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
