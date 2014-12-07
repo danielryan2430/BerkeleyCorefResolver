@@ -4,7 +4,7 @@
 		module="sbtcorefresolver_2.10"
 		revision="1.0"
 		status="integration"
-		publication="20141205141817"
+		publication="20141207145419"
 	>
 		<description>
 		SBTCorefResolver
@@ -34,5 +34,6 @@
 		<dependency org="org.scala-lang" name="scala-library" rev="2.10.4" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="org.scalatest" name="scalatest_2.10" rev="2.0" conf="test->default(compile)"/>
 		<dependency org="edu.stanford.nlp" name="stanford-corenlp" rev="3.5.0" conf="compile->default(compile)"/>
+		<dependency org="org.apache.lucene" name="lucene-wordnet" rev="3.2.0" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

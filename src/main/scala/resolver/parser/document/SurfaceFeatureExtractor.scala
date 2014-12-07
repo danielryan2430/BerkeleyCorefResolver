@@ -11,15 +11,15 @@ class SurfaceFeatureExtractor {
   var referenceID = 0
 
 
-  def extract(doc: Document): List[FeatureSet] = {
+  def extract(doc: parsedConLLSentences): List[FeatureSet] = {
     doc.sentenceList.foldLeft(List[FeatureSet]())((a: List[FeatureSet], c: CoNLLSentence) => a ++ extractFeatures(c, doc))
   }
 
-  val extractFeatures: (CoNLLSentence, Document) => List[FeatureSet] = (s: CoNLLSentence, d: Document) => {
+  val extractFeatures: (CoNLLSentence, parsedConLLSentences) => List[FeatureSet] = (s: CoNLLSentence, d: parsedConLLSentences) => {
     s.corefs.foldLeft(List[FeatureSet]())((l: List[FeatureSet], c: Coref) => l :+ (anaylzeCoref(c, s, d)))
   }
 
-  val anaylzeCoref: (Coref, CoNLLSentence, Document) => FeatureSet = (c: Coref, s: CoNLLSentence, d: Document) => {
+  val anaylzeCoref: (Coref, CoNLLSentence, parsedConLLSentences) => FeatureSet = (c: Coref, s: CoNLLSentence, d: parsedConLLSentences) => {
     val corefPhrase = pullPhrase(c, s.words)
     val prevWord = if (c.start == 0) d.getSentence(s.sentenceNum - 1).lastWord() else s.getWord(c.start - 1).text
     val nextWord = if (c.end == s.length) d.getSentence(s.sentenceNum + 1).firstWord() else s.getWord(c.end + 1).text
@@ -69,4 +69,5 @@ class FeatureSet(mID: Int, rID: Int, sNum: Int, mType: String, cString: String, 
   val lastWord: String = lWord
   val previousWord: String = pWord
   val nextWord: String = nWord
+  var predictedMentionID = -1
 }

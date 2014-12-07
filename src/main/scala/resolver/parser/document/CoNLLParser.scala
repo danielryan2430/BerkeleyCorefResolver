@@ -9,12 +9,12 @@ import edu.stanford.nlp.trees.Tree
 class CoNLLParser {
   var sentenceNum = 0
 
-  def parse(fileName: String): Document = {
+  def parse(fileName: String): parsedConLLSentences = {
     val source = scala.io.Source.fromFile(fileName)
     val lines = source.getLines()
     val firstLine = lines.next()
     //parse firstline to get docID
-    new Document("", parseByLine(lines, Seq[CoNLLSentence](),
+    new parsedConLLSentences("", parseByLine(lines, Seq[CoNLLSentence](),
       List[String](),
       List[List[(Int, String)]](),
       List[String](),
