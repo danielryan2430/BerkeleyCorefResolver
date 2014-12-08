@@ -7,8 +7,42 @@
 		revision="1.0"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20141205142523"/>
+		date="20141207163133"/>
 	<dependencies>
+		<module organisation="org.apache.lucene" name="lucene-wordnet">
+			<revision name="3.2.0" status="release" pubdate="20110603073708" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="11">
+				<metadata-artifact status="no" details="" size="15778" time="0" location="/Users/dimberman/.ivy2/cache/org.apache.lucene/lucene-wordnet/ivy-3.2.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-wordnet/3.2.0/lucene-wordnet-3.2.0.pom"/>
+				<caller organisation="default" name="sbtcorefresolver_2.10" conf="compile" rev="3.2.0" rev-constraint-default="3.2.0" rev-constraint-dynamic="3.2.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="lucene-wordnet" type="jar" ext="jar" status="no" details="" size="39098" time="0" location="/Users/dimberman/.ivy2/cache/org.apache.lucene/lucene-wordnet/jars/lucene-wordnet-3.2.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-wordnet/3.2.0/lucene-wordnet-3.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-analyzers">
+			<revision name="3.2.0" status="release" pubdate="20110603073708" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="13">
+				<metadata-artifact status="no" details="" size="12044" time="0" location="/Users/dimberman/.ivy2/cache/org.apache.lucene/lucene-analyzers/ivy-3.2.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers/3.2.0/lucene-analyzers-3.2.0.pom"/>
+				<caller organisation="org.apache.lucene" name="lucene-wordnet" conf="default, compile, runtime, master" rev="3.2.0" rev-constraint-default="3.2.0" rev-constraint-dynamic="3.2.0" callerrev="3.2.0"/>
+				<artifacts>
+					<artifact name="lucene-analyzers" type="jar" ext="jar" status="no" details="" size="507477" time="0" location="/Users/dimberman/.ivy2/cache/org.apache.lucene/lucene-analyzers/jars/lucene-analyzers-3.2.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers/3.2.0/lucene-analyzers-3.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-core">
+			<revision name="3.2.0" status="release" pubdate="20110603073708" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="12">
+				<metadata-artifact status="no" details="" size="15712" time="0" location="/Users/dimberman/.ivy2/cache/org.apache.lucene/lucene-core/ivy-3.2.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-core/3.2.0/lucene-core-3.2.0.pom"/>
+				<caller organisation="org.apache.lucene" name="lucene-wordnet" conf="default, compile, runtime, master" rev="3.2.0" rev-constraint-default="3.2.0" rev-constraint-dynamic="3.2.0" callerrev="3.2.0"/>
+				<caller organisation="org.apache.lucene" name="lucene-analyzers" conf="compile, runtime" rev="3.2.0" rev-constraint-default="3.2.0" rev-constraint-dynamic="3.2.0" callerrev="3.2.0"/>
+				<artifacts>
+					<artifact name="lucene-core" type="jar" ext="jar" status="no" details="" size="1246325" time="0" location="/Users/dimberman/.ivy2/cache/org.apache.lucene/lucene-core/jars/lucene-core-3.2.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-core/3.2.0/lucene-core-3.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="edu.stanford.nlp" name="stanford-corenlp">
 			<revision name="3.5.0" status="release" pubdate="20141031135616" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://nlp.stanford.edu/software/corenlp.shtml" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="1">
 				<license name="GNU General Public License Version 3" url="http://www.gnu.org/licenses/gpl-3.0.txt"/>
