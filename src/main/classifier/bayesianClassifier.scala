@@ -14,6 +14,7 @@ object bayesianClassifier {
       //1. the returned feature has a base setting of new (score btw f.ID and itself...)
       val C = weightMult(featureExtractor(d, liveFeature.refID, maxChoiceFeat.refID))
       if (C > maxChoiceAccum._2) {
+      if (C > maxChoiceAccum._2) {
         (maxChoiceFeat.refID, C)
       } // if You have a higher score, choose you
       else {

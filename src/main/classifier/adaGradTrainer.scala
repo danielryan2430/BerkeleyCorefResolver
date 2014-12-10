@@ -19,7 +19,7 @@ object adaGradTrainer {
       error=0.0
       for (d <- Random.shuffle(documents)) {
 
-        grad = computeGradient(d,lossFunction,bayesianClassifier.scoreVect(weights,d,featureExtractor), featureExtractor)
+        grad = computeGradient(d,grad,lossFunction,bayesianClassifier.scoreVect(weights,d,featureExtractor), featureExtractor)
         dgrad = dgrad.zip(grad).map { case ((dgtii: Double, gti: Double)) => dgtii + gti * gti}
         val etaOverHtii = dgrad.map(dgtii => eta/(Math.sqrt(dgtii)+1))
         weights =( List[Double]() /: weights.zip(grad).zip(etaOverHtii)) { case (accm, ((xti:Double,gti:Double),eohtii:Double)) => {val inter= xti +gti*eohtii
@@ -32,11 +32,19 @@ object adaGradTrainer {
     weights.toList
   }
 
-  def computeGradient(document:Document,lossFunction:(Document, Int, Int) => Double, scores:Seq[Seq[Double]], featureExtractor: (Document, Int, Int) => Seq[Double]):List[Double] = {
+  def computeGradient(document:Document,gradient:List[Double],lossFunction:(Document, Int, Int) => Double, scores:Seq[Seq[Double]], featureExtractor: (Document, Int, Int) => Seq[Double]):List[Double] = {
   /*
     A gradient is marginals Gold - marginals predicted. Thus the max is 0 when there is no error amount. If the score is high and the loss is high, the error wil be grown
    */
-
+    //If classification error increases, so will the marginal scores
+    (gradient /: ( computeGoldMarginals(document,scores,lossFunction).zipWithIndex)){case (grad:List[Double], (margi:Seq[Double], mention:Int)) => (grad /: (margi.zipWithIndex)){case (g:List[Double],(margij:Double, antecedent:Int)) =>
+          updateGradient(g,featureExtractor(document,mention,antecedent),margij)
+      }
+    }
+    (gradient /: ( computeMarginals(document,scores,lossFunction).zipWithIndex)){case (grad:List[Double], (margi:Seq[Double], mention:Int)) => (grad /: (margi.zipWithIndex)){case (g:List[Double],(margij:Double, antecedent:Int)) =>
+      updateGradient(g,featureExtractor(document,mention,antecedent),-margij)
+    }
+    }
   }
 
   def computeMarginals(document:Document, scores:Seq[Seq[Double]], lossFunction:(Document, Int, Int) => Double) : Seq[Seq[Double]] ={
@@ -47,10 +55,12 @@ object adaGradTrainer {
         marginalOveri+=unregMij
         unregMij}}.map(unregularized=> unregularized/marginalOveri)}}
   }
-
+  //marginals represent the total marginal likelihood of assigning the correct antecedent using the gold clustering data to determine scoring.
   def computeGoldMarginals(document:Document, scores:Seq[Seq[Double]], lossFunction:(Document, Int, Int) => Double) : Seq[Seq[Double]] ={
-    scores.zipWithIndex.map{case ((scoresi:Seq[Double], i:Int)) => {var marginalOveri =0.0
-      scoresi.zipWithIndex.map{case ((scoreij:Double, j:Int))=> {val unregMij= if(document.isGold(i,j)) Math.exp(scoreij+lossFunction(document,i,j)) else 0
+    scores.zipWithIndex.map{case ((scoresi:Seq[Double], i:Int)) => {
+      var marginalOveri =0.0
+      scoresi.zipWithIndex.map{case ((scoreij:Double, j:Int))=> {
+        val unregMij= if(document.isGold(i,j)) Math.exp(scoreij+lossFunction(document,i,j)) else 0
         marginalOveri+=unregMij
         unregMij}}.map(unregularized=> unregularized/marginalOveri)}}
   }
