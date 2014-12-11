@@ -1,6 +1,6 @@
 package classifier
 
-import java.util.Dictionary
+
 import edu.stanford.nlp.dcoref.Dictionaries
 import resolver.parser.document.{lexicalCounter, FeatureSet, Document}
 
