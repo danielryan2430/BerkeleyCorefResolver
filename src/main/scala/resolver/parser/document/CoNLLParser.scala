@@ -38,6 +38,7 @@ class CoNLLParser {
     val word = cutLine(3)
     val wordType = cutLine(4)
     val treePiece = cutLine(5)
+    lexicalCounter.addWord(word)
     if (word == "") {
       val t: Tree = makeTree(treeSegs)
       val add = new CoNLLSentence(currSentence, createCorefs(currCorefs, List[Coref](), 0), isHead(currIsHead, t), currType, t, sentenceNum)
@@ -127,6 +128,15 @@ class CoNLLParser {
 }
 
 
+object lexicalCounter{
+  val wordCountMap = scala.collection.mutable.Map[String, Int]()
+  def addWord(s:String): Unit ={
+      wordCountMap.get(s)match{
+      case Some(i) =>    wordCountMap.update(s,i+1)
+      case None => wordCountMap += s -> 1
+    }
+  }
 
+}
 
 
