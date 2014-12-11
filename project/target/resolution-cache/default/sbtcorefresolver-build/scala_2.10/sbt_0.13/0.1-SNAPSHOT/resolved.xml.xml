@@ -4,8 +4,8 @@
 		module="sbtcorefresolver-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20141211100340"
-		e:scalaVersion="2.10" e:sbtVersion="0.13"
+		publication="20141211113714"
+		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>
 		sbtcorefresolver-build

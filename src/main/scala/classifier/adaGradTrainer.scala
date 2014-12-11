@@ -28,7 +28,7 @@ object adaGradTrainer {
     var iter = 0
     while( iter<iterMax & error>.0001) {
       dgrad = List.fill(featureCount)(0.0)
-      error=0.0
+      error=0.0         //not impl currently
       for (d <- Random.shuffle(documents)) {
         grad =  List.fill(featureCount)(0.0)
         grad = computeGradient(d,grad,lossFunction,bayesianClassifier.scoreVect(weights,d,featureExtractor), featureExtractor)
@@ -88,7 +88,7 @@ object adaGradTrainer {
   }
 
   def updateGradient(gradient:List[Double], features:Seq[Int], weight:Double): List[Double] = {
-    gradient.zip(features).map{case ((gk:Double,fk:Double)) => if (fk >= 1.0e-20) gk+weight else gk}
+    gradient.zip(features).map{case ((gk:Double,fk:Int)) => if (fk >= 1.0e-20) gk+weight else gk}
   }
 }
 

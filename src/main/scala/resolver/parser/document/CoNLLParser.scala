@@ -1,20 +1,23 @@
 package resolver.parser.document
 
+import java.io.File
+
 import edu.stanford.nlp.trees.Tree
 
 
 /**
  * Created by dimberman on 11/28/14.
  */
-class CoNLLParser {
+object CoNLLParser {
   var sentenceNum = 0
 
-  def parse(fileName: String): parsedConLLSentences = {
+  def parse(fileName: File): parsedConLLSentences = {
     val source = scala.io.Source.fromFile(fileName)
     val lines = source.getLines()
     val firstLine = lines.next()
+    println("doc name pulled: " + firstLine)
     //parse firstline to get docID
-    new parsedConLLSentences("", parseByLine(lines, Seq[CoNLLSentence](),
+    new parsedConLLSentences(firstLine, parseByLine(lines, Seq[CoNLLSentence](),
       List[String](),
       List[List[(Int, String)]](),
       List[String](),
@@ -31,27 +34,42 @@ class CoNLLParser {
                   currType: List[String],
                   treeSegs: List[String])
   : Seq[CoNLLSentence] = {
-    if (!restOfDoc.hasNext) return acc
+    if (!restOfDoc.hasNext){
+      println("finished parsing to sentences")
+      return acc
+    }
     //gives current line and moves iterator
+    println("cutting")
     val cutLine = restOfDoc.next.split("\\s+")
+    if(cutLine.length<11){
+      return parseByLine(restOfDoc, acc, currSentence, currCorefs, currIsHead, currType, treeSegs)
+
+    }
+    println("cutline elements " + cutLine.toString)
     val coref = parseCoref(cutLine.last, List[(Int, String)]())
+    println("coref parsed")
     val word = cutLine(3)
     val wordType = cutLine(4)
     val treePiece = cutLine(5)
     lexicalCounter.addWord(word)
-    if (word == "") {
-      val t: Tree = makeTree(treeSegs)
-      val add = new CoNLLSentence(currSentence, createCorefs(currCorefs, List[Coref](), 0), isHead(currIsHead, t), currType, t, sentenceNum)
+    if (word == "."|| word == "?" || word =="!") {
+      val t: Tree = makeTree(treeSegs:+treePiece)
+      val add = new CoNLLSentence(currSentence:+word, createCorefs(currCorefs:+coref, List[Coref](), 0), isHead(currIsHead:+wordType, t), currType:+wordType, t, sentenceNum)
       sentenceNum += 1
+      print("adding sentence: " + add.words)
+
       return parseByLine(restOfDoc, acc :+ add, List[String](), List[List[(Int, String)]](), List[String](), List[String](), List[String]())
     }
-    else return parseByLine(restOfDoc, acc, currSentence :+ word, currCorefs :+ coref, currIsHead :+ wordType, currType :+ wordType, treeSegs :+ treePiece)
+    else {
+      println("adding word")
+      return parseByLine(restOfDoc, acc, currSentence :+ word, currCorefs :+ coref, currIsHead :+ wordType, currType :+ wordType, treeSegs :+ treePiece)
+    }
   }
 
 
   def parseCoref(s: String, a: List[(Int, String)]): List[(Int, String)] = {
     var currentNum = ""
-    if (s.isEmpty) a
+    if (s.isEmpty||s.head=='-') a
     else if (s.head == '(') {
       val hold = pullOutInt(s.tail, "")
       if(!hold._2.isEmpty && hold._2.head==')') parseCoref(hold._2, a++List[(Int,String)]((hold._1, "start"),(hold._1,"end")))
@@ -116,8 +134,10 @@ class CoNLLParser {
 
 
   def makeTree(s: List[String]): Tree = {
+    //TODO: do we went a tree?
     val tmp = s.mkString("")
     return Tree.valueOf(tmp)
+//    Tree.valueOf("()")
   }
 
   //Takes in the sentence tree and returns a list of booleans deciding whether each word

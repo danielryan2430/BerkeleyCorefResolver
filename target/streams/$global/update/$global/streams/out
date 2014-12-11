@@ -1,4 +1,4 @@
-[info] Updating {file:/Users/serenity/IdeaProjects/BerkeleyCorefResolver/}berkeleycorefresolver...
+[info] Updating {file:/Users/dimberman/Code/SBTCorefResolver/}sbtcorefresolver...
 [debug] :: resolving dependencies :: sbtcorefresolver#sbtcorefresolver_2.10;1.0
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
@@ -7,7 +7,7 @@
 [debug] == resolving dependencies for sbtcorefresolver#sbtcorefresolver_2.10;1.0 [compile]
 [debug] == resolving dependencies sbtcorefresolver#sbtcorefresolver_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4aad93f6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2df2888
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4
 [debug] 	local: revision in cache: org.scala-lang#scala-library;2.10.4
 [debug] 	found org.scala-lang#scala-library;2.10.4 in sbt-chain
@@ -165,6 +165,21 @@
 [debug] == resolving dependencies org.apache.lucene#lucene-wordnet;3.2.0->org.apache.lucene#lucene-analyzers;3.2.0 [runtime->runtime(*)]
 [debug] == resolving dependencies org.apache.lucene#lucene-wordnet;3.2.0->org.apache.lucene#lucene-analyzers;3.2.0 [runtime->compile]
 [debug] == resolving dependencies sbtcorefresolver#sbtcorefresolver_2.10;1.0->org.apache.lucene#lucene-wordnet;3.2.0 [compile->master]
+[debug] == resolving dependencies sbtcorefresolver#sbtcorefresolver_2.10;1.0->org.scalaz#scalaz-core_2.10;7.1.0 [compile->default(compile)]
+[info] Resolving org.scalaz#scalaz-core_2.10;7.1.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scalaz#scalaz-core_2.10;7.1.0 {compile=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scalaz#scalaz-core_2.10;7.1.0
+[debug] 	local: revision in cache: org.scalaz#scalaz-core_2.10;7.1.0
+[debug] 	found org.scalaz#scalaz-core_2.10;7.1.0 in sbt-chain
+[debug] == resolving dependencies sbtcorefresolver#sbtcorefresolver_2.10;1.0->org.scalaz#scalaz-core_2.10;7.1.0 [compile->runtime]
+[debug] == resolving dependencies sbtcorefresolver#sbtcorefresolver_2.10;1.0->org.scalaz#scalaz-core_2.10;7.1.0 [compile->compile]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.1.0->org.scala-lang#scala-library;2.10.4 [compile->master(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.1.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.1.0->org.scala-lang#scala-library;2.10.4 [compile->runtime(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.1.0->org.scala-lang#scala-library;2.10.4 [compile->compile]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.1.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.1.0->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies sbtcorefresolver#sbtcorefresolver_2.10;1.0->org.scalaz#scalaz-core_2.10;7.1.0 [compile->master]
 [debug] resolving dependencies for configuration 'runtime'
 [debug] == resolving dependencies for sbtcorefresolver#sbtcorefresolver_2.10;1.0 [runtime]
 [debug] == resolving dependencies for sbtcorefresolver#sbtcorefresolver_2.10;1.0 [compile]
@@ -243,6 +258,14 @@
 [debug] == resolving dependencies org.apache.lucene#lucene-analyzers;3.2.0->org.apache.lucene#lucene-core;3.2.0 [runtime->runtime(*)]
 [debug] == resolving dependencies org.apache.lucene#lucene-analyzers;3.2.0->org.apache.lucene#lucene-core;3.2.0 [runtime->compile]
 [debug] == resolving dependencies sbtcorefresolver#sbtcorefresolver_2.10;1.0->org.apache.lucene#lucene-wordnet;3.2.0 [compile->master]
+[debug] == resolving dependencies sbtcorefresolver#sbtcorefresolver_2.10;1.0->org.scalaz#scalaz-core_2.10;7.1.0 [compile->default(compile)]
+[debug] == resolving dependencies sbtcorefresolver#sbtcorefresolver_2.10;1.0->org.scalaz#scalaz-core_2.10;7.1.0 [compile->runtime]
+[debug] == resolving dependencies sbtcorefresolver#sbtcorefresolver_2.10;1.0->org.scalaz#scalaz-core_2.10;7.1.0 [compile->compile]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.1.0->org.scala-lang#scala-library;2.10.4 [compile->master(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.1.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.1.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.1.0->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies sbtcorefresolver#sbtcorefresolver_2.10;1.0->org.scalaz#scalaz-core_2.10;7.1.0 [compile->master]
 [debug] resolving dependencies for configuration 'test'
 [debug] == resolving dependencies for sbtcorefresolver#sbtcorefresolver_2.10;1.0 [test]
 [debug] == resolving dependencies for sbtcorefresolver#sbtcorefresolver_2.10;1.0 [runtime]
@@ -322,6 +345,14 @@
 [debug] == resolving dependencies org.apache.lucene#lucene-analyzers;3.2.0->org.apache.lucene#lucene-core;3.2.0 [runtime->runtime(*)]
 [debug] == resolving dependencies org.apache.lucene#lucene-analyzers;3.2.0->org.apache.lucene#lucene-core;3.2.0 [runtime->compile]
 [debug] == resolving dependencies sbtcorefresolver#sbtcorefresolver_2.10;1.0->org.apache.lucene#lucene-wordnet;3.2.0 [compile->master]
+[debug] == resolving dependencies sbtcorefresolver#sbtcorefresolver_2.10;1.0->org.scalaz#scalaz-core_2.10;7.1.0 [compile->default(compile)]
+[debug] == resolving dependencies sbtcorefresolver#sbtcorefresolver_2.10;1.0->org.scalaz#scalaz-core_2.10;7.1.0 [compile->runtime]
+[debug] == resolving dependencies sbtcorefresolver#sbtcorefresolver_2.10;1.0->org.scalaz#scalaz-core_2.10;7.1.0 [compile->compile]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.1.0->org.scala-lang#scala-library;2.10.4 [compile->master(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.1.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.1.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.1.0->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies sbtcorefresolver#sbtcorefresolver_2.10;1.0->org.scalaz#scalaz-core_2.10;7.1.0 [compile->master]
 [debug] == resolving dependencies sbtcorefresolver#sbtcorefresolver_2.10;1.0->org.scalatest#scalatest_2.10;2.0 [test->default(compile)]
 [info] Resolving org.scalatest#scalatest_2.10;2.0 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.10;2.0 {test=[default(compile)]}
@@ -438,6 +469,14 @@
 [debug] == resolving dependencies org.apache.lucene#lucene-analyzers;3.2.0->org.apache.lucene#lucene-core;3.2.0 [runtime->runtime(*)]
 [debug] == resolving dependencies org.apache.lucene#lucene-analyzers;3.2.0->org.apache.lucene#lucene-core;3.2.0 [runtime->compile]
 [debug] == resolving dependencies sbtcorefresolver#sbtcorefresolver_2.10;1.0->org.apache.lucene#lucene-wordnet;3.2.0 [compile->master]
+[debug] == resolving dependencies sbtcorefresolver#sbtcorefresolver_2.10;1.0->org.scalaz#scalaz-core_2.10;7.1.0 [compile->default(compile)]
+[debug] == resolving dependencies sbtcorefresolver#sbtcorefresolver_2.10;1.0->org.scalaz#scalaz-core_2.10;7.1.0 [compile->runtime]
+[debug] == resolving dependencies sbtcorefresolver#sbtcorefresolver_2.10;1.0->org.scalaz#scalaz-core_2.10;7.1.0 [compile->compile]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.1.0->org.scala-lang#scala-library;2.10.4 [compile->master(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.1.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.1.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.1.0->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies sbtcorefresolver#sbtcorefresolver_2.10;1.0->org.scalaz#scalaz-core_2.10;7.1.0 [compile->master]
 [debug] == resolving dependencies for sbtcorefresolver#sbtcorefresolver_2.10;1.0 [optional]
 [debug] == resolving dependencies for sbtcorefresolver#sbtcorefresolver_2.10;1.0 [provided]
 [debug] resolving dependencies for configuration 'runtime-internal'
@@ -519,6 +558,14 @@
 [debug] == resolving dependencies org.apache.lucene#lucene-analyzers;3.2.0->org.apache.lucene#lucene-core;3.2.0 [runtime->runtime(*)]
 [debug] == resolving dependencies org.apache.lucene#lucene-analyzers;3.2.0->org.apache.lucene#lucene-core;3.2.0 [runtime->compile]
 [debug] == resolving dependencies sbtcorefresolver#sbtcorefresolver_2.10;1.0->org.apache.lucene#lucene-wordnet;3.2.0 [compile->master]
+[debug] == resolving dependencies sbtcorefresolver#sbtcorefresolver_2.10;1.0->org.scalaz#scalaz-core_2.10;7.1.0 [compile->default(compile)]
+[debug] == resolving dependencies sbtcorefresolver#sbtcorefresolver_2.10;1.0->org.scalaz#scalaz-core_2.10;7.1.0 [compile->runtime]
+[debug] == resolving dependencies sbtcorefresolver#sbtcorefresolver_2.10;1.0->org.scalaz#scalaz-core_2.10;7.1.0 [compile->compile]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.1.0->org.scala-lang#scala-library;2.10.4 [compile->master(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.1.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.1.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.1.0->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies sbtcorefresolver#sbtcorefresolver_2.10;1.0->org.scalaz#scalaz-core_2.10;7.1.0 [compile->master]
 [debug] == resolving dependencies for sbtcorefresolver#sbtcorefresolver_2.10;1.0 [optional]
 [debug] resolving dependencies for configuration 'test-internal'
 [debug] == resolving dependencies for sbtcorefresolver#sbtcorefresolver_2.10;1.0 [test-internal]
@@ -600,6 +647,14 @@
 [debug] == resolving dependencies org.apache.lucene#lucene-analyzers;3.2.0->org.apache.lucene#lucene-core;3.2.0 [runtime->runtime(*)]
 [debug] == resolving dependencies org.apache.lucene#lucene-analyzers;3.2.0->org.apache.lucene#lucene-core;3.2.0 [runtime->compile]
 [debug] == resolving dependencies sbtcorefresolver#sbtcorefresolver_2.10;1.0->org.apache.lucene#lucene-wordnet;3.2.0 [compile->master]
+[debug] == resolving dependencies sbtcorefresolver#sbtcorefresolver_2.10;1.0->org.scalaz#scalaz-core_2.10;7.1.0 [compile->default(compile)]
+[debug] == resolving dependencies sbtcorefresolver#sbtcorefresolver_2.10;1.0->org.scalaz#scalaz-core_2.10;7.1.0 [compile->runtime]
+[debug] == resolving dependencies sbtcorefresolver#sbtcorefresolver_2.10;1.0->org.scalaz#scalaz-core_2.10;7.1.0 [compile->compile]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.1.0->org.scala-lang#scala-library;2.10.4 [compile->master(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.1.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.1.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.1.0->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies sbtcorefresolver#sbtcorefresolver_2.10;1.0->org.scalaz#scalaz-core_2.10;7.1.0 [compile->master]
 [debug] == resolving dependencies sbtcorefresolver#sbtcorefresolver_2.10;1.0->org.scalatest#scalatest_2.10;2.0 [test->default(compile)]
 [debug] == resolving dependencies sbtcorefresolver#sbtcorefresolver_2.10;1.0->org.scalatest#scalatest_2.10;2.0 [test->runtime]
 [debug] == resolving dependencies sbtcorefresolver#sbtcorefresolver_2.10;1.0->org.scalatest#scalatest_2.10;2.0 [test->compile]
@@ -693,6 +748,7 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar
 [debug] 	[NOT REQUIRED] edu.stanford.nlp#stanford-corenlp;3.5.0!stanford-corenlp.jar
 [debug] 	[NOT REQUIRED] org.apache.lucene#lucene-wordnet;3.2.0!lucene-wordnet.jar
+[debug] 	[NOT REQUIRED] org.scalaz#scalaz-core_2.10;7.1.0!scalaz-core_2.10.jar(bundle)
 [debug] 	[NOT REQUIRED] com.io7m.xom#xom;1.2.10!xom.jar
 [debug] 	[NOT REQUIRED] joda-time#joda-time;2.1!joda-time.jar
 [debug] 	[NOT REQUIRED] de.jollyday#jollyday;0.4.7!jollyday.jar
@@ -710,19 +766,19 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.4!scala-reflect.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 394ms :: artifacts dl 11ms
-[debug] 	report for sbtcorefresolver#sbtcorefresolver_2.10;1.0 compile produced in /Users/serenity/IdeaProjects/BerkeleyCorefResolver/target/resolution-cache/reports/sbtcorefresolver-sbtcorefresolver_2.10-compile.xml
-[debug] 	report for sbtcorefresolver#sbtcorefresolver_2.10;1.0 runtime produced in /Users/serenity/IdeaProjects/BerkeleyCorefResolver/target/resolution-cache/reports/sbtcorefresolver-sbtcorefresolver_2.10-runtime.xml
-[debug] 	report for sbtcorefresolver#sbtcorefresolver_2.10;1.0 test produced in /Users/serenity/IdeaProjects/BerkeleyCorefResolver/target/resolution-cache/reports/sbtcorefresolver-sbtcorefresolver_2.10-test.xml
-[debug] 	report for sbtcorefresolver#sbtcorefresolver_2.10;1.0 provided produced in /Users/serenity/IdeaProjects/BerkeleyCorefResolver/target/resolution-cache/reports/sbtcorefresolver-sbtcorefresolver_2.10-provided.xml
-[debug] 	report for sbtcorefresolver#sbtcorefresolver_2.10;1.0 optional produced in /Users/serenity/IdeaProjects/BerkeleyCorefResolver/target/resolution-cache/reports/sbtcorefresolver-sbtcorefresolver_2.10-optional.xml
-[debug] 	report for sbtcorefresolver#sbtcorefresolver_2.10;1.0 compile-internal produced in /Users/serenity/IdeaProjects/BerkeleyCorefResolver/target/resolution-cache/reports/sbtcorefresolver-sbtcorefresolver_2.10-compile-internal.xml
-[debug] 	report for sbtcorefresolver#sbtcorefresolver_2.10;1.0 runtime-internal produced in /Users/serenity/IdeaProjects/BerkeleyCorefResolver/target/resolution-cache/reports/sbtcorefresolver-sbtcorefresolver_2.10-runtime-internal.xml
-[debug] 	report for sbtcorefresolver#sbtcorefresolver_2.10;1.0 test-internal produced in /Users/serenity/IdeaProjects/BerkeleyCorefResolver/target/resolution-cache/reports/sbtcorefresolver-sbtcorefresolver_2.10-test-internal.xml
-[debug] 	report for sbtcorefresolver#sbtcorefresolver_2.10;1.0 plugin produced in /Users/serenity/IdeaProjects/BerkeleyCorefResolver/target/resolution-cache/reports/sbtcorefresolver-sbtcorefresolver_2.10-plugin.xml
-[debug] 	report for sbtcorefresolver#sbtcorefresolver_2.10;1.0 sources produced in /Users/serenity/IdeaProjects/BerkeleyCorefResolver/target/resolution-cache/reports/sbtcorefresolver-sbtcorefresolver_2.10-sources.xml
-[debug] 	report for sbtcorefresolver#sbtcorefresolver_2.10;1.0 docs produced in /Users/serenity/IdeaProjects/BerkeleyCorefResolver/target/resolution-cache/reports/sbtcorefresolver-sbtcorefresolver_2.10-docs.xml
-[debug] 	report for sbtcorefresolver#sbtcorefresolver_2.10;1.0 pom produced in /Users/serenity/IdeaProjects/BerkeleyCorefResolver/target/resolution-cache/reports/sbtcorefresolver-sbtcorefresolver_2.10-pom.xml
-[debug] 	report for sbtcorefresolver#sbtcorefresolver_2.10;1.0 scala-tool produced in /Users/serenity/IdeaProjects/BerkeleyCorefResolver/target/resolution-cache/reports/sbtcorefresolver-sbtcorefresolver_2.10-scala-tool.xml
-[debug] 	resolve done (394ms resolve - 11ms download)
+[debug] :: resolution report :: resolve 272ms :: artifacts dl 12ms
+[debug] 	report for sbtcorefresolver#sbtcorefresolver_2.10;1.0 compile produced in /Users/dimberman/Code/SBTCorefResolver/target/resolution-cache/reports/sbtcorefresolver-sbtcorefresolver_2.10-compile.xml
+[debug] 	report for sbtcorefresolver#sbtcorefresolver_2.10;1.0 runtime produced in /Users/dimberman/Code/SBTCorefResolver/target/resolution-cache/reports/sbtcorefresolver-sbtcorefresolver_2.10-runtime.xml
+[debug] 	report for sbtcorefresolver#sbtcorefresolver_2.10;1.0 test produced in /Users/dimberman/Code/SBTCorefResolver/target/resolution-cache/reports/sbtcorefresolver-sbtcorefresolver_2.10-test.xml
+[debug] 	report for sbtcorefresolver#sbtcorefresolver_2.10;1.0 provided produced in /Users/dimberman/Code/SBTCorefResolver/target/resolution-cache/reports/sbtcorefresolver-sbtcorefresolver_2.10-provided.xml
+[debug] 	report for sbtcorefresolver#sbtcorefresolver_2.10;1.0 optional produced in /Users/dimberman/Code/SBTCorefResolver/target/resolution-cache/reports/sbtcorefresolver-sbtcorefresolver_2.10-optional.xml
+[debug] 	report for sbtcorefresolver#sbtcorefresolver_2.10;1.0 compile-internal produced in /Users/dimberman/Code/SBTCorefResolver/target/resolution-cache/reports/sbtcorefresolver-sbtcorefresolver_2.10-compile-internal.xml
+[debug] 	report for sbtcorefresolver#sbtcorefresolver_2.10;1.0 runtime-internal produced in /Users/dimberman/Code/SBTCorefResolver/target/resolution-cache/reports/sbtcorefresolver-sbtcorefresolver_2.10-runtime-internal.xml
+[debug] 	report for sbtcorefresolver#sbtcorefresolver_2.10;1.0 test-internal produced in /Users/dimberman/Code/SBTCorefResolver/target/resolution-cache/reports/sbtcorefresolver-sbtcorefresolver_2.10-test-internal.xml
+[debug] 	report for sbtcorefresolver#sbtcorefresolver_2.10;1.0 plugin produced in /Users/dimberman/Code/SBTCorefResolver/target/resolution-cache/reports/sbtcorefresolver-sbtcorefresolver_2.10-plugin.xml
+[debug] 	report for sbtcorefresolver#sbtcorefresolver_2.10;1.0 sources produced in /Users/dimberman/Code/SBTCorefResolver/target/resolution-cache/reports/sbtcorefresolver-sbtcorefresolver_2.10-sources.xml
+[debug] 	report for sbtcorefresolver#sbtcorefresolver_2.10;1.0 docs produced in /Users/dimberman/Code/SBTCorefResolver/target/resolution-cache/reports/sbtcorefresolver-sbtcorefresolver_2.10-docs.xml
+[debug] 	report for sbtcorefresolver#sbtcorefresolver_2.10;1.0 pom produced in /Users/dimberman/Code/SBTCorefResolver/target/resolution-cache/reports/sbtcorefresolver-sbtcorefresolver_2.10-pom.xml
+[debug] 	report for sbtcorefresolver#sbtcorefresolver_2.10;1.0 scala-tool produced in /Users/dimberman/Code/SBTCorefResolver/target/resolution-cache/reports/sbtcorefresolver-sbtcorefresolver_2.10-scala-tool.xml
+[debug] 	resolve done (272ms resolve - 12ms download)
 [info] Done updating.

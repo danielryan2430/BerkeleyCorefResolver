@@ -42,16 +42,15 @@ class CoNLLSentence(sentence:(List[String], List[Coref], List[Boolean], List[Str
   }
 
   def getWord(i:Int):Word ={
-    new Word(words(i),  isHead(i), wordType(i))
+    new Word(words(i), wordType(i))
   }
-  def lastWord() = words(length-1)
-  def firstWord() = words(0)
+  def lastWord() = words.last
+  def firstWord() = words.head
 }
 
 
-class Word(t:String, isHd:Boolean, wT:String){
+class Word(t:String, wT:String){
   val text = t
-  val isHeaad= isHd
    val wordType = wT
   def hasCoref(c:Coref) = {
      false
