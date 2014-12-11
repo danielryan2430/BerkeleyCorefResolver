@@ -1,23 +1,23 @@
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mInitial source changes: [0m
 [0m[[0mdebug[0m] [0m	removed:Set()[0m
-[0m[[0mdebug[0m] [0m	added: Set(/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/parsedConLLSentences.scala)[0m
-[0m[[0mdebug[0m] [0m	modified: Set(/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala, /Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala, /Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala)[0m
+[0m[[0mdebug[0m] [0m	added: Set(/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala, /Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/parsedConLLSentences.scala, /Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala, /Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/StanfordNLPSentenceParser.scala, /Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
 [0m[[0mdebug[0m] [0mRemoved products: Set()[0m
 [0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
 [0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/parsedConLLSentences.scala, /Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala, /Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala, /Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala)[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala, /Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/parsedConLLSentences.scala, /Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala, /Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/StanfordNLPSentenceParser.scala, /Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala)[0m
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
 [0m[[0mdebug[0m] [0m	product: Set()[0m
 [0m[[0mdebug[0m] [0m	binary dep: Set()[0m
 [0m[[0mdebug[0m] [0m	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/parsedConLLSentences.scala, /Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala, /Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala, /Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala)[0m
-[0m[[0mdebug[0m] [0mRecompiling all 5 sources: invalidated sources (4) exceeded 50.0% of all sources[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala, /Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/parsedConLLSentences.scala, /Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala, /Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/StanfordNLPSentenceParser.scala, /Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 5 sources: invalidated sources (5) exceeded 50.0% of all sources[0m
 [0m[[0minfo[0m] [0mCompiling 5 Scala sources to /Users/dimberman/Code/SBTCorefResolver/target/scala-2.10/classes...[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.4[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.4[0m
-[0m[[0mdebug[0m] [0mRunning cached compiler 19ceb35d, interfacing (CompilerInterface) with Scala compiler version 2.10.4[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 3e37cf88, interfacing (CompilerInterface) with Scala compiler version 2.10.4[0m
 [0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
 [0m[[0mdebug[0m] [0m	-bootclasspath[0m
 [0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/JObjC.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/classes:/Users/dimberman/.sbt/boot/scala-2.10.4/lib/scala-library.jar[0m
@@ -42,13 +42,28 @@
 [0m[[33mwarn[0m] [0mClass java.util.function.Predicate not found - continuing with a stub.[0m
 [0m[[33mwarn[0m] [0mClass java.util.function.Predicate not found - continuing with a stub.[0m
 [0m[[33mwarn[0m] [0m18 warnings found[0m
-[0m[[0mdebug[0m] [0mScala compilation took 2.611639 s[0m
+[0m[[0mdebug[0m] [0mScala compilation took 3.6545 s[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/StanfordNLPSentenceParser.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/StanfordNLPSentenceParser.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/StanfordNLPSentenceParser.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/StanfordNLPSentenceParser.scala)[0m
+[0m[[0mdebug[0m] [0mThe /Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/StanfordNLPSentenceParser.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, StanfordNLPSentenceParser, equals, asInstanceOf, synchronized, $isInstanceOf, notifyAll, isInstanceOf, <init>, ==, clone, toString, !=, getClass, ne, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala)[0m
+[0m[[0mdebug[0m] [0mThe /Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, lastWord, mentionID, completeString, wait, $asInstanceOf, nextWord, anaylzeCoref, equals, asInstanceOf, previousWord, FeatureSet, synchronized, wordNums, $isInstanceOf, SurfaceFeatureExtractor, semanticHead, firstWord, notifyAll, isInstanceOf, <init>, mentionType, referenceID, ==, clone, corefExistsInSentence, predictedMentionID, toString, !=, sentenceNum, getClass, pullPhrase, ne, extractFeatures, eq, refID, ##, finalize, extract, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala: Set(mentionID, FeatureSet, <init>, ==)[0m
 [0m[[0mdebug[0m] [0mInvalidating /Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala...[0m
 [0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala...[0m
 [0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala)[0m
 [0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala)[0m
 [0m[[0mdebug[0m] [0mThe /Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/CoNLLParser.scala source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m	parse.[0m
+[0m[[0mdebug[0m] [0m	findEndForStart, notify, findCorefEndDistance, wait, $asInstanceOf, makeTree, equals, asInstanceOf, synchronized, $isInstanceOf, findCorefStarts, completeCorefs, notifyAll, pullOutInt, isInstanceOf, isHead, createCorefs, <init>, parseByLine, parse, ==, clone, CoNLLParser, toString, !=, sentenceNum, getClass, ne, parseCoref, eq, ##, finalize, hashCode.[0m
 [0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
 [0m[[0mdebug[0m] [0mInvalidating /Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/parsedConLLSentences.scala...[0m
 [0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/parsedConLLSentences.scala...[0m
@@ -64,16 +79,8 @@
 [0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala)[0m
 [0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala)[0m
 [0m[[0mdebug[0m] [0mThe /Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m	notify, lastWord, wait, sentenceList, $asInstanceOf, equals, head, asInstanceOf, synchronized, corefs, $isInstanceOf, getSentence, text, isHeaad, tail, isGold, firstWord, CoNLLSentence, notifyAll, Coref, isInstanceOf, isHead, <init>, ==, clone, words, end, hasCoref, toString, tree, length, getWord, !=, sentenceNum, getClass, start, isEmpty, ne, wordType, corefID, eq, Word, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, isGold, notifyAll, isInstanceOf, <init>, ==, clone, toString, !=, getClass, ne, eq, ##, finalize, hashCode, Document.[0m
 [0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
-[0m[[0mdebug[0m] [0mInvalidating /Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala...[0m
-[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala...[0m
-[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala)[0m
-[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala)[0m
-[0m[[0mdebug[0m] [0mThe /Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/SurfaceFeatureExtractor.scala source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m	predictedMentionID, anaylzeCoref, extractFeatures, extract.[0m
-[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
-[0m[[0mdebug[0m] [0mNone of the modified names appears in /Users/dimberman/Code/SBTCorefResolver/src/main/scala/resolver/parser/document/Document.scala. This dependency is not being considered for invalidation.[0m
 [0m[[0mdebug[0m] [0mNew invalidations:[0m
 [0m[[0mdebug[0m] [0m	Set()[0m
 [0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m

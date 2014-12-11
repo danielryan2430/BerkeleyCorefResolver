@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20141207163133"/>
+		date="20141207165919"/>
 	<dependencies>
 		<module organisation="org.apache.lucene" name="lucene-wordnet">
 			<revision name="3.2.0" status="release" pubdate="20110603073708" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="11">

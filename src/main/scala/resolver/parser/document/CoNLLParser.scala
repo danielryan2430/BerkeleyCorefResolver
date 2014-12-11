@@ -44,7 +44,7 @@ class CoNLLParser {
       sentenceNum += 1
       return parseByLine(restOfDoc, acc :+ add, List[String](), List[List[(Int, String)]](), List[String](), List[String](), List[String]())
     }
-    else parseByLine(restOfDoc, acc, currSentence :+ word, currCorefs :+ coref, currIsHead :+ wordType, currType :+ wordType, treeSegs :+ treePiece)
+    else return parseByLine(restOfDoc, acc, currSentence :+ word, currCorefs :+ coref, currIsHead :+ wordType, currType :+ wordType, treeSegs :+ treePiece)
   }
 
 

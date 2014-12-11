@@ -1,5 +1,11 @@
 package resolver.parser.document
 
+import java.util.Properties
+
+import edu.stanford.nlp._
+import edu.stanford.nlp.ling.CoreAnnotations.SentencesAnnotation
+import edu.stanford.nlp.pipeline.{Annotation, StanfordCoreNLP}
+import edu.stanford.nlp.util.PropertiesUtils
 
 /**
  * Created by dimberman on 11/9/14.
@@ -52,6 +58,15 @@ class SurfaceFeatureExtractor {
     if (s.isEmpty)
       return false
     else s.head().hasCoref(c) || corefExistsInSentence(s.tail(), c)
+  }
+
+  def findHeadWord(s:String): String ={
+   val prop = new Properties()
+    prop.put("annotators", "tokenize, ssplit, pos, lemma, ner, parse, dcoref")
+   val a = new StanfordCoreNLP(prop)
+   val doc = new Annotation(s)
+    a.annotate(doc)
+    return ""
   }
 
 
