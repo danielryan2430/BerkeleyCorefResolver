@@ -3,9 +3,11 @@ package resolver.parser.document
 import java.util.Properties
 
 import edu.stanford.nlp._
-import edu.stanford.nlp.ling.CoreAnnotations.SentencesAnnotation
+import edu.stanford.nlp.ling.CoreAnnotations.{TextAnnotation, TokensAnnotation, SentencesAnnotation}
 import edu.stanford.nlp.pipeline.{Annotation, StanfordCoreNLP}
-import edu.stanford.nlp.util.PropertiesUtils
+import edu.stanford.nlp.trees.{ModCollinsHeadFinder, HeadFinder}
+import edu.stanford.nlp.trees.TreeCoreAnnotations.TreeAnnotation
+import edu.stanford.nlp.util.{CoreMap, PropertiesUtils}
 
 /**
  * Created by dimberman on 11/9/14.
@@ -75,8 +77,16 @@ class SentenceToMentionConverter {
     prop.put("annotators", "tokenize, ssplit, pos, lemma, ner, parse, dcoref")
    val a = new StanfordCoreNLP(prop)
    val doc = new Annotation(s)
-    a.annotate(doc)
-    return ""
+//    a.annotate(doc)
+//    val sentence:CoreMap = doc.get(classOf[SentencesAnnotation]).get(0)
+//    val tree = sentence.get(classOf[TreeAnnotation])
+//    val headFinder:HeadFinder = new ModCollinsHeadFinder
+//
+//
+//    headFinder.determineHead(tree).toString
+//
+    ""
+
   }
 
 
