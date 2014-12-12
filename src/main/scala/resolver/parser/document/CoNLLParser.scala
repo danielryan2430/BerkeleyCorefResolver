@@ -22,7 +22,7 @@ object CoNLLParser {
     {
       println("doc name pulled: " + firstLine)
       //parse firstline to get docID
-      hold:+new ConLLSentenceContainer(firstLine, parseByLine(lines, Seq[CoNLLSentence](),
+      val s = new ConLLSentenceContainer(firstLine, parseByLine(lines, Seq[CoNLLSentence](),
         List[String](),
         List[List[(Int, String)]](),
         List[String](),
@@ -30,6 +30,8 @@ object CoNLLParser {
         List[String]()))
       if(!lines.isEmpty)
         firstLine=lines.next()
+      println("num sentences in section: " +s.sentenceList.length)
+      hold:+s
 
     }
     hold.toList
@@ -54,7 +56,7 @@ object CoNLLParser {
     }
     //gives current line and moves iterator
 
-    if(cutLine.length<11){
+    if(cutLine.length<5){
       return parseByLine(restOfDoc, acc, currSentence, currCorefs, currIsHead, currType, treeSegs)
 
     }
@@ -65,18 +67,23 @@ object CoNLLParser {
     val wordType = cutLine(4)
     val treePiece = cutLine(5)
     lexicalCounter.addWord(word)
-    if (word == "."|| word == "?" || word =="!") {
+    if (word == "/."|| word == "/?" || word =="/!") {
       val t: Tree = makeTree(treeSegs:+treePiece)
       val add = new CoNLLSentence(currSentence:+word, createCorefs(currCorefs:+coref, List[Coref](), 0), isHead(currIsHead:+wordType, t), currType:+wordType, t, sentenceNum)
       sentenceNum += 1
-//      println("adding sentence: " + add.words)
+
+      println("adding sentence: " +sentenceString(add.words))
 
       return parseByLine(restOfDoc, acc :+ add, List[String](), List[List[(Int, String)]](), List[String](), List[String](), List[String]())
     }
     else {
-//      println("adding word")
+//      println("adding word" + word)
       return parseByLine(restOfDoc, acc, currSentence :+ word, currCorefs :+ coref, currIsHead :+ wordType, currType :+ wordType, treeSegs :+ treePiece)
     }
+  }
+
+  def sentenceString(a: List[String]): String = {
+    a.foldLeft("")((s: String, b: String) => s + " " + b)
   }
 
 
@@ -148,9 +155,9 @@ object CoNLLParser {
 
   def makeTree(s: List[String]): Tree = {
     //TODO: do we went a tree?
-//    val tmp = s.mkString("")
-//    return Tree.valueOf(tmp)
-    Tree.valueOf("()")
+    val tmp = s.mkString("")
+    return Tree.valueOf(tmp)
+//    Tree.valueOf("()")
   }
 
   //Takes in the sentence tree and returns a list of booleans deciding whether each word

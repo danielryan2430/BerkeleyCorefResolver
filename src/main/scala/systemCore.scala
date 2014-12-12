@@ -53,15 +53,21 @@ object systemCore {
     /* do parsiing here*/
     if (goldTrainFiles.length == 0) print("i like apples")
     val processedDocs: List[List[Document]] = goldTrainFiles.map(Parser.parse(_)).toList
-    val docList = processedDocs.foldLeft(List[Document]())((d: List[Document], b: List[Document]) => d ++ b)
+    println("number of documents: " + processedDocs.length)
 
+    for(doc <-processedDocs){
+      println("individual length "-> doc.length)
+    }
+    val docList = processedDocs.foldLeft(List[Document]())((d: List[Document], b: List[Document]) => d ++ b)
+    println("number of mentions: " + docList.length)
 
 
 
     val featurizer = new FeatureExtractor(docList)
 
-    val weights = adaGradTrainer.train(docList, .1, .001, 10, featurizer.featCount, featurizer.extractFeatures, adaGradTrainer.lossFunctionGen(.1, 3, 1))
 
+    val weights = adaGradTrainer.train(docList, .1, .001, 10, featurizer.featCount, featurizer.extractFeatures, adaGradTrainer.lossFunctionGen(.1, 3, 1))
+    println("number of weights to consider: " + weights.length)
     val goldTestFiles = goldFileList(new File(testingDataPath))
     /*Do Parsing here*/
     val testingDocs = goldTestFiles.map(Parser.parse(_)).toList
