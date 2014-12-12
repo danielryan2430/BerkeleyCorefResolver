@@ -4,7 +4,7 @@
 		module="sbtcorefresolver-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20141211113714"
+		publication="20141211134407"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>

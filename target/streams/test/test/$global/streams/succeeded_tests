@@ -1,10 +1,4 @@
 #Successful Tests
-<<<<<<< HEAD
-#Sun Dec 07 16:59:26 PST 2014
-resolver.parser.document.TestSurfaceFeatureExtractor=1418000366466
-resolver.parser.document.TestCoNLLParser=1418000366467
-=======
-#Wed Dec 10 14:26:22 PST 2014
-resolver.parser.document.TestSurfaceFeatureExtractor=1418250382149
-resolver.parser.document.TestCoNLLParser=1418250382155
->>>>>>> b1492416b3eac746453df66c79ca7d798a3bb82b
+#Thu Dec 11 14:15:22 PST 2014
+resolver.parser.document.TestSurfaceFeatureExtractor=1418336122438
+resolver.parser.document.TestCoNLLParser=1418336122438

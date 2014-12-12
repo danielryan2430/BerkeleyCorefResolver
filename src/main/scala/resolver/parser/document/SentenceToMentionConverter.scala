@@ -2,7 +2,6 @@ package resolver.parser.document
 
 import java.util.Properties
 
-import edu.stanford.nlp._
 import edu.stanford.nlp.ling.CoreAnnotations.{TextAnnotation, TokensAnnotation, SentencesAnnotation}
 import edu.stanford.nlp.pipeline.{Annotation, StanfordCoreNLP}
 import edu.stanford.nlp.trees.{ModCollinsHeadFinder, HeadFinder}
@@ -19,16 +18,16 @@ object SentenceToMentionConverter {
   var referenceID = 0
 
 
-  def extract(doc: parsedConLLSentences): List[FeatureSet] = {
+  def extract(doc: ConLLSentenceContainer): List[FeatureSet] = {
     referenceID = 0
-    doc.sentenceList.foldLeft(List[FeatureSet]())((a: List[FeatureSet], c: CoNLLSentence) => if (sentenceString(c.words) == "#enddocument") a else a ++ extractFeatures(c, doc))
+    doc.sentenceList.foldLeft(List[FeatureSet]())((a: List[FeatureSet], c: CoNLLSentence) =>  a ++ extractFeatures(c, doc))
   }
 
-  val extractFeatures: (CoNLLSentence, parsedConLLSentences) => List[FeatureSet] = (s: CoNLLSentence, d: parsedConLLSentences) => {
+  val extractFeatures: (CoNLLSentence, ConLLSentenceContainer) => List[FeatureSet] = (s: CoNLLSentence, d: ConLLSentenceContainer) => {
     s.corefs.foldLeft(List[FeatureSet]())((l: List[FeatureSet], c: Coref) => l :+ (anaylzeCoref(c, s, d)))
   }
 
-  val anaylzeCoref: (Coref, CoNLLSentence, parsedConLLSentences) => FeatureSet = (c: Coref, s: CoNLLSentence, d: parsedConLLSentences) => {
+  val anaylzeCoref: (Coref, CoNLLSentence, ConLLSentenceContainer) => FeatureSet = (c: Coref, s: CoNLLSentence, d: ConLLSentenceContainer) => {
 
     val corefPhrase = pullPhrase(c, s.words)
     println("coref phrase: " + corefPhrase)
@@ -44,8 +43,8 @@ object SentenceToMentionConverter {
       }
       else {
         val previousSentence = d.getSentence(s.sentenceNum - 1)
-        prevWord = previousSentence.lastWord()
-        prevType = previousSentence.wordType.last
+        prevWord = previousSentence.words.init.last
+        prevType = previousSentence.wordType.init.last
       }
 
     }
@@ -57,7 +56,9 @@ object SentenceToMentionConverter {
 
     var nextWord = ""
     var nextType = ""
-    if (s.sentenceNum != d.sentenceList.length-1) {
+    println(s.sentenceNum+" "+d.sentenceList.length)
+    if (s.sentenceNum < d.sentenceList.length-1) {
+      println(s.sentenceNum+" "+d.sentenceList.length)
       val nextSentence = d.getSentence(s.sentenceNum + 1)
       nextWord = if (c.end == s.length - 1) d.getSentence(s.sentenceNum + 1).firstWord() else s.getWord(c.end + 1).text
       nextType = if (c.end == s.length - 1) nextSentence.wordType(0) else s.wordType(c.end + 1)
@@ -106,15 +107,17 @@ object SentenceToMentionConverter {
     prop.put("annotators", "tokenize, ssplit, pos, lemma, ner, parse, dcoref")
     val a = new StanfordCoreNLP(prop)
     val doc = new Annotation(s)
-    //    a.annotate(doc)
-    //    val sentence:CoreMap = doc.get(classOf[SentencesAnnotation]).get(0)
-    //    val tree = sentence.get(classOf[TreeAnnotation])
-    //    val headFinder:HeadFinder = new ModCollinsHeadFinder
+        a.annotate(doc)
+        val sentence:CoreMap = doc.get(classOf[SentencesAnnotation]).get(0)
+        val tree = sentence.get(classOf[TreeAnnotation])
+        println("annotated sentence: " + sentence.toString)
+        println("annotated tree: " + tree.toString)
+        val headFinder:HeadFinder = new ModCollinsHeadFinder
+
+
+        headFinder.determineHead(tree).toString
     //
-    //
-    //    headFinder.determineHead(tree).toString
-    //
-    ""
+//    ""
 
   }
 

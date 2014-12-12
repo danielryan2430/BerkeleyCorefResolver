@@ -7,7 +7,7 @@ import Matchers._
  * Created by dimberman on 12/4/14.
  */
 class TestCoNLLParser extends FunSuite {
-  val parser = new CoNLLParser
+  val parser =  CoNLLParser
 
   test("test pullNum") {
     assert(parser.pullOutInt("135", "")._1 == 135)

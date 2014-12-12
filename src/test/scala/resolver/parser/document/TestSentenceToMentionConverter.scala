@@ -1,12 +1,13 @@
 package resolver.parser.document
 
+import edu.stanford.nlp.trees.{ModCollinsHeadFinder, Tree}
 import org.scalatest.FunSuite
 
 /**
  * Created by dimberman on 12/6/14.
  */
 class TestSentenceToMentionConverter extends FunSuite{
-    val sExtractor = new SentenceToMentionConverter
+    val sExtractor =  SentenceToMentionConverter
               test("nonempty"){
                 assert(1==1)
               }
@@ -16,8 +17,17 @@ class TestSentenceToMentionConverter extends FunSuite{
       assert(sExtractor.pullPhrase(coref, phrase)=="Bill Clinton's")
     }
 
-    test("headFinder finds head of phrase"){
-      assert(sExtractor.findHeadWord("Billy walked to the park")=="billy")
+    test("pull head from premade tree"){
+      val s = "(S (NP (NNP Billy)) (VP (VBD walked) (PP (TO to) (NP (DT the) (NN park)))))"
+      val t:Tree = Tree.valueOf(s)
+      val h = new ModCollinsHeadFinder
+      assert(h.determineHead(t).firstChild().toString=="(VBD walked)")
     }
+
+
+
+//    test("headFinder finds head of phrase"){
+//      assert(sExtractor.findHeadWord("Billy walked to the park")=="Billy")
+//    }
 
 }
