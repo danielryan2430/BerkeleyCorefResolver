@@ -4,7 +4,7 @@ import java.util.Properties
 
 import edu.stanford.nlp.ling.CoreAnnotations.{TextAnnotation, TokensAnnotation, SentencesAnnotation}
 import edu.stanford.nlp.pipeline.{Annotation, StanfordCoreNLP}
-import edu.stanford.nlp.trees.{ModCollinsHeadFinder, HeadFinder}
+import edu.stanford.nlp.trees.{SemanticHeadFinder, Tree, ModCollinsHeadFinder, HeadFinder}
 import edu.stanford.nlp.trees.TreeCoreAnnotations.TreeAnnotation
 import edu.stanford.nlp.util.{CoreMap, PropertiesUtils}
 
@@ -20,6 +20,8 @@ object SentenceToMentionConverter {
 
   def extract(doc: ConLLSentenceContainer): List[FeatureSet] = {
     referenceID = 0
+    println("extracting features")
+
     doc.sentenceList.foldLeft(List[FeatureSet]())((a: List[FeatureSet], c: CoNLLSentence) =>  a ++ extractFeatures(c, doc))
   }
 
@@ -30,9 +32,13 @@ object SentenceToMentionConverter {
   val anaylzeCoref: (Coref, CoNLLSentence, ConLLSentenceContainer) => FeatureSet = (c: Coref, s: CoNLLSentence, d: ConLLSentenceContainer) => {
 
     val corefPhrase = pullPhrase(c, s.words)
-    println("coref phrase: " + corefPhrase)
-    println(s.words)
-    println(s.words.length)
+
+//    println("coref phrase: " + corefPhrase)
+//    println("document name: " + d.id)
+//    println(s.words)
+//    println("this is sentence number "+s.sentenceNum)
+//    println("it has " + s.words.length + " words")
+//    println("according to the document, we should have "+ d.sentenceList.length + " sentences")
     var prevWord = ""
     var prevType = ""
 
@@ -42,38 +48,53 @@ object SentenceToMentionConverter {
         prevType = ""
       }
       else {
-        val previousSentence = d.getSentence(s.sentenceNum - 1)
-        prevWord = previousSentence.words.init.last
-        prevType = previousSentence.wordType.init.last
+        var previousSentence = d.getSentence(s.sentenceNum - 1)
+        if(previousSentence.lastWord()!="/."){
+          prevWord = previousSentence.words.last
+          prevType = previousSentence.partOfSpeech.last
+        }
+        else{
+          while(previousSentence.words.length ==1 && previousSentence.sentenceNum!=0){
+            previousSentence=d.getSentence(previousSentence.sentenceNum-1)
+          }
+          if (s.sentenceNum == 0) {
+            prevWord = ""
+            prevType = ""
+          }
+          else{
+//            println("previous sentence: " + sentenceString(previousSentence.words))
+            prevWord = previousSentence.words.init.last
+            prevType = previousSentence.partOfSpeech.init.last
+          }
+        }
       }
 
     }
     else {
       prevWord = s.getWord(c.start - 1).text
-      prevType = s.wordType(c.start - 1)
+      prevType = s.partOfSpeech(c.start - 1)
 
     }
 
     var nextWord = ""
     var nextType = ""
-    println(s.sentenceNum+" "+d.sentenceList.length)
     if (s.sentenceNum < d.sentenceList.length-1) {
-      println(s.sentenceNum+" "+d.sentenceList.length)
       val nextSentence = d.getSentence(s.sentenceNum + 1)
       nextWord = if (c.end == s.length - 1) d.getSentence(s.sentenceNum + 1).firstWord() else s.getWord(c.end + 1).text
-      nextType = if (c.end == s.length - 1) nextSentence.wordType(0) else s.wordType(c.end + 1)
+      nextType = if (c.end == s.length - 1) nextSentence.partOfSpeech(0) else s.partOfSpeech(c.end + 1)
     }
     else{
       nextType=""
       nextWord=""
     }
-    val POS = new POSHolder(prevType, s.wordType(c.start), s.wordType(c.end), nextType)
+    val POS = new POSHolder(prevType, s.partOfSpeech(c.start), s.partOfSpeech(c.end), nextType)
     val firstWord = s.words(c.start)
     val lastWord = s.words(c.end)
     val refID = referenceID
     referenceID += 1
     val mentionID = c.corefID
-    new FeatureSet(mentionID, refID, s.sentenceNum, "insert type", corefPhrase, "insert head", firstWord, lastWord, prevWord, nextWord, POS)
+    val headIndex = findHeadIndex(c.start, c.end, c.start, s.headMap)
+    new FeatureSet(mentionID, refID, s.sentenceNum, findMentionType(s.partOfSpeech(headIndex), s.treeSegs(headIndex)), corefPhrase, s.words(headIndex), firstWord, lastWord, prevWord, nextWord, POS)
 
 
   }
@@ -102,24 +123,44 @@ object SentenceToMentionConverter {
     else s.head().hasCoref(c) || corefExistsInSentence(s.tail(), c)
   }
 
-  def findHeadWord(s: String): String = {
-    val prop = new Properties()
-    prop.put("annotators", "tokenize, ssplit, pos, lemma, ner, parse, dcoref")
-    val a = new StanfordCoreNLP(prop)
-    val doc = new Annotation(s)
-        a.annotate(doc)
-        val sentence:CoreMap = doc.get(classOf[SentencesAnnotation]).get(0)
-        val tree = sentence.get(classOf[TreeAnnotation])
-        println("annotated sentence: " + sentence.toString)
-        println("annotated tree: " + tree.toString)
-        val headFinder:HeadFinder = new ModCollinsHeadFinder
+
+  def findMentionType(pos:String, NER:String): String ={
+      if(pos == "PRP" || pos == "PRP$") "PRP"
+      else if(NER.contains("NNP"))  "NNP"
+      else  "NP"
+  }
+  val headFinder = new ModCollinsHeadFinder()
 
 
+  def findHeadIndex(start:Int, end:Int, current:Int, head:Map[Int,Int]): Int = {
+    println("finding head index for val: " + current)
+    val a = head.get(current)
+    a match {
+      case Some(b: Int) => {
+//        println("current returned val: " + b)
+        if (b == current || b < start || b > end){
+          if(b==start)println("head is same as start")
+          current
+        }
+        else findHeadIndex(start, end, b, head)
+      }
+      case None => current
+    }
+  }
+
+
+
+
+  def headWordParser(tree: Tree): String = {
+        if(tree==null){
+          return ""
+        }
+
+        if(tree.isLeaf) return tree.toString
         headFinder.determineHead(tree).toString
-    //
-//    ""
 
   }
+
 
 
 }

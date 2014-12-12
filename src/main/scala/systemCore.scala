@@ -2,15 +2,17 @@
  * Created by dimberman on 12/11/14.
  */
 
-import java.io.File
+import java.io.{FileWriter, File}
 import resolver.parser.document.{Parser, Document}
 import classifier.{FeatureExtractor, adaGradTrainer, bayesianClassifier}
+
+import scala.util.Random
 
 object systemCore {
 
   def getTotalErrors(chain: Seq[Int], doc: Document): Int = {
     (0 /: chain.zip(doc.features)) {
-      case (errors, (ass, fs)) => if (fs.mentionID == doc.features(ass).mentionID) 0 else 1
+      case (errors, (ass, fs)) => if (fs.mentionID == doc.features(ass).mentionID) errors else errors+1
     }
   }
 
@@ -46,8 +48,8 @@ object systemCore {
   }
 
   def main(args: Array[String]) {
-    val trainingDataPath = "/Users/dimberman/Code/NLP/conll-2011/v2/data/train"
-    val testingDataPath = "/Users/dimberman/Code/NLP/conll-2011/v2/data/test"
+    val trainingDataPath = "/Users/dimberman/Code/NLP/conll-2011/v2/data/train/data/english/annotations/bn"
+    val testingDataPath = "/Users/dimberman/Code/NLP/conll-2011_test_key/v2/data/test/data/english/annotations/bn"
 
     val goldTrainFiles = goldFileList(new File(trainingDataPath))
     /* do parsiing here*/
@@ -55,37 +57,74 @@ object systemCore {
     val processedDocs: List[List[Document]] = goldTrainFiles.map(Parser.parse(_)).toList
     println("number of documents: " + processedDocs.length)
 
-    for(doc <-processedDocs){
-      println("individual length "-> doc.length)
-    }
-    val docList = processedDocs.foldLeft(List[Document]())((d: List[Document], b: List[Document]) => d ++ b)
-    println("number of mentions: " + docList.length)
-
-
+//    for(doc <-processedDocs){
+//      println("individual length "-> doc.length)
+//    }
+    val docList = processedDocs.flatten //.foldLeft(List[Document]())((d: List[Document], b: List[Document]) => d ++ b)
+    println("number of mentions: " + (0 /: docList){(a,b)=> a+b.features.length})
 
     val featurizer = new FeatureExtractor(docList)
 
+    //random tests if true
+    val noWeights = false
 
-    val weights = adaGradTrainer.train(docList, .1, .001, 10, featurizer.featCount, featurizer.extractFeatures, adaGradTrainer.lossFunctionGen(.1, 3, 1))
+
+
+    var weights = Seq[Double]()
+    if(!noWeights) {
+      weights = adaGradTrainer.train(docList, .1, .001, 10, featurizer.featCount, featurizer.extractFeatures, adaGradTrainer.lossFunctionGen(.1, .1, 3))
+
+
+      val sav = new File("./SaveWeights.txt")
+      val wri = new FileWriter(sav)
+      weights.dropRight(1).map(a => wri.write(a + ","))
+      wri.write(weights.last.toString)
+      wri.close()
+    }
+
     println("number of weights to consider: " + weights.length)
+    println("weight nonzero count: "+(0/:weights){(a,b)=>if (b>1e-6 || b< -1e-6) a+1 else a})
     val goldTestFiles = goldFileList(new File(testingDataPath))
     /*Do Parsing here*/
     val testingDocs = goldTestFiles.map(Parser.parse(_)).toList
     val testDocList = testingDocs.foldLeft(List[Document]())((d: List[Document], b: List[Document]) => d ++ b)
 
+    if(noWeights) {
+      var fnt =0
+      var wlt =0
+      var fat =0
+      var corrt=0;
+      for (i <- List.fill(25)(0)) {
+        weights = List.fill(featurizer.featCount)(0.0)
+        weights =weights.map(a =>Random.nextDouble())
+        val entries = testDocList.map(bayesianClassifier.classify(weights, _, featurizer.extractFeatures))
+        val totalErrors = (0 /: entries.zip(testDocList)) { case (error, (assn, doc)) => error + getTotalErrors(assn, doc)}
+        println("Total Errors = " + totalErrors)
+        val (fn, fa, wl, corr) = ((0, 0, 0, 0) /: entries.zip(testDocList)) { case (error, (assn, doc)) => val dl = DetailedLoss(assn, doc)
+          (error._1 + dl._1, error._2 + dl._2, error._3 + dl._3, error._4 + dl._4)
+        }
+        fnt+=fn
+        wlt+wl
+        fat+=fa
+        corrt+=corr
+      }
+      println("25 pt averages")
+      println("False New avg= " + fnt/25)
+      println("False Anaphor avg= " + fat/25)
+      println("Wrong Link avg= " + wlt/25)
+      println("Correctly Assigned Links avg= " + corrt/25)
+    }
 
     val entries = testDocList.map(bayesianClassifier.classify(weights, _, featurizer.extractFeatures))
-      val totalErrors = (0 /: entries.zip(testDocList)) { case (error, (assn, doc)) => error + getTotalErrors(assn, doc)}
-      println("Total Errors = " + totalErrors)
-      val (fn, fa, wl, corr) = ((0, 0, 0, 0) /: entries.zip(testDocList)) { case (error, (assn, doc)) => val dl = DetailedLoss(assn, doc)
-        (error._1 + dl._1, error._2 + dl._2, error._3 + dl._3, error._4 + dl._4)
-      }
-      println("False New = " + fn)
-      println("False Anaphor = " + fa)
-      println("Wrong Link = " + wl)
-      println("Correctly Assigned Links = " + corr)
-
-
+    val totalErrors = (0 /: entries.zip(testDocList)) { case (error, (assn, doc)) => error + getTotalErrors(assn, doc)}
+    println("Total Errors = " + totalErrors)
+    val (fn, fa, wl, corr) = ((0, 0, 0, 0) /: entries.zip(testDocList)) { case (error, (assn, doc)) => val dl = DetailedLoss(assn, doc)
+      (error._1 + dl._1, error._2 + dl._2, error._3 + dl._3, error._4 + dl._4)
+    }
+    println("False New = " + fn)
+    println("False Anaphor = " + fa)
+    println("Wrong Link = " + wl)
+    println("Correctly Assigned Links = " + corr)
 
   }
 }

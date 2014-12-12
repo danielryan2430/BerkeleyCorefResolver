@@ -1,5 +1,4 @@
 #Successful Tests
-#Thu Dec 11 16:57:54 PST 2014
-resolver.parser.document.TestSurfaceFeatureExtractor=1418345874790
-resolver.parser.document.TestSentenceToMentionConverter=1418345874813
-resolver.parser.document.TestCoNLLParser=1418345874794
+#Fri Dec 12 10:40:27 PST 2014
+resolver.parser.document.TestSurfaceFeatureExtractor=1418409627099
+resolver.parser.document.TestCoNLLParser=1418409627099

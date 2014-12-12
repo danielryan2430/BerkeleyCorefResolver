@@ -2,23 +2,31 @@ package classifier
 
 
 import edu.stanford.nlp.dcoref.Dictionaries
-import resolver.parser.document.{lexicalCounter, FeatureSet, Document}
+import resolver.parser.document.{PronounDictionary, lexicalCounter, FeatureSet, Document}
 
 /**
  * Created by dimberman on 12/10/14.
  */
 class FeatureExtractor(docs:Seq[Document]) {
   val (featIndMap, featCount)=createFeatureIndex(docs)
-
+  var cachedFeatures =Map[(String,Int,Int),Seq[Int]]()
   def extractFeatures(doc: Document, mention: Int, antecedent: Int): Seq[Int] = {
-    val currentMention = doc.features(mention)
-    val antMention = doc.features(antecedent)
-    val featNames = buildFeatSet(currentMention,antMention)
-    val featInd = featNames.map(name=>featIndMap.getOrElse(name,-1))
-    val featureList = Array.fill(featCount)(0)
-    for(i <-featInd)
-      featureList(i)=1
-    featureList.toSeq
+    cachedFeatures.get((doc.id,mention,antecedent)) match{
+      case Some(featList) => {
+        featList
+
+      }
+      case None => {
+        val currentMention = doc.features (mention)
+        val antMention = doc.features (antecedent)
+        val featNames = buildFeatSet (currentMention, antMention)
+        val featInd = featNames.map (name => featIndMap.getOrElse (name, {/*println(name);*/ - 1}) )
+       cachedFeatures = cachedFeatures +((doc.id,mention,antecedent)-> featInd)
+        featInd
+      }
+    }
+  //  println("feature nonzero count: "+(0/:c){(a,b)=>if (b>0) a+1 else a})
+  //   c
   }
 
   def featureVal(a: Boolean): Int = if (a) 1 else 0
@@ -29,6 +37,7 @@ class FeatureExtractor(docs:Seq[Document]) {
   def createFeatureIndex(docs: Seq[Document]): (scala.collection.mutable.Map[String, Int],Int) = {
     val features = scala.collection.mutable.Map[String, Int]()
     var ftInd = 0
+
     def addToMap(name: String): Unit = {
       if (!features.contains(name)) {
         features += name -> ftInd
@@ -36,23 +45,31 @@ class FeatureExtractor(docs:Seq[Document]) {
       }
     }
 
-
-
     for (doc: Document <- docs) {
+      println("Begin feature extract: "+ doc.id)
       for (mention: FeatureSet <- doc.features) {
-        for (antecedent: FeatureSet <- doc.features.slice(0, mention.refID)) {
-         for(featName <- buildFeatSet(mention,antecedent))
+        for (antecedent: FeatureSet <- doc.features.slice(0, mention.refID+1)) {
+         for(featName <- buildFeatSet(mention,antecedent)) {
            addToMap(featName)
+         }
         }
       }
     }
+    println(features.size+" reported size= "+ftInd)
     (features,ftInd)
   }
 
   def buildFeatSet(mention: FeatureSet, antecedent: FeatureSet): List[String] = {
     def parseMentionType(feat: FeatureSet): String = {
       if (feat.mentionType == "PRP")
-        Dictionaries.Person.valueOf(feat.completeString).toString
+        try {
+          PronounDictionary.getCanonicalPronLc(feat.completeString)
+        } catch{
+          case e:Exception =>{
+            println(feat.completeString)
+            "PRP"
+          }
+        }
       else
         feat.mentionType
     }
@@ -81,7 +98,7 @@ class FeatureExtractor(docs:Seq[Document]) {
     strings += buildName("anaph=" + anaphor + "mentLength=" + length, mention, antecedent)
 
     //features on antecedent(ONLY if a[i] != new
-    if (!anaphor) {
+    if (anaphor) {
       val antLength = antecedent.completeString.split(" ").length
       strings += buildName("anthw=" + antecedent.semanticHead, mention, antecedent)
       if (!(antLength == 1)) {

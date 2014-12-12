@@ -1,12 +1,14 @@
-[0m[[0mdebug[0m] [0mRunning TaskDef(resolver.parser.document.TestSentenceToMentionConverter, org.scalatest.tools.Framework$$anon$1@464b9e1e, false, [SuiteSelector])[0m
-[0m[[0mdebug[0m] [0mRunning TaskDef(resolver.parser.document.TestCoNLLParser, org.scalatest.tools.Framework$$anon$1@464b9e1e, false, [SuiteSelector])[0m
-[0m[[0mdebug[0m] [0mRunning TaskDef(resolver.parser.document.TestSurfaceFeatureExtractor, org.scalatest.tools.Framework$$anon$1@464b9e1e, false, [SuiteSelector])[0m
-[0m[[0minfo[0m] [0m[36mRun completed in 197 milliseconds.[0m[0m
-[0m[[0minfo[0m] [0m[36mTotal number of tests run: 22[0m[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(resolver.parser.document.TestSurfaceFeatureExtractor, org.scalatest.tools.Framework$$anon$1@640ed254, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(resolver.parser.document.TestCoNLLParser, org.scalatest.tools.Framework$$anon$1@640ed254, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(resolver.parser.document.TestSentenceToMentionConverter, org.scalatest.tools.Framework$$anon$1@640ed254, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[36mRun completed in 300 milliseconds.[0m[0m
+[0m[[0minfo[0m] [0m[36mTotal number of tests run: 28[0m[0m
 [0m[[0minfo[0m] [0m[36mSuites: completed 3, aborted 0[0m[0m
-[0m[[0minfo[0m] [0m[36mTests: succeeded 22, failed 0, canceled 0, ignored 0, pending 0[0m[0m
-[0m[[0minfo[0m] [0m[32mAll tests passed.[0m[0m
+[0m[[0minfo[0m] [0m[36mTests: succeeded 27, failed 1, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0minfo[0m] [0m[31m*** 1 TEST FAILED ***[0m[0m
 [0m[[0mdebug[0m] [0mPassed tests:[0m
 [0m[[0mdebug[0m] [0m	resolver.parser.document.TestCoNLLParser[0m
-[0m[[0mdebug[0m] [0m	resolver.parser.document.TestSentenceToMentionConverter[0m
 [0m[[0mdebug[0m] [0m	resolver.parser.document.TestSurfaceFeatureExtractor[0m
+[0m[[31merror[0m] [0mFailed tests:[0m
+[0m[[31merror[0m] [0m	resolver.parser.document.TestSentenceToMentionConverter[0m
+[0m[[31merror[0m] [0m(test:[31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m

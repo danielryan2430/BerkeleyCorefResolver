@@ -10,7 +10,11 @@ object bayesianClassifier {
   def classify(weights: Seq[Double], d: Document, featureExtractor: (Document, Int, Int) => Seq[Int]): List[Int] = {
     //using weight vector, create a score for a featureSet
     def weightMult: Seq[Int] => Double = (input: Seq[Int]) => input.zip(weights).foldLeft(0.0) { case (a, (b, c)) => a + b * c}
-    def findBestCorrelatedFeature(maxChoiceAccum: (Int, Double), maxChoiceFeat: FeatureSet, liveFeature: FeatureSet): (Int, Double) = {
+
+
+
+
+   def findBestCorrelatedFeature(maxChoiceAccum: (Int, Double), maxChoiceFeat: FeatureSet, liveFeature: FeatureSet): (Int, Double) = {
       //1. the returned feature has a base setting of new (score btw f.ID and itself...)
       val C = weightMult(featureExtractor(d, liveFeature.refID, maxChoiceFeat.refID))
       if (C > maxChoiceAccum._2) {
@@ -36,9 +40,11 @@ object bayesianClassifier {
 
 
   //does the same thing as classification, except instead of returning the maximum, it simply returns the entire list of score vectors. (so doc 1 has 1, doc 2 has 2...
-  def scoreVect(weights: Seq[Double], d: Document, featureExtractor: (Document, Int, Int) => Seq[Int]):Seq[Seq[Double]] = {
+  def scoreVect(weights: Array[Double], d: Document, featureExtractor: (Document, Int, Int) => Seq[Int]):Seq[Seq[Double]] = {
     //using weight vector, create a score for a featureSet
-    def weightMult: Seq[Int] => Double = (input: Seq[Int]) => input.zip(weights).foldLeft(0.0) { case (a, (b, c)) => a + b * c}
+    def weightMult: Seq[Int] => Double = (input: Seq[Int]) => {
+      input.foldLeft(0.0) { case (accm, inputInd) => if(inputInd> -1)accm + weights(inputInd) else accm}
+    }
     def scoreFeatures(scoreList: List[Double], newFeat: FeatureSet, liveFeature: FeatureSet): List[Double] = {
       //1. the returned feature has a base setting of new (score btw f.ID and itself...)
       val C = weightMult(featureExtractor(d, liveFeature.refID, newFeat.refID))

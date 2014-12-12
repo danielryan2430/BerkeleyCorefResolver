@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#sbtcorefresolver_2.10;1.0 [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#sbtcorefresolver_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6358cd44[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@34aa4f51[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.10.4] org.scala-lang#scala-library;2.10.4[0m
@@ -16,7 +16,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#sbtcorefresolver_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#sbtcorefresolver_2.10;1.0->edu.stanford.nlp#stanford-corenlp;3.5.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving edu.stanford.nlp#stanford-corenlp;3.5.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@c4c63cf[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@472b158b[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: edu.stanford.nlp#stanford-corenlp;3.5.0[0m
 [0m[[0mdebug[0m] [0m	found edu.stanford.nlp#stanford-corenlp;3.5.0 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#sbtcorefresolver_2.10;1.0->edu.stanford.nlp#stanford-corenlp;3.5.0 [compile->runtime][0m
@@ -746,7 +746,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.4!scala-reflect.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 141ms :: artifacts dl 11ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 143ms :: artifacts dl 9ms[0m
 [0m[[0mdebug[0m] [0m	report for default#sbtcorefresolver_2.10;1.0 compile produced in /Users/dimberman/Code/SBTCorefResolver/target/resolution-cache/reports/default-sbtcorefresolver_2.10-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#sbtcorefresolver_2.10;1.0 runtime produced in /Users/dimberman/Code/SBTCorefResolver/target/resolution-cache/reports/default-sbtcorefresolver_2.10-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#sbtcorefresolver_2.10;1.0 test produced in /Users/dimberman/Code/SBTCorefResolver/target/resolution-cache/reports/default-sbtcorefresolver_2.10-test.xml[0m
@@ -760,5 +760,5 @@
 [0m[[0mdebug[0m] [0m	report for default#sbtcorefresolver_2.10;1.0 docs produced in /Users/dimberman/Code/SBTCorefResolver/target/resolution-cache/reports/default-sbtcorefresolver_2.10-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#sbtcorefresolver_2.10;1.0 pom produced in /Users/dimberman/Code/SBTCorefResolver/target/resolution-cache/reports/default-sbtcorefresolver_2.10-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#sbtcorefresolver_2.10;1.0 scala-tool produced in /Users/dimberman/Code/SBTCorefResolver/target/resolution-cache/reports/default-sbtcorefresolver_2.10-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (141ms resolve - 11ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (143ms resolve - 9ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

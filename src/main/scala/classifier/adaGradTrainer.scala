@@ -21,22 +21,32 @@ object adaGradTrainer {
   }
 
   def train(documents:Seq[Document], eta:Double, lambda:Double, iterMax:Int, featureCount:Int, featureExtractor: (Document, Int, Int) => Seq[Int], lossFunction:(Document, Int, Int) => Double):Seq[Double] = {
-    var grad =  List.fill(featureCount)(0.0)
-    var dgrad = List.fill(featureCount)(0.0)
-    var weights =     List.fill(featureCount)(0.0)
-    var error=0.0
+    println("beggenning training using the adagrad training")
+    var grad =  Array.fill(featureCount)(0.0)
+    var dgrad = Array.fill(featureCount)(0.0)
+    var weights =     Array.fill(featureCount)(0.0)
+    var error=Double.PositiveInfinity
     var iter = 0
     while( iter<iterMax & error>.0001) {
-      dgrad = List.fill(featureCount)(0.0)
-      error=0.0         //not impl currently
+      println("Training round: "+iter)
+      for(i<-grad.indices)
+        dgrad(i)=0.0
+      //error=1.0         //not impl currently    TODO:ADD ERROR CHECKING
       for (d <- Random.shuffle(documents)) {
-        grad =  List.fill(featureCount)(0.0)
-        grad = computeGradient(d,grad,lossFunction,bayesianClassifier.scoreVect(weights,d,featureExtractor), featureExtractor)
+        for(i<-grad.indices)
+          grad(i)=0.0
+        computeGradient(d,grad,lossFunction,bayesianClassifier.scoreVect(weights,d,featureExtractor), featureExtractor)
         dgrad = dgrad.zip(grad).map { case ((dgtii: Double, gti: Double)) => dgtii + gti * gti}
         val etaOverHtii = dgrad.map(dgtii => eta/(Math.sqrt(dgtii)+1))
-        weights =( List[Double]() /: weights.zip(grad).zip(etaOverHtii)) { case (accm, ((xti:Double,gti:Double),eohtii:Double)) => {val inter= xti +gti*eohtii
-            accm :+ Math.signum(inter)*(Math.abs(inter) - lambda*eohtii)}
+        for(i <- weights.indices){
+        weights(i) = {
+          val inter = weights(i) + grad(i) * etaOverHtii(i)
+          Math.signum(inter) * (Math.abs(inter) - lambda * etaOverHtii(i))
         }
+        }
+         // ( List[Double]() /: weights.zip(grad.toSeq).zip(etaOverHtii)) { case (accm, ((xti:Double,gti:Double),eohtii:Double)) => {val inter= xti +gti*eohtii
+          //  accm :+ Math.signum(inter)*(Math.abs(inter) - lambda*eohtii)}
+        //}
       }
       iter+=1
     }
@@ -44,7 +54,7 @@ object adaGradTrainer {
     weights.toList
   }
 
-  def computeGradient(document:Document,gradient:List[Double],lossFunction:(Document, Int, Int) => Double, scores:Seq[Seq[Double]], featureExtractor: (Document, Int, Int) => Seq[Int]):List[Double] = {
+  def computeGradient(document:Document,gradient:Array[Double],lossFunction:(Document, Int, Int) => Double, scores:Seq[Seq[Double]], featureExtractor: (Document, Int, Int) => Seq[Int]) = {
   /*
     A gradient is marginals Gold - marginals predicted. Thus the max is 0 when there is no error amount. If the score is high and the loss is high, the error wil be grown
    */
@@ -52,21 +62,23 @@ object adaGradTrainer {
     /**
      * this half of the function is performs x^i,A(X) (essentially computing the gradient using the gold mentions so we know the 100% correct direction)
      */
-    (gradient /:  computeGoldMarginals(document,scores,lossFunction).zipWithIndex) //take a list of 0's and fold in the indexed marginals
-        {case (grad:List[Double], (margi:Seq[Double], mention:Int)) =>    //for each marginal value
-          (grad /: (margi.zipWithIndex)){case (g:List[Double],(margij:Double, antecedent:Int)) =>
-          updateGradient(g,featureExtractor(document,mention,antecedent),margij)  //update the gradient using the current gradient, the mention, the antecedent, and the current marginal value
+
+    computeGoldMarginals(document,scores,lossFunction).zipWithIndex.map //take a list of 0's and fold in the indexed marginals
+        {case ((margi:Seq[Double], mention:Int)) =>    //for each marginal value
+          margi.zipWithIndex.map{case ((margij:Double, antecedent:Int)) =>
+          updateGradient(gradient,featureExtractor(document,mention,antecedent),margij)  //update the gradient using the current gradient, the mention, the antecedent, and the current marginal value
       }
     }
 
     /**
      * perform similar operations, but with the predicted value taking into account the loss function
      */
-    (gradient /:  computeMarginals(document,scores,lossFunction).zipWithIndex){case (grad:List[Double], (margi:Seq[Double], mention:Int)) =>
-            (grad /: (margi.zipWithIndex)){case (g:List[Double],(margij:Double, antecedent:Int)) =>
-      updateGradient(g,featureExtractor(document,mention,antecedent),-margij)
+    computeMarginals(document,scores,lossFunction).zipWithIndex.map{case ((margi:Seq[Double], mention:Int)) =>
+            margi.zipWithIndex.map{case ((margij:Double, antecedent:Int)) =>
+      updateGradient(gradient,featureExtractor(document,mention,antecedent),-margij)
+      }
     }
-    }
+    println("gradient nonzero count: "+(0/:gradient){(a,b)=>if (b>1e-6|| b< -1e-6) a+1 else a})
   }
 
   def computeMarginals(document:Document, scores:Seq[Seq[Double]], lossFunction:(Document, Int, Int) => Double) : Seq[Seq[Double]] ={
@@ -87,8 +99,11 @@ object adaGradTrainer {
         unregMij}}.map(unregularized=> unregularized/marginalOveri)}}
   }
 
-  def updateGradient(gradient:List[Double], features:Seq[Int], weight:Double): List[Double] = {
-    gradient.zip(features).map{case ((gk:Double,fk:Int)) => if (fk >= 1.0e-20) gk+weight else gk}
+  def updateGradient(gradient:Array[Double], features:Seq[Int], weight:Double) = {
+    for(ind <- features) {
+      if(ind!= -1)
+      gradient(ind) += weight
+    }
   }
 }
 
