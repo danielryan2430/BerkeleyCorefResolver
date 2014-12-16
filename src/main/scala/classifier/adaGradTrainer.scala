@@ -20,12 +20,12 @@ object adaGradTrainer {
     }
   }
 
-  def train(documents:Seq[Document], eta:Double, lambda:Double, iterMax:Int, featureCount:Int, featureExtractor: (Document, Int, Int) => Seq[Int], lossFunction:(Document, Int, Int) => Double):Seq[Double] = {
+  def train(documents:Seq[Document], eta:Double, lambda:Double, iterMax:Int, featureCount:Int, featureExtractor: (Document, Int, Int) => Seq[Int],lossFunction:(Document, Int, Int) => Double):Array[Double] = {
     println("beggenning training using the adagrad training")
-    var grad =  Array.fill(featureCount)(0.0)
+    val grad =  Array.fill(featureCount)(0.0)
     var dgrad = Array.fill(featureCount)(0.0)
-    var weights =     Array.fill(featureCount)(0.0)
-    var error=Double.PositiveInfinity
+    val weights =     Array.fill(featureCount)(0.0)
+    val error=Double.PositiveInfinity
     var iter = 0
     while( iter<iterMax & error>.0001) {
       println("Training round: "+iter)
@@ -51,7 +51,7 @@ object adaGradTrainer {
       iter+=1
     }
 
-    weights.toList
+    weights.toList.toArray
   }
 
   def computeGradient(document:Document,gradient:Array[Double],lossFunction:(Document, Int, Int) => Double, scores:Seq[Seq[Double]], featureExtractor: (Document, Int, Int) => Seq[Int]) = {
@@ -81,14 +81,28 @@ object adaGradTrainer {
     println("gradient nonzero count: "+(0/:gradient){(a,b)=>if (b>1e-6|| b< -1e-6) a+1 else a})
   }
 
+
+
+
+
+
+
+
   def computeMarginals(document:Document, scores:Seq[Seq[Double]], lossFunction:(Document, Int, Int) => Double) : Seq[Seq[Double]] ={
     scores.zipWithIndex.map{case ((scoresi:Seq[Double], mention:Int)) => {
       var marginalOveri =0.0
       scoresi.zipWithIndex.map{case ((scoreij:Double, antecedent:Int))=> {
         val unregMij=Math.exp(scoreij+lossFunction(document,mention,antecedent))
         marginalOveri+=unregMij
-        unregMij}}.map(unregularized=> unregularized/marginalOveri)}}
+        unregMij}
+      }.map(unregularized=> unregularized/marginalOveri)}}
   }
+
+
+
+
+
+
   //marginals represent the total marginal likelihood of assigning the correct antecedent using the gold clustering data to determine scoring.
   def computeGoldMarginals(document:Document, scores:Seq[Seq[Double]], lossFunction:(Document, Int, Int) => Double) : Seq[Seq[Double]] ={
     scores.zipWithIndex.map{case ((scoresi:Seq[Double], i:Int)) => {

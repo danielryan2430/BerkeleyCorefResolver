@@ -19,3 +19,7 @@
 [0m[[0mdebug[0m] [0m	/Users/dimberman/.ivy2/cache/org.apache.lucene/lucene-analyzers/jars/lucene-analyzers-3.2.0.jar[0m
 [0m[[0mdebug[0m] [0m	/Users/dimberman/.ivy2/cache/org.scalaz/scalaz-core_2.10/bundles/scalaz-core_2.10-7.1.0.jar[0m
 [0m[[0mdebug[0m] [0mWaiting for thread run-main-0 to terminate.[0m
+[0m[[0mdebug[0m] [0m	Thread run-main-0 exited.[0m
+[0m[[0mdebug[0m] [0mInterrupting remaining threads (should be all daemons).[0m
+[0m[[0mdebug[0m] [0mSandboxed run complete..[0m
+[0m[[0mdebug[0m] [0mExited with code 0[0m

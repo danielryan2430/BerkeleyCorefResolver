@@ -137,7 +137,6 @@ object SentenceToMentionConverter {
     val a = head.get(current)
     a match {
       case Some(b: Int) => {
-//        println("current returned val: " + b)
         if (b == current || b < start || b > end){
           if(b==start)println("head is same as start")
           current

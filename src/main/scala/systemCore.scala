@@ -72,7 +72,7 @@ object systemCore {
 
     var weights = Seq[Double]()
     if(!noWeights) {
-      weights = adaGradTrainer.train(docList, .1, .001, 10, featurizer.featCount, featurizer.extractFeatures, adaGradTrainer.lossFunctionGen(.1, .1, 3))
+      weights = adaGradTrainer.train(docList, .1, .001, 1, featurizer.featCount, featurizer.extractFeatures, adaGradTrainer.lossFunctionGen(5, .1, 3))
 
 
       val sav = new File("./SaveWeights.txt")
@@ -97,7 +97,7 @@ object systemCore {
       for (i <- List.fill(25)(0)) {
         weights = List.fill(featurizer.featCount)(0.0)
         weights =weights.map(a =>Random.nextDouble())
-        val entries = testDocList.map(bayesianClassifier.classify(weights, _, featurizer.extractFeatures))
+        val entries = testDocList.map(bayesianClassifier.classify(weights.toArray, _, featurizer.extractFeatures))
         val totalErrors = (0 /: entries.zip(testDocList)) { case (error, (assn, doc)) => error + getTotalErrors(assn, doc)}
         println("Total Errors = " + totalErrors)
         val (fn, fa, wl, corr) = ((0, 0, 0, 0) /: entries.zip(testDocList)) { case (error, (assn, doc)) => val dl = DetailedLoss(assn, doc)
@@ -115,12 +115,19 @@ object systemCore {
       println("Correctly Assigned Links avg= " + corrt/25)
     }
 
-    val entries = testDocList.map(bayesianClassifier.classify(weights, _, featurizer.extractFeatures))
+    val entries = testDocList.map(bayesianClassifier.classify(weights.toArray, _, featurizer.extractFeatures))
     val totalErrors = (0 /: entries.zip(testDocList)) { case (error, (assn, doc)) => error + getTotalErrors(assn, doc)}
     println("Total Errors = " + totalErrors)
     val (fn, fa, wl, corr) = ((0, 0, 0, 0) /: entries.zip(testDocList)) { case (error, (assn, doc)) => val dl = DetailedLoss(assn, doc)
       (error._1 + dl._1, error._2 + dl._2, error._3 + dl._3, error._4 + dl._4)
     }
+//    val a =  scala.collection.mutable.Set[Int]()
+//    for(doc <- docList){
+//      for(feature <- doc.features){
+//           a.add(feature.mentionID)
+//      }
+//    }
+//    println("number of gold clusters: " + a.size)
     println("False New = " + fn)
     println("False Anaphor = " + fa)
     println("Wrong Link = " + wl)

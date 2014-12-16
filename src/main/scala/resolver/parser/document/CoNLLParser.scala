@@ -14,7 +14,7 @@ import scala.collection.JavaConverters._
  */
 object CoNLLParser {
   var sentenceNum = 0
-
+  v
   def parse(fileName: File): List[ConLLSentenceContainer] = {
     val source = scala.io.Source.fromFile(fileName)
     val lines = source.getLines()

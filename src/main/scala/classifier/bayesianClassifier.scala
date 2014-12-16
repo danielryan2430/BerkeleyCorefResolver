@@ -7,11 +7,11 @@ import resolver.parser.document._
  */
 object bayesianClassifier {
 
-  def classify(weights: Seq[Double], d: Document, featureExtractor: (Document, Int, Int) => Seq[Int]): List[Int] = {
+  def classify(weights: Array[Double], d: Document, featureExtractor: (Document, Int, Int) => Seq[Int]): List[Int] = {
     //using weight vector, create a score for a featureSet
-    def weightMult: Seq[Int] => Double = (input: Seq[Int]) => input.zip(weights).foldLeft(0.0) { case (a, (b, c)) => a + b * c}
-
-
+    def weightMult: Seq[Int] => Double = (input: Seq[Int]) => {
+      input.foldLeft(0.0) { case (accm, inputInd) => if(inputInd> -1)accm + weights(inputInd) else accm}
+    }
 
 
    def findBestCorrelatedFeature(maxChoiceAccum: (Int, Double), maxChoiceFeat: FeatureSet, liveFeature: FeatureSet): (Int, Double) = {
