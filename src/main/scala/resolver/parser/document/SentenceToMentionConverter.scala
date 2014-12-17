@@ -5,14 +5,8 @@ import java.util.Properties
 import edu.stanford.nlp.ling.CoreAnnotations.{TextAnnotation, TokensAnnotation, SentencesAnnotation}
 import edu.stanford.nlp.pipeline.{Annotation, StanfordCoreNLP}
 import edu.stanford.nlp.trees.{SemanticHeadFinder, Tree, ModCollinsHeadFinder, HeadFinder}
-import edu.stanford.nlp.trees.TreeCoreAnnotations.TreeAnnotation
 import edu.stanford.nlp.util.{CoreMap, PropertiesUtils}
 
-/**
- * Created by dimberman on 11/9/14.
- *
- *
- */
 
 object SentenceToMentionConverter {
   var referenceID = 0
@@ -30,7 +24,7 @@ object SentenceToMentionConverter {
   }
 
   val anaylzeCoref: (Coref, CoNLLSentence, ConLLSentenceContainer) => FeatureSet = (c: Coref, s: CoNLLSentence, d: ConLLSentenceContainer) => {
-
+//    print("sentence is : "  + sentenceString(s.words) + " in document: " + d.id)
     val corefPhrase = pullPhrase(c, s.words)
 
 //    println("coref phrase: " + corefPhrase)
@@ -71,8 +65,15 @@ object SentenceToMentionConverter {
 
     }
     else {
-      prevWord = s.getWord(c.start - 1).text
-      prevType = s.partOfSpeech(c.start - 1)
+      if((s.words(c.start-1).head==',' || s.words(c.start-1).head=='\'')&&c.start>1){
+        prevWord=s.words(c.start-2)
+        prevType = s.partOfSpeech(c.start - 2)
+
+      }
+      else{
+        prevWord = s.words(c.start - 1)
+        prevType = s.partOfSpeech(c.start - 1)
+      }
 
     }
 
@@ -80,8 +81,20 @@ object SentenceToMentionConverter {
     var nextType = ""
     if (s.sentenceNum < d.sentenceList.length-1) {
       val nextSentence = d.getSentence(s.sentenceNum + 1)
-      nextWord = if (c.end == s.length - 1) d.getSentence(s.sentenceNum + 1).firstWord() else s.getWord(c.end + 1).text
-      nextType = if (c.end == s.length - 1) nextSentence.partOfSpeech(0) else s.partOfSpeech(c.end + 1)
+      if (c.end == s.length - 1){
+        nextWord =  d.getSentence(s.sentenceNum + 1).firstWord()
+        nextType = nextSentence.partOfSpeech(0)
+      }
+       else{
+        if(s.words(c.end+1).head==',' || s.words(c.end+1).head=='\''){
+          nextWord =  s.words(c.end+2)
+          nextType = s.words(c.end + 2)
+        }
+        else {
+          nextWord =  s.words(c.end+1)
+          nextType = s.words(c.end + 1)
+        }
+      }
     }
     else{
       nextType=""
@@ -133,12 +146,12 @@ object SentenceToMentionConverter {
 
 
   def findHeadIndex(start:Int, end:Int, current:Int, head:Map[Int,Int]): Int = {
-    println("finding head index for val: " + current)
+//    println("finding head index for val: " + current)
     val a = head.get(current)
     a match {
       case Some(b: Int) => {
         if (b == current || b < start || b > end){
-          if(b==start)println("head is same as start")
+//          if(b==start)println("head is same as start")
           current
         }
         else findHeadIndex(start, end, b, head)

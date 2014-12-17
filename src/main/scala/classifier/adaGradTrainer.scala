@@ -4,24 +4,22 @@ import resolver.parser.document._
 
 import scala.util.Random
 
-/**
- * Created by serenity on 12/3/14.
- */
 object adaGradTrainer {
-
+   var round = -1;
   //assumes the antecednt is before the mention.
   def lossFunctionGen(fn:Double,fa:Double,wl:Double) : ((Document,Int,Int)=>Double) = {
     (d:Document,mention:Int,antecedent:Int) => {
       val clust = d.features.zipWithIndex.filter((p:(FeatureSet,Int))=> p._1.mentionID ==d.features(mention).mentionID).map(a=>a._2)
-      if (d.features(mention).mentionID != d.features(antecedent).mentionID) wl // wronglink if the mention ids do not match.
-      else if(mention == clust(0) && mention != antecedent) fa //false anaphor is when mention should be the first instance of that mention id....
+
+      if(mention == clust(0) && mention != antecedent) fa //false anaphor is when mention should be the first instance of that mention id....
+      else if (d.features(mention).mentionID != d.features(antecedent).mentionID) wl // wronglink if the mention ids do not match.
       else if (mention != clust(0) && mention == antecedent) fn //false new if mention is not the first instance of that id, but mention == antecedent
       else 0.0
     }
   }
 
   def train(documents:Seq[Document], eta:Double, lambda:Double, iterMax:Int, featureCount:Int, featureExtractor: (Document, Int, Int) => Seq[Int],lossFunction:(Document, Int, Int) => Double):Array[Double] = {
-    println("beggenning training using the adagrad training")
+    println("beginning training using the adagrad training")
     val grad =  Array.fill(featureCount)(0.0)
     var dgrad = Array.fill(featureCount)(0.0)
     val weights =     Array.fill(featureCount)(0.0)
@@ -29,6 +27,7 @@ object adaGradTrainer {
     var iter = 0
     while( iter<iterMax & error>.0001) {
       println("Training round: "+iter)
+      round += 1
       for(i<-grad.indices)
         dgrad(i)=0.0
       //error=1.0         //not impl currently    TODO:ADD ERROR CHECKING
@@ -78,7 +77,7 @@ object adaGradTrainer {
       updateGradient(gradient,featureExtractor(document,mention,antecedent),-margij)
       }
     }
-    println("gradient nonzero count: "+(0/:gradient){(a,b)=>if (b>1e-6|| b< -1e-6) a+1 else a})
+    println("round "+round + ": "+ "gradient nonzero count: "+(0/:gradient){(a,b)=>if (b>1e-6|| b< -1e-6) a+1 else a})
   }
 
 

@@ -1,0 +1,21 @@
+cnn_0061.parse 0 5 predicted have-v have.03 ----- 5:0-rel  0:2-ARG0 6:1-ARG1
+cnn_0061.parse 0 6 predicted meet-v meet.03 ----- 6:0-rel  0:2-ARG0 7:1-ARG1
+cnn_0061.parse 0 14 predicted discuss-v discuss.01 ----- 14:0-rel  0:2-ARG0 15:2-ARG1
+cnn_0061.parse 0 15 predicted form-v form.01 ----- 15:0-rel  0:2-ARG0 16:1-ARG1
+cnn_0061.parse 1 1 predicted be-v be.01 ----- 1:0-rel  0:1-ARG1 7:1-ARGM-CAU
+cnn_0061.parse 1 2 predicted warn-v warn.01 ----- 2:0-rel  0:1-ARG0 3:1-ARG1 7:1-ARGM-CAU
+cnn_0061.parse 1 9 predicted oppose-v oppose.01 ----- 9:0-rel  8:1-ARG0 10:1-ARG1
+cnn_0061.parse 2 5 predicted put-v put.01 ----- 5:0-rel  1:1-ARG0 6:1-ARG1
+cnn_0061.parse 2 8 predicted bring-v bring.01 ----- 8:0-rel  9:1-ARG1 10:1-ARG3
+cnn_0061.parse 2 14 predicted be-v be.01 ----- 14:0-rel  0:1-ARGM-ADV 8:2-ARG1 13:0-ARGM-MOD 15:0-ARG2 16:2-ARG2
+cnn_0061.parse 3 3 predicted say-v say.01 ----- 3:0-rel  0:1-ARG0 4:4-ARG1
+cnn_0061.parse 3 6 predicted be-v be.01 ----- 6:0-rel  4:1-ARG1 7:0-ARG2 8:1-ARGM-TMP
+cnn_0061.parse 3 7 predicted kill-v kill.01 ----- 7:0-rel  4:1-ARG1 8:1-ARGM-TMP
+cnn_0061.parse 3 12 predicted die-v die.01 ----- 12:0-rel  10:1-ARG1 13:1-ARGM-CAU 16:1-ARGM-TMP
+cnn_0061.parse 4 3 predicted fire-v fire.02 ----- 3:0-rel  0:1-ARG0 5:1-ARG1
+cnn_0061.parse 4 10 predicted cut-v cut.02 ----- 10:0-rel  0:1-ARG0 9:1-ARGM-TMP 11:1-ARGM-DIR 12:1-ARG1
+cnn_0061.parse 5 1 predicted have-v have.03 ----- 1:0-rel  0:1-ARG0 2:1-ARGM-DIS
+cnn_0061.parse 5 3 predicted shut-v shut.05 ----- 3:0-rel  0:1-ARG0 2:1-ARGM-DIS 4:1-ARGM-DIR 5:1-ARG1
+cnn_0061.parse 6 2 predicted have-v have.03 ----- 2:0-rel  0:1-ARG0
+cnn_0061.parse 6 3 predicted be-v be.01 ----- 3:0-rel  0:1-ARG1 5:1-ARGM-TMP
+cnn_0061.parse 6 4 predicted kill-v kill.01 ----- 4:0-rel  0:1-ARG1 5:1-ARGM-TMP

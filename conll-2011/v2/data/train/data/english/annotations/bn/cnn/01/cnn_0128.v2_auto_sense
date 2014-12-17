@@ -1,0 +1,15 @@
+bn/cnn/01/cnn_0128 0 1 be-v 1
+bn/cnn/01/cnn_0128 0 6 watch-v 1
+bn/cnn/01/cnn_0128 0 18 be-v 1
+bn/cnn/01/cnn_0128 0 7 vehicle-n 1
+bn/cnn/01/cnn_0128 0 23 money-n 2
+bn/cnn/01/cnn_0128 1 5 carry-v 1
+bn/cnn/01/cnn_0128 1 13 be-v 1
+bn/cnn/01/cnn_0128 1 16 auction-n 3
+bn/cnn/01/cnn_0128 2 7 say-v 1
+bn/cnn/01/cnn_0128 2 9 receive-v 1
+bn/cnn/01/cnn_0128 2 25 go-v 13
+bn/cnn/01/cnn_0128 3 2 be-v 1
+bn/cnn/01/cnn_0128 3 5 cause-n 3
+bn/cnn/01/cnn_0128 4 11 be-v 1
+bn/cnn/01/cnn_0128 4 7 morning-n 1

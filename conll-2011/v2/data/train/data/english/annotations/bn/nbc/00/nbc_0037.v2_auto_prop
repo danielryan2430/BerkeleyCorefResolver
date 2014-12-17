@@ -1,0 +1,12 @@
+nbc_0037.parse 0 4 predicted spend-v spend.01 ----- 4:0-rel  0:2-ARG0 8:1-ARG2 13:1-ARGM-TMP
+nbc_0037.parse 0 18 predicted be-v be.01 ----- 18:0-rel  17:1-ARG1 21:1-ARG2
+nbc_0037.parse 0 23 predicted go-v go.01 ----- 23:0-rel  24:1-ARG2 32:1-ARG4
+nbc_0037.parse 0 25 predicted be-v be.01 ----- 25:0-rel  17:1-ARG1 23:0-ARG2 26:2-ARG2
+nbc_0037.parse 0 33 predicted putter-v putter.- ----- 33:0-rel  34:1-ARGM-DIR 35:1-ARGM-LOC
+nbc_0037.parse 0 42 predicted be-v be.01 ----- 42:0-rel  16:1-ARGM-ADV 41:1-ARG1 43:0-ARGM-NEG 44:1-ARG2
+nbc_0037.parse 0 44 predicted show-v show.01 ----- 44:0-rel  41:1-ARG0 43:0-ARGM-NEG 45:1-ARG1
+nbc_0037.parse 1 1 predicted seem-v seem.01 ----- 1:0-rel  0:1-ARG1
+nbc_0037.parse 1 5 predicted walk-v walk.01 ----- 5:0-rel  6:1-ARG0 8:1-ARGM-TMP
+nbc_0037.parse 1 10 predicted help-v help.01 ----- 10:0-rel  11:3-ARG1
+nbc_0037.parse 1 18 predicted get-v get.01 ----- 18:0-rel  11:2-ARG1 19:1-ARG2
+nbc_0037.parse 1 21 predicted head-v head.01 ----- 21:0-rel  11:2-ARG0 22:1-ARGM-DIR 23:1-ARG1 25:1-ARGM-TMP

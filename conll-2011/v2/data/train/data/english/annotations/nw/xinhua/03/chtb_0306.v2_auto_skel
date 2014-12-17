@@ -1,0 +1,331 @@
+#begin document (nw/xinhua/03/chtb_0306); part 000
+nw/xinhua/03/chtb_0306   0    0    [WORD]   NNP   (TOP(FRAG(NP*         -   -   -   -       (ORG)    -
+nw/xinhua/03/chtb_0306   0    1    [WORD]   NNP               *         -   -   -   -          *     -
+nw/xinhua/03/chtb_0306   0    2    [WORD]   NNP               *)        -   -   -   -          *     -
+nw/xinhua/03/chtb_0306   0    3    [WORD]   NNP            (NP*         -   -   -   -     (DATE*     -
+nw/xinhua/03/chtb_0306   0    4    [WORD]    CD               *)        -   -   -   -          *)    -
+nw/xinhua/03/chtb_0306   0    5    [WORD]     ,               *         -   -   -   -          *     -
+nw/xinhua/03/chtb_0306   0    6    [WORD]   NNP            (NP*)        -   -   -   -       (GPE)   (2)
+nw/xinhua/03/chtb_0306   0    7    [WORD]     ,               *         -   -   -   -          *     -
+nw/xinhua/03/chtb_0306   0    8    [WORD]   NNS            (NP*         -   -   -   -          *     -
+nw/xinhua/03/chtb_0306   0    9    [WORD]   NNP       (NML(NML*         -   -   -   -   (PERSON*     -
+nw/xinhua/03/chtb_0306   0   10    [WORD]   NNP               *)        -   -   -   -          *)    -
+nw/xinhua/03/chtb_0306   0   11    [WORD]    CC               *         -   -   -   -          *     -
+nw/xinhua/03/chtb_0306   0   12    [WORD]   NNP           (NML*         -   -   -   -   (PERSON*     -
+nw/xinhua/03/chtb_0306   0   13    [WORD]   NNP               *)))))    -   -   -   -          *)    -
+
+nw/xinhua/03/chtb_0306   0   0    [WORD]     DT   (TOP(S(NP*         -    -   -   -           *        (ARG1*      (3
+nw/xinhua/03/chtb_0306   0   1    [WORD]     JJ            *         -    -   -   -    (ORDINAL)            *       -
+nw/xinhua/03/chtb_0306   0   2    [WORD]    NNP            *         -    -   -   -     (EVENT*             *       -
+nw/xinhua/03/chtb_0306   0   3    [WORD]    NNP            *         -    -   -   -           *             *       -
+nw/xinhua/03/chtb_0306   0   4    [WORD]   NNPS            *)        -    -   -   -           *)            *)      3)
+nw/xinhua/03/chtb_0306   0   5    [WORD]    VBD         (VP*       open  01   2   -           *           (V*)      -
+nw/xinhua/03/chtb_0306   0   6    [WORD]     IN         (PP*         -    -   -   -           *    (ARGM-LOC*       -
+nw/xinhua/03/chtb_0306   0   7    [WORD]    NNP         (NP*))       -    -   -   -        (GPE)            *)     (2)
+nw/xinhua/03/chtb_0306   0   8    [WORD]     NN         (NP*))       -    -   -   -           *    (ARGM-TMP*)      -
+nw/xinhua/03/chtb_0306   0   9    [WORD]      .            *))       -    -   -   -           *             *       -
+
+nw/xinhua/03/chtb_0306   0    0    [WORD]    DT   (TOP(S(NP*                 -    -   -   -   *         *      (ARG0*               *     (5
+nw/xinhua/03/chtb_0306   0    1    [WORD]   VBG            *           organize  01   2   -   *       (V*)          *               *      -
+nw/xinhua/03/chtb_0306   0    2    [WORD]    NN            *)                -    -   -   -   *    (ARG0*)          *)              *      5)
+nw/xinhua/03/chtb_0306   0    3    [WORD]   VBD         (VP*           announce  01   1   -   *         *         (V*)              *      -
+nw/xinhua/03/chtb_0306   0    4    [WORD]    IN       (SBAR*                 -    -   -   -   *         *      (ARG1*               *      -
+nw/xinhua/03/chtb_0306   0    5    [WORD]    DT    (S(NP(NP*                 -    -   -   -   *         *           *          (ARG0*      -
+nw/xinhua/03/chtb_0306   0    6    [WORD]    NN            *)                -    -   -   -   *         *           *               *      -
+nw/xinhua/03/chtb_0306   0    7    [WORD]    IN         (PP*                 -    -   -   -   *         *           *               *      -
+nw/xinhua/03/chtb_0306   0    8    [WORD]    DT         (NP*                 -    -   -   -   *         *           *               *     (3
+nw/xinhua/03/chtb_0306   0    9    [WORD]   NNS            *)))              -    -   3   -   *         *           *               *)     3)
+nw/xinhua/03/chtb_0306   0   10    [WORD]    MD         (VP*                 -    -   -   -   *         *           *      (ARGM-MOD*)     -
+nw/xinhua/03/chtb_0306   0   11    [WORD]    VB         (VP*             exceed  01   -   -   *         *           *             (V*)     -
+nw/xinhua/03/chtb_0306   0   12    [WORD]    DT         (NP*                 -    -   -   -   *         *           *          (ARG1*      -
+nw/xinhua/03/chtb_0306   0   13    [WORD]    JJ            *                 -    -   -   -   *         *           *               *      -
+nw/xinhua/03/chtb_0306   0   14    [WORD]   NNS            *))))))           -    -   2   -   *         *           *)              *)     -
+nw/xinhua/03/chtb_0306   0   15    [WORD]     .            *))               -    -   -   -   *         *           *               *      -
+
+nw/xinhua/03/chtb_0306   0    0    [WORD]    DT   (TOP(S(NP(NP*           -    -   -   -        *      (ARG1*     -
+nw/xinhua/03/chtb_0306   0    1    [WORD]    NN               *           -    -   4   -        *           *     -
+nw/xinhua/03/chtb_0306   0    2    [WORD]    NN               *)          -    -   -   -        *           *)    -
+nw/xinhua/03/chtb_0306   0    3    [WORD]     ,               *           -    -   -   -        *           *     -
+nw/xinhua/03/chtb_0306   0    4    [WORD]   WDT     (SBAR(WHNP*)          -    -   -   -        *    (R-ARG1*)    -
+nw/xinhua/03/chtb_0306   0    5    [WORD]   VBD          (S(VP*         last  01   2   -        *         (V*)    -
+nw/xinhua/03/chtb_0306   0    6    [WORD]   JJR         (NP(QP*           -    -   -   -   (TIME*      (ARG2*     -
+nw/xinhua/03/chtb_0306   0    7    [WORD]    IN               *           -    -   -   -        *           *     -
+nw/xinhua/03/chtb_0306   0    8    [WORD]    CD               *)          -    -   -   -        *           *     -
+nw/xinhua/03/chtb_0306   0    9    [WORD]   NNS               *))))       -    -   1   -        *)          *)    -
+nw/xinhua/03/chtb_0306   0   10    [WORD]     ,               *)          -    -   -   -        *           *     -
+nw/xinhua/03/chtb_0306   0   11    [WORD]   VBD            (VP*           -    -   -   -        *           *     -
+nw/xinhua/03/chtb_0306   0   12    [WORD]    JJ     (ADJP(ADJP*           -    -   -   -        *           *     -
+nw/xinhua/03/chtb_0306   0   13    [WORD]     ,               *           -    -   -   -        *           *     -
+nw/xinhua/03/chtb_0306   0   14    [WORD]    JJ               *)          -    -   -   -        *           *     -
+nw/xinhua/03/chtb_0306   0   15    [WORD]    CC               *           -    -   -   -        *           *     -
+nw/xinhua/03/chtb_0306   0   16    [WORD]    JJ          (ADJP*)))        -    -   -   -        *           *     -
+nw/xinhua/03/chtb_0306   0   17    [WORD]     .               *))         -    -   -   -        *           *     -
+
+nw/xinhua/03/chtb_0306   0    0    [WORD]    DT   (TOP(S(NP(NP*                 -    -   -   -          *             *      (ARG0*             *               *      (4
+nw/xinhua/03/chtb_0306   0    1    [WORD]    RB          (ADJP*                 -    -   -   -          *    (ARGM-MNR*)          *             *               *       -
+nw/xinhua/03/chtb_0306   0    2    [WORD]   VBN               *)              know  01   2   -          *           (V*)          *             *               *       -
+nw/xinhua/03/chtb_0306   0    3    [WORD]    JJ               *                 -    -   -   -          *             *           *             *               *       -
+nw/xinhua/03/chtb_0306   0    4    [WORD]    NN               *)                -    -   -   -          *             *           *             *               *       -
+nw/xinhua/03/chtb_0306   0    5    [WORD]   NNP            (NP*                 -    -   -   -   (PERSON*             *           *             *               *       -
+nw/xinhua/03/chtb_0306   0    6    [WORD]   NNP               *))               -    -   -   -          *)            *           *)            *               *       4)
+nw/xinhua/03/chtb_0306   0    7    [WORD]   VBD            (VP*               sing  01   -   -          *             *         (V*)            *               *       -
+nw/xinhua/03/chtb_0306   0    8    [WORD]    DT         (NP(NP*                 -    -   -   -          *             *      (ARG1*        (ARG1*               *       -
+nw/xinhua/03/chtb_0306   0    9    [WORD]    JJ               *                 -    -   -   -          *             *           *             *               *       -
+nw/xinhua/03/chtb_0306   0   10    [WORD]    NN               *                 -    -   -   -          *             *           *             *               *       -
+nw/xinhua/03/chtb_0306   0   11    [WORD]    NN               *)                -    -   -   -          *             *           *             *)              *       -
+nw/xinhua/03/chtb_0306   0   12    [WORD]    ``               *                 -    -   -   -          *             *           *             *               *       -
+nw/xinhua/03/chtb_0306   0   13    [WORD]   NNP         (NP(NP*)                -    -   -   -       (ORG)            *           *             *               *       -
+nw/xinhua/03/chtb_0306   0   14    [WORD]    IN            (PP*                 -    -   -   -          *             *           *             *               *       -
+nw/xinhua/03/chtb_0306   0   15    [WORD]   NNP            (NP*)))              -    -   -   -       (ORG)            *           *             *               *       -
+nw/xinhua/03/chtb_0306   0   16    [WORD]    ''               *                 -    -   -   -          *             *           *             *               *       -
+nw/xinhua/03/chtb_0306   0   17    [WORD]   WDT     (SBAR(WHNP*)                -    -   -   -          *             *           *      (R-ARG1*)       (R-ARG1*)      -
+nw/xinhua/03/chtb_0306   0   18    [WORD]   PRP          (S(NP*)                -    -   -   -          *             *           *        (ARG0*)         (ARG0*)     (4)
+nw/xinhua/03/chtb_0306   0   19    [WORD]   VBD            (VP*               have  03   -   -          *             *           *           (V*)              *       -
+nw/xinhua/03/chtb_0306   0   20    [WORD]   VBN            (VP*            compose  01   1   -          *             *           *        (ARG1*             (V*)      -
+nw/xinhua/03/chtb_0306   0   21    [WORD]   PRP            (NP*)))))))          -    -   -   -          *             *           *)            *)     (ARGM-REC*)     (4)
+nw/xinhua/03/chtb_0306   0   22    [WORD]     .               *))               -    -   -   -          *             *           *             *               *       -
+
+nw/xinhua/03/chtb_0306   0    0    [WORD]    DT   (TOP(S(NP(NP*               -    -   -   -            *    (ARG0*       -
+nw/xinhua/03/chtb_0306   0    1    [WORD]    NN               *)              -    -   4   -            *         *       -
+nw/xinhua/03/chtb_0306   0    2    [WORD]    IN            (PP*               -    -   -   -            *         *       -
+nw/xinhua/03/chtb_0306   0    3    [WORD]   JJR   (NP(NP(NP(QP*               -    -   -   -   (CARDINAL*         *       -
+nw/xinhua/03/chtb_0306   0    4    [WORD]    IN               *               -    -   -   -            *         *       -
+nw/xinhua/03/chtb_0306   0    5    [WORD]    CD               *)              -    -   -   -            *)        *       -
+nw/xinhua/03/chtb_0306   0    6    [WORD]   NNS               *)              -    -   1   -            *         *       -
+nw/xinhua/03/chtb_0306   0    7    [WORD]    IN            (PP*               -    -   -   -            *         *       -
+nw/xinhua/03/chtb_0306   0    8    [WORD]    DT         (NP(NP*               -    -   -   -        (ORG*         *       -
+nw/xinhua/03/chtb_0306   0    9    [WORD]   NNP           (NML*               -    -   -   -            *         *       -
+nw/xinhua/03/chtb_0306   0   10    [WORD]   NNP               *)              -    -   -   -            *         *       -
+nw/xinhua/03/chtb_0306   0   11    [WORD]    NN               *)              -    -   -   -            *)        *       -
+nw/xinhua/03/chtb_0306   0   12    [WORD]   VBN            (VP*               -    -   -   -            *         *       -
+nw/xinhua/03/chtb_0306   0   13    [WORD]    DT            (NP*               -    -   -   -            *         *      (6
+nw/xinhua/03/chtb_0306   0   14    [WORD]    NN               *)))))          -    -   1   -            *         *       6)
+nw/xinhua/03/chtb_0306   0   15    [WORD]    CC               *               -    -   -   -            *         *       -
+nw/xinhua/03/chtb_0306   0   16    [WORD]    DT         (NP(NP*               -    -   -   -            *         *       -
+nw/xinhua/03/chtb_0306   0   17    [WORD]    JJ               *               -    -   -   -            *         *       -
+nw/xinhua/03/chtb_0306   0   18    [WORD]    NN               *)              -    -   -   -            *         *       -
+nw/xinhua/03/chtb_0306   0   19    [WORD]     ,               *               -    -   -   -            *         *       -
+nw/xinhua/03/chtb_0306   0   20    [WORD]    UH          (INTJ*)              -    -   -   -            *         *       -
+nw/xinhua/03/chtb_0306   0   21    [WORD]     ,               *               -    -   -   -            *         *       -
+nw/xinhua/03/chtb_0306   0   22    [WORD]    NN            (NP*               -    -   -   -            *         *       -
+nw/xinhua/03/chtb_0306   0   23    [WORD]    NN               *               -    -   1   -            *         *       -
+nw/xinhua/03/chtb_0306   0   24    [WORD]    NN               *)              -    -   2   -            *         *       -
+nw/xinhua/03/chtb_0306   0   25    [WORD]     ,               *               -    -   -   -            *         *       -
+nw/xinhua/03/chtb_0306   0   26    [WORD]    NN            (NP*               -    -   -   -            *         *       -
+nw/xinhua/03/chtb_0306   0   27    [WORD]    NN               *)              -    -   1   -            *         *       -
+nw/xinhua/03/chtb_0306   0   28    [WORD]    CC               *               -    -   -   -            *         *       -
+nw/xinhua/03/chtb_0306   0   29    [WORD]    JJ            (NP*               -    -   -   -            *         *       -
+nw/xinhua/03/chtb_0306   0   30    [WORD]    NN               *)))))          -    -   2   -            *         *)      -
+nw/xinhua/03/chtb_0306   0   31    [WORD]   VBD            (VP*            bring  01   1   -            *       (V*)      -
+nw/xinhua/03/chtb_0306   0   32    [WORD]   PRP            (NP*)              -    -   -   -            *    (ARG1*)     (6)
+nw/xinhua/03/chtb_0306   0   33    [WORD]    IN            (PP*               -    -   -   -            *    (ARG2*       -
+nw/xinhua/03/chtb_0306   0   34    [WORD]    DT         (NP(NP*               -    -   -   -            *         *       -
+nw/xinhua/03/chtb_0306   0   35    [WORD]    JJ               *               -    -   -   -            *         *       -
+nw/xinhua/03/chtb_0306   0   36    [WORD]    NN               *)              -    -   1   -            *         *       -
+nw/xinhua/03/chtb_0306   0   37    [WORD]   WRB   (SBAR(WHADVP*)              -    -   -   -            *         *       -
+nw/xinhua/03/chtb_0306   0   38    [WORD]    NN          (S(NP*               -    -   1   -            *         *       -
+nw/xinhua/03/chtb_0306   0   39    [WORD]     ,               *               -    -   -   -            *         *       -
+nw/xinhua/03/chtb_0306   0   40    [WORD]    NN               *               -    -   1   -            *         *       -
+nw/xinhua/03/chtb_0306   0   41    [WORD]    CC               *               -    -   -   -            *         *       -
+nw/xinhua/03/chtb_0306   0   42    [WORD]    NN               *)              -    -   -   -            *         *       -
+nw/xinhua/03/chtb_0306   0   43    [WORD]   VBN            (VP*               -    -   -   -            *         *       -
+nw/xinhua/03/chtb_0306   0   44    [WORD]    RB          (ADVP*               -    -   -   -            *         *       -
+nw/xinhua/03/chtb_0306   0   45    [WORD]   RBR               *)))))))        -    -   -   -            *         *)      -
+nw/xinhua/03/chtb_0306   0   46    [WORD]     .               *))             -    -   -   -            *         *       -
+
+nw/xinhua/03/chtb_0306   0    0    [WORD]     VBG   (TOP(S(PP*                -    -   -   -            *         *      (ARGM-ADV*      -
+nw/xinhua/03/chtb_0306   0    1    [WORD]      IN         (PP*                -    -   -   -            *         *               *      -
+nw/xinhua/03/chtb_0306   0    2    [WORD]     NNS      (NP(NP*)               -    -   1   -            *    (ARG1*)              *      -
+nw/xinhua/03/chtb_0306   0    3    [WORD]     VBN         (VP*           provide  01   1   -            *       (V*)              *      -
+nw/xinhua/03/chtb_0306   0    4    [WORD]      IN         (PP*                -    -   -   -            *    (ARG0*               *      -
+nw/xinhua/03/chtb_0306   0    5    [WORD]      DT         (NP*                -    -   -   -            *         *               *     (5
+nw/xinhua/03/chtb_0306   0    6    [WORD]      NN            *                -    -   -   -            *         *               *      -
+nw/xinhua/03/chtb_0306   0    7    [WORD]      NN            *))))))          -    -   -   -            *         *)              *)     5)
+nw/xinhua/03/chtb_0306   0    8    [WORD]       ,            *                -    -   -   -            *         *               *      -
+nw/xinhua/03/chtb_0306   0    9    [WORD]      DT      (NP(NP*                -    -   -   -            *         *          (ARG0*      -
+nw/xinhua/03/chtb_0306   0   10    [WORD]      NN            *)               -    -   -   -            *         *               *      -
+nw/xinhua/03/chtb_0306   0   11    [WORD]      IN         (PP*                -    -   -   -            *         *               *      -
+nw/xinhua/03/chtb_0306   0   12    [WORD]      CD      (NP(NP*                -    -   -   -    (CARDINAL)        *               *      -
+nw/xinhua/03/chtb_0306   0   13    [WORD]     NNS            *)               -    -   -   -            *         *               *      -
+nw/xinhua/03/chtb_0306   0   14    [WORD]      IN         (PP*                -    -   -   -            *         *               *      -
+nw/xinhua/03/chtb_0306   0   15    [WORD]      CD         (NP*                -    -   -   -    (CARDINAL)        *               *      -
+nw/xinhua/03/chtb_0306   0   16    [WORD]     NNS            *                -    -   3   -            *         *               *      -
+nw/xinhua/03/chtb_0306   0   17    [WORD]      CC            *                -    -   -   -            *         *               *      -
+nw/xinhua/03/chtb_0306   0   18    [WORD]     NNS            *)))))           -    -   1   -            *         *               *)     -
+nw/xinhua/03/chtb_0306   0   19    [WORD]     VBD         (VP*            attend  01   1   -            *         *             (V*)     -
+nw/xinhua/03/chtb_0306   0   20    [WORD]      DT      (NP(NP*                -    -   -   -            *         *          (ARG1*     (3
+nw/xinhua/03/chtb_0306   0   21    [WORD]      NN            *)               -    -   2   -            *         *               *      3)
+nw/xinhua/03/chtb_0306   0   22    [WORD]  -LRB-         (PRN*                -    -   -   -            *         *               *      -
+nw/xinhua/03/chtb_0306   0   23    [WORD]      NN      (NP(NP*)               -    -   -   -            *         *               *      -
+nw/xinhua/03/chtb_0306   0   24    [WORD]       :            *                -    -   -   -            *         *               *      -
+nw/xinhua/03/chtb_0306   0   25    [WORD]      CD      (NP(NP*)               -    -   -   -            *         *               *      -
+nw/xinhua/03/chtb_0306   0   26    [WORD]       ,            *                -    -   -   -            *         *               *      -
+nw/xinhua/03/chtb_0306   0   27    [WORD]      NN         (NP*))              -    -   1   -            *         *               *      -
+nw/xinhua/03/chtb_0306   0   28    [WORD]       :            *                -    -   -   -            *         *               *      -
+nw/xinhua/03/chtb_0306   0   29    [WORD]      CD         (NP*)               -    -   -   -            *         *               *      -
+nw/xinhua/03/chtb_0306   0   30    [WORD]       ,            *                -    -   -   -            *         *               *      -
+nw/xinhua/03/chtb_0306   0   31    [WORD]      NN      (NP(NP*                -    -   1   -            *         *               *      -
+nw/xinhua/03/chtb_0306   0   32    [WORD]      NN            *)               -    -   -   -            *         *               *      -
+nw/xinhua/03/chtb_0306   0   33    [WORD]     SYM         (PP*                -    -   -   -            *         *               *      -
+nw/xinhua/03/chtb_0306   0   34    [WORD]      CD         (NP*)))             -    -   -   -            *         *               *      -
+nw/xinhua/03/chtb_0306   0   35    [WORD]       ,            *                -    -   -   -            *         *               *      -
+nw/xinhua/03/chtb_0306   0   36    [WORD]      NN         (NP*                -    -   1   -            *         *               *      -
+nw/xinhua/03/chtb_0306   0   37    [WORD]      NN            *))              -    -   -   -            *         *               *      -
+nw/xinhua/03/chtb_0306   0   38    [WORD]       :            *                -    -   -   -            *         *               *      -
+nw/xinhua/03/chtb_0306   0   39    [WORD]      CD         (NP*)               -    -   -   -            *         *               *      -
+nw/xinhua/03/chtb_0306   0   40    [WORD]  -RRB-             *)))             -    -   -   -            *         *               *)     -
+nw/xinhua/03/chtb_0306   0   41    [WORD]       .            *))              -    -   -   -            *         *               *      -
+
+nw/xinhua/03/chtb_0306   0    0    [WORD]      CD   (TOP(S(NP*             -    -   -   -    (CARDINAL)       (ARG0*          (ARG0*     -
+nw/xinhua/03/chtb_0306   0    1    [WORD]     NNS            *)            -    -   -   -            *             *)              *)    -
+nw/xinhua/03/chtb_0306   0    2    [WORD]     VBP         (VP*           have  03   -   -            *           (V*)              *     -
+nw/xinhua/03/chtb_0306   0    3    [WORD]      RB       (ADVP*)            -    -   -   -            *    (ARGM-TMP*)     (ARGM-TMP*)    -
+nw/xinhua/03/chtb_0306   0    4    [WORD]     VBN         (VP*       register  02   1   -            *             *             (V*)    -
+nw/xinhua/03/chtb_0306   0    5    [WORD]  -LRB-             *             -    -   -   -            *             *          (ARG2*)    -
+nw/xinhua/03/chtb_0306   0    6    [WORD]     NNS   (NP(NP(NP*)            -    -   -   -            *             *               *     -
+nw/xinhua/03/chtb_0306   0    7    [WORD]       :            *             -    -   -   -            *             *               *     -
+nw/xinhua/03/chtb_0306   0    8    [WORD]      CD         (NP*))           -    -   -   -            *             *               *     -
+nw/xinhua/03/chtb_0306   0    9    [WORD]       ,            *             -    -   -   -            *             *               *     -
+nw/xinhua/03/chtb_0306   0   10    [WORD]      NN      (NP(NP*             -    -   1   -            *             *               *     -
+nw/xinhua/03/chtb_0306   0   11    [WORD]     NNS            *)            -    -   -   -            *             *               *     -
+nw/xinhua/03/chtb_0306   0   12    [WORD]       :            *             -    -   -   -            *             *               *     -
+nw/xinhua/03/chtb_0306   0   13    [WORD]      CD         (NP*             -    -   -   -            *             *               *     -
+nw/xinhua/03/chtb_0306   0   14    [WORD]       ,            *             -    -   -   -            *             *               *     -
+nw/xinhua/03/chtb_0306   0   15    [WORD]      NN        (NML*             -    -   -   -            *             *               *     -
+nw/xinhua/03/chtb_0306   0   16    [WORD]      CC            *             -    -   -   -            *             *               *     -
+nw/xinhua/03/chtb_0306   0   17    [WORD]      NN            *)            -    -   3   -            *             *               *     -
+nw/xinhua/03/chtb_0306   0   18    [WORD]     NNS            *)            -    -   -   -            *             *               *     -
+nw/xinhua/03/chtb_0306   0   19    [WORD]       :            *             -    -   -   -            *             *               *     -
+nw/xinhua/03/chtb_0306   0   20    [WORD]      CD         (NP*))           -    -   -   -            *             *               *     -
+nw/xinhua/03/chtb_0306   0   21    [WORD]       ,            *             -    -   -   -            *             *               *     -
+nw/xinhua/03/chtb_0306   0   22    [WORD]      FW       (ADVP*))           -    -   -   -            *             *               *     -
+nw/xinhua/03/chtb_0306   0   23    [WORD]  -RRB-             *))           -    -   -   -            *             *               *     -
+nw/xinhua/03/chtb_0306   0   24    [WORD]       .            *))           -    -   -   -            *             *               *     -
+
+nw/xinhua/03/chtb_0306   0    0    [WORD]    DT   (TOP(S(NP(NP*                      -    -   -   -            *         *      (ARG0*               *               *           *      -
+nw/xinhua/03/chtb_0306   0    1    [WORD]    NN               *)                     -    -   -   -            *         *           *               *               *           *      -
+nw/xinhua/03/chtb_0306   0    2    [WORD]    IN            (PP*                      -    -   -   -            *         *           *               *               *           *      -
+nw/xinhua/03/chtb_0306   0    3    [WORD]    DT            (NP*                      -    -   -   -            *         *           *               *               *           *     (5
+nw/xinhua/03/chtb_0306   0    4    [WORD]   VBG               *                organize  01   1   -            *       (V*)          *               *               *           *      -
+nw/xinhua/03/chtb_0306   0    5    [WORD]    NN               *)))                   -    -   -   -            *    (ARG0*)          *)              *               *           *      5)
+nw/xinhua/03/chtb_0306   0    6    [WORD]   VBD            (VP*                     say  01   1   -            *         *         (V*)              *               *           *      -
+nw/xinhua/03/chtb_0306   0    7    [WORD]     ,               *                      -    -   -   -            *         *           *               *               *           *      -
+nw/xinhua/03/chtb_0306   0    8    [WORD]    ``               *                      -    -   -   -            *         *           *               *               *           *      -
+nw/xinhua/03/chtb_0306   0    9    [WORD]    DT       (S(NP(NP*                      -    -   -   -            *         *      (ARG1*          (ARG1*          (ARG0*      (ARG0*      -
+nw/xinhua/03/chtb_0306   0   10    [WORD]    NN               *)                     -    -   -   -            *         *           *               *               *           *      -
+nw/xinhua/03/chtb_0306   0   11    [WORD]    IN            (PP*                      -    -   -   -            *         *           *               *               *           *      -
+nw/xinhua/03/chtb_0306   0   12    [WORD]    RB         (NP(QP*                      -    -   -   -   (CARDINAL*         *           *               *               *           *      -
+nw/xinhua/03/chtb_0306   0   13    [WORD]    CD               *)                     -    -   -   -            *)        *           *               *               *           *      -
+nw/xinhua/03/chtb_0306   0   14    [WORD]   NNS               *)))                   -    -   1   -            *         *           *               *)              *)          *)     -
+nw/xinhua/03/chtb_0306   0   15    [WORD]    MD            (VP*                      -    -   -   -            *         *           *      (ARGM-MOD*)     (ARGM-MOD*)          *      -
+nw/xinhua/03/chtb_0306   0   16    [WORD]    VB            (VP*                      be  01   -   -            *         *           *             (V*)              *           *      -
+nw/xinhua/03/chtb_0306   0   17    [WORD]   VBG            (VP*                  strive  01   -   -            *         *           *          (ARG2*             (V*)          *      -
+nw/xinhua/03/chtb_0306   0   18    [WORD]    TO          (S(VP*                      -    -   -   -            *         *           *               *          (ARG1*           *      -
+nw/xinhua/03/chtb_0306   0   19    [WORD]    VB            (VP*                  ensure  01   1   -            *         *           *               *               *         (V*)     -
+nw/xinhua/03/chtb_0306   0   20    [WORD]    DT         (NP(NP*                      -    -   -   -            *         *           *               *               *      (ARG1*      -
+nw/xinhua/03/chtb_0306   0   21    [WORD]    JJ               *                      -    -   -   -            *         *           *               *               *           *      -
+nw/xinhua/03/chtb_0306   0   22    [WORD]    NN               *)                     -    -   3   -            *         *           *               *               *           *      -
+nw/xinhua/03/chtb_0306   0   23    [WORD]    IN            (PP*                      -    -   -   -            *         *           *               *               *           *      -
+nw/xinhua/03/chtb_0306   0   24    [WORD]    DT            (NP*                      -    -   -   -            *         *           *               *               *           *     (3
+nw/xinhua/03/chtb_0306   0   25    [WORD]   NNS               *)))))))))))           -    -   3   -            *         *           *)              *)              *)          *)     3)
+nw/xinhua/03/chtb_0306   0   26    [WORD]     .               *                      -    -   -   -            *         *           *               *               *           *      -
+nw/xinhua/03/chtb_0306   0   27    [WORD]    ''               *))                    -    -   -   -            *         *           *               *               *           *      -
+
+nw/xinhua/03/chtb_0306   0    0    [WORD]    DT   (TOP(S(NP*              -    -   -   -            *    (ARG2*     (3
+nw/xinhua/03/chtb_0306   0    1    [WORD]   NNS            *)             -    -   3   -            *         *)     3)
+nw/xinhua/03/chtb_0306   0    2    [WORD]   VBP         (VP*         include  01   1   -            *       (V*)     -
+nw/xinhua/03/chtb_0306   0    3    [WORD]    CD      (NP(NP*              -    -   -   -    (CARDINAL)   (ARG1*      -
+nw/xinhua/03/chtb_0306   0    4    [WORD]   NNS            *)             -    -   -   -            *         *      -
+nw/xinhua/03/chtb_0306   0    5    [WORD]    IN         (PP*              -    -   -   -            *         *      -
+nw/xinhua/03/chtb_0306   0    6    [WORD]    NN         (NP*              -    -   -   -            *         *      -
+nw/xinhua/03/chtb_0306   0    7    [WORD]     ,            *              -    -   -   -            *         *      -
+nw/xinhua/03/chtb_0306   0    8    [WORD]    NN            *              -    -   1   -            *         *      -
+nw/xinhua/03/chtb_0306   0    9    [WORD]     ,            *              -    -   -   -            *         *      -
+nw/xinhua/03/chtb_0306   0   10    [WORD]    NN    (NML(NML*              -    -   1   -            *         *      -
+nw/xinhua/03/chtb_0306   0   11    [WORD]    NN            *)             -    -   -   -            *         *      -
+nw/xinhua/03/chtb_0306   0   12    [WORD]     ,            *              -    -   -   -            *         *      -
+nw/xinhua/03/chtb_0306   0   13    [WORD]    NN        (NML*              -    -   1   -            *         *      -
+nw/xinhua/03/chtb_0306   0   14    [WORD]    NN            *)             -    -   -   -            *         *      -
+nw/xinhua/03/chtb_0306   0   15    [WORD]    CC            *              -    -   -   -            *         *      -
+nw/xinhua/03/chtb_0306   0   16    [WORD]    JJ        (NML*              -    -   -   -            *         *      -
+nw/xinhua/03/chtb_0306   0   17    [WORD]    NN            *))            -    -   -   -            *         *      -
+nw/xinhua/03/chtb_0306   0   18    [WORD]    NN            *))))          -    -   -   -            *         *)     -
+nw/xinhua/03/chtb_0306   0   19    [WORD]     .            *))            -    -   -   -            *         *      -
+
+nw/xinhua/03/chtb_0306   0    0    [WORD]    DT   (TOP(S(NP*             -    -   -   -        *        (ARG1*          (ARG1*     (3
+nw/xinhua/03/chtb_0306   0    1    [WORD]    NN            *)            -    -   2   -        *             *)              *)     3)
+nw/xinhua/03/chtb_0306   0    2    [WORD]   VBZ      (VP(VP*          begin  01   1   -        *           (V*)              *      -
+nw/xinhua/03/chtb_0306   0    3    [WORD]    IN         (PP*             -    -   -   -        *    (ARGM-TMP*               *      -
+nw/xinhua/03/chtb_0306   0    4    [WORD]   NNP         (NP*             -    -   -   -   (DATE*             *               *      -
+nw/xinhua/03/chtb_0306   0    5    [WORD]    NN            *)))          -    -   -   -        *)            *)              *      -
+nw/xinhua/03/chtb_0306   0    6    [WORD]    CC            *             -    -   -   -        *             *               *      -
+nw/xinhua/03/chtb_0306   0    7    [WORD]    MD         (VP*             -    -   -   -        *             *      (ARGM-MOD*)     -
+nw/xinhua/03/chtb_0306   0    8    [WORD]    VB         (VP*            end  01   1   -        *             *             (V*)     -
+nw/xinhua/03/chtb_0306   0    9    [WORD]    IN         (PP*             -    -   -   -        *             *          (ARG1*      -
+nw/xinhua/03/chtb_0306   0   10    [WORD]   NNP         (NP*             -    -   -   -   (DATE*             *               *      -
+nw/xinhua/03/chtb_0306   0   11    [WORD]    NN            *)))))        -    -   -   -        *)            *               *)     -
+nw/xinhua/03/chtb_0306   0   12    [WORD]     .            *))           -    -   -   -        *             *               *      -
+
+nw/xinhua/03/chtb_0306   0    0    [WORD]   NNP   (TOP(S(S(NP*)                     -    -   -   -         (GPE)       (ARG0*)          *               *       -
+nw/xinhua/03/chtb_0306   0    1    [WORD]    MD           (VP*                      -    -   -   -            *    (ARGM-MOD*)          *               *       -
+nw/xinhua/03/chtb_0306   0    2    [WORD]    VB           (VP*                    send  01   2   -            *           (V*)          *               *       -
+nw/xinhua/03/chtb_0306   0    3    [WORD]    CD           (NP*                      -    -   -   -    (CARDINAL)       (ARG1*           *               *      (1
+nw/xinhua/03/chtb_0306   0    4    [WORD]   NNS              *)                     -    -   -   -            *             *)          *               *       1)
+nw/xinhua/03/chtb_0306   0    5    [WORD]    TO         (S(VP*                      -    -   -   -            *    (ARGM-PNC*           *               *       -
+nw/xinhua/03/chtb_0306   0    6    [WORD]    VB           (VP*             participate  01   -   -            *             *         (V*)              *       -
+nw/xinhua/03/chtb_0306   0    7    [WORD]    IN           (PP*                      -    -   -   -            *             *      (ARG1*               *       -
+nw/xinhua/03/chtb_0306   0    8    [WORD]    CD           (NP*                      -    -   -   -    (CARDINAL)            *           *               *       -
+nw/xinhua/03/chtb_0306   0    9    [WORD]    NN              *                      -    -   2   -            *             *           *               *       -
+nw/xinhua/03/chtb_0306   0   10    [WORD]   NNS              *))))))))              -    -   -   -            *             *)          *)              *       -
+nw/xinhua/03/chtb_0306   0   11    [WORD]     ,              *                      -    -   -   -            *             *           *               *       -
+nw/xinhua/03/chtb_0306   0   12    [WORD]    IN         (S(PP*                      -    -   -   -            *             *           *      (ARGM-LOC*       -
+nw/xinhua/03/chtb_0306   0   13    [WORD]   PRP           (NP*))                    -    -   -   -            *             *           *               *)     (1)
+nw/xinhua/03/chtb_0306   0   14    [WORD]   VBP           (VP*                      be  01   1   -            *             *           *             (V*)      -
+nw/xinhua/03/chtb_0306   0   15    [WORD]     ,              *                      -    -   -   -            *             *           *               *       -
+nw/xinhua/03/chtb_0306   0   16    [WORD]    CD        (NP(NP*                      -    -   -   -    (CARDINAL)            *           *               *       -
+nw/xinhua/03/chtb_0306   0   17    [WORD]    NN              *                      -    -   -   -            *             *           *               *       -
+nw/xinhua/03/chtb_0306   0   18    [WORD]   NNS              *)                     -    -   -   -            *             *           *               *       -
+nw/xinhua/03/chtb_0306   0   19    [WORD]     ,              *                      -    -   -   -            *             *           *               *       -
+nw/xinhua/03/chtb_0306   0   20    [WORD]    CD           (NP*                      -    -   -   -    (CARDINAL)            *           *               *      (0
+nw/xinhua/03/chtb_0306   0   21    [WORD]    NN              *                      -    -   1   -            *             *           *               *       -
+nw/xinhua/03/chtb_0306   0   22    [WORD]   NNS              *)                     -    -   -   -            *             *           *               *       0)
+nw/xinhua/03/chtb_0306   0   23    [WORD]     ,              *                      -    -   -   -            *             *           *               *       -
+nw/xinhua/03/chtb_0306   0   24    [WORD]    CC              *                      -    -   -   -            *             *           *               *       -
+nw/xinhua/03/chtb_0306   0   25    [WORD]    CD           (NP*                      -    -   -   -    (QUANTITY)            *           *               *       -
+nw/xinhua/03/chtb_0306   0   26    [WORD]    NN          (NML*                      -    -   1   -            *             *           *               *       -
+nw/xinhua/03/chtb_0306   0   27    [WORD]    NN              *)                     -    -   -   -            *             *           *               *       -
+nw/xinhua/03/chtb_0306   0   28    [WORD]   NNS              *))))                  -    -   -   -            *             *           *               *       -
+nw/xinhua/03/chtb_0306   0   29    [WORD]     .              *))                    -    -   -   -            *             *           *               *       -
+
+nw/xinhua/03/chtb_0306   0    0    [WORD]   PDT   (TOP(S(NP*             -    -   -   -       *        (ARG0*          (ARG1*          (ARG0*      (0
+nw/xinhua/03/chtb_0306   0    1    [WORD]    DT            *             -    -   -   -       *             *               *               *       -
+nw/xinhua/03/chtb_0306   0    2    [WORD]    NN            *             -    -   1   -       *             *               *               *       -
+nw/xinhua/03/chtb_0306   0    3    [WORD]   NNS            *)            -    -   -   -       *             *)              *)              *)      0)
+nw/xinhua/03/chtb_0306   0    4    [WORD]   VBP         (VP*           have  03   -   -       *           (V*)              *               *       -
+nw/xinhua/03/chtb_0306   0    5    [WORD]    RB       (ADVP*)            -    -   -   -       *    (ARGM-TMP*)     (ARGM-TMP*)     (ARGM-TMP*)      -
+nw/xinhua/03/chtb_0306   0    6    [WORD]   VBN      (VP(VP*         arrive  01   -   -       *             *             (V*)              *       -
+nw/xinhua/03/chtb_0306   0    7    [WORD]    IN         (PP*             -    -   -   -       *             *          (ARG4*               *       -
+nw/xinhua/03/chtb_0306   0    8    [WORD]   NNP         (NP*)))          -    -   -   -    (GPE)            *               *)              *      (2)
+nw/xinhua/03/chtb_0306   0    9    [WORD]    CC            *             -    -   -   -       *             *               *               *       -
+nw/xinhua/03/chtb_0306   0   10    [WORD]   VBN         (VP*          start  01   2   -       *             *               *             (V*)      -
+nw/xinhua/03/chtb_0306   0   11    [WORD]    JJ         (NP*             -    -   -   -       *             *               *          (ARG1*       -
+nw/xinhua/03/chtb_0306   0   12    [WORD]   NNS            *))))         -    -   1   -       *             *               *               *)      -
+nw/xinhua/03/chtb_0306   0   13    [WORD]     .            *))           -    -   -   -       *             *               *               *       -
+
+nw/xinhua/03/chtb_0306   0    0    [WORD]    JJ   (TOP(S(NP*             -    -   -   -            *        (ARG1*     -
+nw/xinhua/03/chtb_0306   0    1    [WORD]   NNS            *)            -    -   1   -            *             *)    -
+nw/xinhua/03/chtb_0306   0    2    [WORD]    MD         (VP*             -    -   -   -            *    (ARGM-MOD*)    -
+nw/xinhua/03/chtb_0306   0    3    [WORD]    VB         (VP*         arrive  01   -   -            *           (V*)    -
+nw/xinhua/03/chtb_0306   0    4    [WORD]    IN         (PP*             -    -   -   -            *    (ARGM-ADV*     -
+nw/xinhua/03/chtb_0306   0    5    [WORD]    CD         (NP*             -    -   -   -    (CARDINAL)            *     -
+nw/xinhua/03/chtb_0306   0    6    [WORD]   NNS            *))           -    -   -   -            *             *)    -
+nw/xinhua/03/chtb_0306   0    7    [WORD]    IN         (PP*             -    -   -   -            *             *     -
+nw/xinhua/03/chtb_0306   0    8    [WORD]   NNP         (NP*             -    -   -   -       (DATE*             *     -
+nw/xinhua/03/chtb_0306   0    9    [WORD]    NN            *))))         -    -   -   -            *)            *     -
+nw/xinhua/03/chtb_0306   0   10    [WORD]     .            *))           -    -   -   -            *             *     -
+
+nw/xinhua/03/chtb_0306   0   0    [WORD]  -LRB-    (TOP(NP*      -   -   -   -       *   -
+nw/xinhua/03/chtb_0306   0   1    [WORD]      NN          *      -   -   4   -    (ORG)  -
+nw/xinhua/03/chtb_0306   0   2    [WORD]  -RRB-           *))    -   -   -   -       *   -
+
+#end document

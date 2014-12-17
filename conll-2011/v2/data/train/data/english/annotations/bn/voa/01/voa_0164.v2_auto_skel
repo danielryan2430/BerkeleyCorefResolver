@@ -1,0 +1,84 @@
+#begin document (bn/voa/01/voa_0164); part 000
+bn/voa/01/voa_0164   0    0    [WORD]   NNP   (TOP(S(NP(NP*                 -    -   -   -       (GPE)   (ARG0*      (ARG0*           *      -
+bn/voa/01/voa_0164   0    1    [WORD]   POS               *)                -    -   -   -          *         *           *           *      -
+bn/voa/01/voa_0164   0    2    [WORD]    NN               *)                -    -   -   -          *         *)          *)          *      -
+bn/voa/01/voa_0164   0    3    [WORD]   VBZ            (VP*               have  03   -   -          *       (V*)          *           *      -
+bn/voa/01/voa_0164   0    4    [WORD]   VBN            (VP*               give  01   3   -          *    (ARG1*         (V*)          *      -
+bn/voa/01/voa_0164   0    5    [WORD]    JJ            (NP*                 -    -   -   -          *         *           *           *      -
+bn/voa/01/voa_0164   0    6    [WORD]    NN               *)                -    -   -   -          *         *           *           *      -
+bn/voa/01/voa_0164   0    7    [WORD]    IN            (PP*                 -    -   -   -          *         *      (ARG2*           *      -
+bn/voa/01/voa_0164   0    8    [WORD]    NN         (NP(NP*)                -    -   3   -          *         *           *           *      -
+bn/voa/01/voa_0164   0    9    [WORD]   VBG            (VP*                 -    -   1   -          *         *           *           *      -
+bn/voa/01/voa_0164   0   10    [WORD]    JJ      (S(NP(NML*                 -    -   -   -          *         *           *      (ARG0*     (1
+bn/voa/01/voa_0164   0   11    [WORD]   NNP               *                 -    -   -   -          *         *           *           *      -
+bn/voa/01/voa_0164   0   12    [WORD]   NNP               *)                -    -   -   -          *         *           *           *      -
+bn/voa/01/voa_0164   0   13    [WORD]   NNP               *                 -    -   -   -   (PERSON*         *           *           *      -
+bn/voa/01/voa_0164   0   14    [WORD]   NNP               *)                -    -   -   -          *)        *           *           *)     1)
+bn/voa/01/voa_0164   0   15    [WORD]    TO            (VP*                 -    -   -   -          *         *           *           *      -
+bn/voa/01/voa_0164   0   16    [WORD]    VB            (VP*                run  01   7   -          *         *           *         (V*)     -
+bn/voa/01/voa_0164   0   17    [WORD]    IN            (PP*                 -    -   -   -          *         *           *      (ARG1*      -
+bn/voa/01/voa_0164   0   18    [WORD]    DT            (NP*                 -    -   -   -          *         *           *           *      -
+bn/voa/01/voa_0164   0   19    [WORD]    JJ               *                 -    -   -   -          *         *           *           *      -
+bn/voa/01/voa_0164   0   20    [WORD]    JJ               *                 -    -   -   -          *         *           *           *      -
+bn/voa/01/voa_0164   0   21    [WORD]    NN               *))))))))))       -    -   -   -          *         *)          *)          *)     -
+bn/voa/01/voa_0164   0   22    [WORD]     .               *))               -    -   -   -          *         *           *           *      -
+
+bn/voa/01/voa_0164   0    0    [WORD]    IN   (TOP(S(PP*                         -    -   -   -          *    (ARGM-LOC*      (ARGM-LOC*               *           *       -
+bn/voa/01/voa_0164   0    1    [WORD]    JJ         (NP*                         -    -   -   -          *             *               *               *           *       -
+bn/voa/01/voa_0164   0    2    [WORD]    NN            *))                       -    -   1   -          *             *)              *)              *           *       -
+bn/voa/01/voa_0164   0    3    [WORD]   NNP         (NP*                         -    -   -   -          *        (ARG1*          (ARG1*          (ARG0*           *      (1
+bn/voa/01/voa_0164   0    4    [WORD]   NNP            *)                        -    -   -   -    (PERSON)            *)              *)              *)          *       1)
+bn/voa/01/voa_0164   0    5    [WORD]   VBZ         (VP*                         be  01   -   -          *           (V*)              *               *           *       -
+bn/voa/01/voa_0164   0    6    [WORD]   VBN         (VP*                        bar  01   -   -          *        (ARG2*             (V*)              *           *       -
+bn/voa/01/voa_0164   0    7    [WORD]    IN         (PP*                         -    -   -   -          *             *          (ARG1*               *           *       -
+bn/voa/01/voa_0164   0    8    [WORD]   VBG       (S(VP*                participate  01   -   -          *             *               *             (V*)          *       -
+bn/voa/01/voa_0164   0    9    [WORD]    IN       (SBAR*                         -    -   -   -          *             *               *      (ARGM-CAU*           *       -
+bn/voa/01/voa_0164   0   10    [WORD]   PRP       (S(NP*)                        -    -   -   -          *             *               *               *      (ARG1*)     (1)
+bn/voa/01/voa_0164   0   11    [WORD]   VBZ         (VP*                         be  01   1   -          *             *               *               *         (V*)      -
+bn/voa/01/voa_0164   0   12    [WORD]    RB            *                         -    -   -   -          *             *               *               *           *       -
+bn/voa/01/voa_0164   0   13    [WORD]    DT      (NP(NP*                         -    -   -   -          *             *               *               *      (ARG2*       -
+bn/voa/01/voa_0164   0   14    [WORD]    NN            *)                        -    -   1   -          *             *               *               *           *       -
+bn/voa/01/voa_0164   0   15    [WORD]    IN         (PP*                         -    -   -   -          *             *               *               *           *       -
+bn/voa/01/voa_0164   0   16    [WORD]   NNP         (NP*)))))))))))              -    -   -   -       (ORG)            *)              *)              *)          *)      -
+bn/voa/01/voa_0164   0   17    [WORD]     .            *))                       -    -   -   -          *             *               *               *           *       -
+
+bn/voa/01/voa_0164   0    0    [WORD]    RB   (TOP(S(ADVP*)          -    -   -   -            *    (ARGM-TMP*)     (ARGM-TMP*)     -
+bn/voa/01/voa_0164   0    1    [WORD]     ,              *           -    -   -   -            *             *               *      -
+bn/voa/01/voa_0164   0    2    [WORD]    JJ           (NP*           -    -   -   -            *        (ARG0*          (ARG0*      -
+bn/voa/01/voa_0164   0    3    [WORD]   NNS              *)          -    -   2   -            *             *)              *)     -
+bn/voa/01/voa_0164   0    4    [WORD]   VBP           (VP*         have  03   -   -            *           (V*)              *      -
+bn/voa/01/voa_0164   0    5    [WORD]   VBN           (VP*         kill  01   1   -            *        (ARG1*             (V*)     -
+bn/voa/01/voa_0164   0    6    [WORD]    CD        (NP(NP*           -    -   -   -    (CARDINAL)            *          (ARG1*      -
+bn/voa/01/voa_0164   0    7    [WORD]    JJ              *           -    -   -   -            *             *               *      -
+bn/voa/01/voa_0164   0    8    [WORD]   NNS              *)          -    -   -   -            *             *               *      -
+bn/voa/01/voa_0164   0    9    [WORD]    IN           (PP*           -    -   -   -            *             *               *      -
+bn/voa/01/voa_0164   0   10    [WORD]    DT           (NP*           -    -   -   -            *             *               *     (0
+bn/voa/01/voa_0164   0   11    [WORD]    NN              *           -    -   -   -            *             *               *      -
+bn/voa/01/voa_0164   0   12    [WORD]    NN              *)))        -    -   6   -            *             *               *)     -
+bn/voa/01/voa_0164   0   13    [WORD]    IN           (PP*           -    -   -   -            *             *      (ARGM-LOC*      -
+bn/voa/01/voa_0164   0   14    [WORD]    DT           (NP*           -    -   -   -        (LOC*             *               *      -
+bn/voa/01/voa_0164   0   15    [WORD]   NNP              *           -    -   -   -            *             *               *      -
+bn/voa/01/voa_0164   0   16    [WORD]   NNP              *))))       -    -   -   -            *)            *)              *)     0)
+bn/voa/01/voa_0164   0   17    [WORD]     .              *))         -    -   -   -            *             *               *      -
+
+bn/voa/01/voa_0164   0    0    [WORD]    JJ   (TOP(S(NP*               -    -   -   -       *        (ARG0*               *      -
+bn/voa/01/voa_0164   0    1    [WORD]   NNS            *)              -    -   2   -       *             *)              *      -
+bn/voa/01/voa_0164   0    2    [WORD]   VBD         (VP*            enter  01   1   -       *           (V*)              *      -
+bn/voa/01/voa_0164   0    3    [WORD]    DT         (NP*               -    -   -   -       *        (ARG1*               *     (0
+bn/voa/01/voa_0164   0    4    [WORD]   NNP        (NML*               -    -   -   -   (GPE*             *               *      -
+bn/voa/01/voa_0164   0    5    [WORD]   NNP            *)              -    -   -   -       *)            *               *      -
+bn/voa/01/voa_0164   0    6    [WORD]    NN            *)              -    -   1   -       *             *)              *      0)
+bn/voa/01/voa_0164   0    7    [WORD]    IN       (SBAR*               -    -   -   -       *    (ARGM-TMP*               *      -
+bn/voa/01/voa_0164   0    8    [WORD]    JJ       (S(NP*               -    -   -   -       *             *          (ARG0*      -
+bn/voa/01/voa_0164   0    9    [WORD]   NNS            *)              -    -   -   -       *             *               *)     -
+bn/voa/01/voa_0164   0   10    [WORD]   VBD         (VP*             fire  02   1   -       *             *             (V*)     -
+bn/voa/01/voa_0164   0   11    [WORD]    IN         (PP*               -    -   -   -       *             *          (ARG1*      -
+bn/voa/01/voa_0164   0   12    [WORD]    JJ         (NP*               -    -   -   -       *             *               *      -
+bn/voa/01/voa_0164   0   13    [WORD]   NNS            *))             -    -   -   -       *             *               *)     -
+bn/voa/01/voa_0164   0   14    [WORD]   VBG       (S(VP*               -    -   2   -       *             *      (ARGM-ADV*      -
+bn/voa/01/voa_0164   0   15    [WORD]    DT         (NP*               -    -   -   -       *             *               *      -
+bn/voa/01/voa_0164   0   16    [WORD]    JJ            *               -    -   -   -       *             *               *      -
+bn/voa/01/voa_0164   0   17    [WORD]    NN            *)))))))        -    -   1   -       *             *)              *)     -
+bn/voa/01/voa_0164   0   18    [WORD]     .            *))             -    -   -   -       *             *               *      -
+
+#end document

@@ -1,0 +1,17 @@
+cnn_0117.parse 0 2 predicted be-v be.01 ----- 2:0-rel  0:1-ARG1 7:0-ARGM-TMP
+cnn_0117.parse 0 3 predicted observe-v observe.02 ----- 3:0-rel  0:1-ARG0 7:0-ARGM-TMP 8:1-ARGM-PRP
+cnn_0117.parse 0 12 predicted battle-v battle.01 ----- 12:0-rel  0:1-ARG0
+cnn_0117.parse 0 19 predicted call-v call.01 ----- 19:0-rel  17:1-ARG1 18:1-ARG0 20:1-ARG2
+cnn_0117.parse 1 2 predicted say-v say.01 ----- 2:0-rel  0:1-ARG0 3:4-ARG1
+cnn_0117.parse 1 6 predicted be-v be.01 ----- 6:0-rel  3:2-ARG1 7:1-ARG2
+cnn_0117.parse 1 7 predicted live-v live.- ----- 7:0-rel  3:2-ARG0 8:1-ARGM-MNR
+cnn_0117.parse 2 2 predicted be-v be.01 ----- 2:0-rel  0:2-ARG1
+cnn_0117.parse 2 3 predicted infect-v infect.01 ----- 3:0-rel  0:2-ARG1 4:1-ARGM-TMP
+cnn_0117.parse 3 3 predicted say-v say.01 ----- 3:0-rel  0:1-ARG0 4:3-ARG1
+cnn_0117.parse 3 6 predicted take-v take.01 ----- 6:0-rel  4:1-ARG0 5:0-ARGM-MOD 7:2-ARG1 11:2-ARGM-PRP
+cnn_0117.parse 3 12 predicted stop-v stop.01 ----- 12:0-rel  4:1-ARG0 13:2-ARG1
+cnn_0117.parse 4 6 predicted say-v say.01 ----- 6:0-rel  0:2-ARG0 7:3-ARG1
+cnn_0117.parse 4 9 predicted make-v make.01 ----- 9:0-rel  7:1-ARG0 8:0-ARGM-MOD 10:1-ARG1 13:1-ARGM-MNR
+cnn_0117.parse 4 14 predicted be-v be.01 ----- 14:0-rel  7:1-ARG1 15:1-ARG2
+cnn_0117.parse 4 18 predicted take-v take.01 ----- 18:0-rel  7:1-ARG0 19:1-ARG1
+cnn_0117.parse 4 23 predicted face-v face.01 ----- 23:0-rel  7:1-ARG0 24:2-ARG1

@@ -1,6 +1,4 @@
-/**
- * Created by dimberman on 12/11/14.
- */
+
 
 import java.io.{FileWriter, File}
 import resolver.parser.document.{Parser, Document}
@@ -9,12 +7,6 @@ import classifier.{FeatureExtractor, adaGradTrainer, bayesianClassifier}
 import scala.util.Random
 
 object systemCore {
-
-  def getTotalErrors(chain: Seq[Int], doc: Document): Int = {
-    (0 /: chain.zip(doc.features)) {
-      case (errors, (ass, fs)) => if (fs.mentionID == doc.features(ass).mentionID) errors else errors+1
-    }
-  }
 
   def DetailedLoss(chain: Seq[Int], doc: Document): (Int, Int, Int, Int) = {
     val lssFn = adaGradTrainer.lossFunctionGen(1, 2, 3)
@@ -48,8 +40,8 @@ object systemCore {
   }
 
   def main(args: Array[String]) {
-    val trainingDataPath = "/Users/dimberman/Code/NLP/conll-2011/v2/data/train/data/english/annotations/bn"
-    val testingDataPath = "/Users/dimberman/Code/NLP/conll-2011_test_key/v2/data/test/data/english/annotations/bn"
+    val trainingDataPath = "./conll-2011/v2/data/train/data/english/annotations/bn"
+    val testingDataPath = "./conll-2011_test_key/v2/data/test/data/english/annotations/bn"
 
     val goldTrainFiles = goldFileList(new File(trainingDataPath))
     /* do parsiing here*/
@@ -65,14 +57,16 @@ object systemCore {
 
     val featurizer = new FeatureExtractor(docList)
 
+    featurizer.dumpFeatures()
+
     //random tests if true
     val noWeights = false
 
 
 
-    var weights = Seq[Double]()
+    var weights = Array[Double]()
     if(!noWeights) {
-      weights = adaGradTrainer.train(docList, .1, .001, 1, featurizer.featCount, featurizer.extractFeatures, adaGradTrainer.lossFunctionGen(5, .1, 3))
+      weights = adaGradTrainer.train(docList, 1, .001, 5, featurizer.featCount, featurizer.extractFeatures, adaGradTrainer.lossFunctionGen(3, .1, 1))
 
 
       val sav = new File("./SaveWeights.txt")
@@ -95,29 +89,26 @@ object systemCore {
       var fat =0
       var corrt=0;
       for (i <- List.fill(25)(0)) {
-        weights = List.fill(featurizer.featCount)(0.0)
+        weights = Array.fill(featurizer.featCount)(0.0)
         weights =weights.map(a =>Random.nextDouble())
-        val entries = testDocList.map(bayesianClassifier.classify(weights.toArray, _, featurizer.extractFeatures))
-        val totalErrors = (0 /: entries.zip(testDocList)) { case (error, (assn, doc)) => error + getTotalErrors(assn, doc)}
-        println("Total Errors = " + totalErrors)
+        val entries = testDocList.map(bayesianClassifier.classify(weights, _, featurizer.extractFeatures))
         val (fn, fa, wl, corr) = ((0, 0, 0, 0) /: entries.zip(testDocList)) { case (error, (assn, doc)) => val dl = DetailedLoss(assn, doc)
           (error._1 + dl._1, error._2 + dl._2, error._3 + dl._3, error._4 + dl._4)
         }
         fnt+=fn
-        wlt+wl
+        wlt+=wl
         fat+=fa
         corrt+=corr
       }
       println("25 pt averages")
-      println("False New avg= " + fnt/25)
-      println("False Anaphor avg= " + fat/25)
-      println("Wrong Link avg= " + wlt/25)
-      println("Correctly Assigned Links avg= " + corrt/25)
+      println("False New avg= " + fnt/25. +" Total: "+fnt)
+      println("False Anaphor avg= " + fat/25. +" Total: "+fat)
+      println("Wrong Link avg= " + wlt/25.  +" Total: "+wlt)
+      println("Correctly Assigned Links avg= " + corrt/25. +" Total: "+corrt)
     }
 
-    val entries = testDocList.map(bayesianClassifier.classify(weights.toArray, _, featurizer.extractFeatures))
-    val totalErrors = (0 /: entries.zip(testDocList)) { case (error, (assn, doc)) => error + getTotalErrors(assn, doc)}
-    println("Total Errors = " + totalErrors)
+    val entries = testDocList.map(bayesianClassifier.classify(weights, _, featurizer.extractFeatures))
+
     val (fn, fa, wl, corr) = ((0, 0, 0, 0) /: entries.zip(testDocList)) { case (error, (assn, doc)) => val dl = DetailedLoss(assn, doc)
       (error._1 + dl._1, error._2 + dl._2, error._3 + dl._3, error._4 + dl._4)
     }
@@ -128,10 +119,13 @@ object systemCore {
 //      }
 //    }
 //    println("number of gold clusters: " + a.size)
+    println("Total Errors = " + (fn+fa+wl))
+
     println("False New = " + fn)
     println("False Anaphor = " + fa)
     println("Wrong Link = " + wl)
     println("Correctly Assigned Links = " + corr)
+    println("efficacy % = " + (corr*1.0/(corr+fn+fa+wl))*100.)
 
   }
 }

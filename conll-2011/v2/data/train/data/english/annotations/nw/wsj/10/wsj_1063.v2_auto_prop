@@ -1,0 +1,7 @@
+wsj_1063.parse 0 2 predicted say-v say.01 ----- 2:0-rel  0:1-ARG0 3:3-ARG1
+wsj_1063.parse 0 8 predicted have-v have.03 ----- 8:0-rel  3:1-ARG0 9:1-ARG1
+wsj_1063.parse 0 9 predicted start-v start.01 ----- 9:0-rel  3:1-ARG1 10:2-C-ARG1
+wsj_1063.parse 0 10 predicted operate-v operate.01 ----- 10:0-rel  3:1-ARG1 11:1-ARGM-MNR
+wsj_1063.parse 0 24 predicted handle-v handle.01 ----- 24:0-rel  22:1-R-ARG0 23:1-ARGM-TMP 25:2-ARG1
+wsj_1063.parse 1 7 predicted accord-v accord.01 ----- 7:0-rel  8:1-ARG1
+wsj_1063.parse 1 11 predicted permit-v permit.01 ----- 11:0-rel  0:2-ARG0 12:2-ARG1

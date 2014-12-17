@@ -1,0 +1,8 @@
+voa_0135.parse 0 6 predicted have-v have.03 ----- 6:0-rel  0:2-ARG0 7:1-ARG1
+voa_0135.parse 0 7 predicted reiterate-v reiterate.01 ----- 7:0-rel  0:2-ARG0 8:3-ARG1
+voa_0135.parse 1 12 predicted add-v add.01 ----- 12:0-rel  0:2-ARGM-ADV 10:1-ARG0 13:1-ARG1
+voa_0135.parse 1 15 predicted be-v be.01 ----- 15:0-rel  14:1-ARG1 16:1-ARGM-TMP 17:1-ARG2
+voa_0135.parse 1 17 predicted consider-v consider.01 ----- 17:0-rel  14:1-ARG0 16:1-ARGM-TMP 18:2-ARG1
+voa_0135.parse 2 9 predicted say-v say.01 ----- 9:0-rel  0:2-ARGM-TMP 4:2-ARG0 10:4-ARG1
+voa_0135.parse 2 15 predicted be-v be.01 ----- 15:0-rel  10:2-ARG1 14:0-ARGM-MOD 16:1-ARG2
+voa_0135.parse 2 16 predicted meet-v meet.03 ----- 16:0-rel  10:2-ARG0 14:0-ARGM-MOD

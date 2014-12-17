@@ -9,12 +9,9 @@ import scala.collection.mutable.ListBuffer
 import scala.collection.JavaConverters._
 
 
-/**
- * Created by dimberman on 11/28/14.
- */
 object CoNLLParser {
   var sentenceNum = 0
-  v
+
   def parse(fileName: File): List[ConLLSentenceContainer] = {
     val source = scala.io.Source.fromFile(fileName)
     val lines = source.getLines()
@@ -123,7 +120,7 @@ object CoNLLParser {
         pennTree+= openHalf + " " + inner(i)  + closeHalf
       i+=1
     }
-    println("created penntree from input: "  +sentenceString(inner)+ ", and the tree struct: " +sentenceString(tree) )
+//    println("created penntree from input: "  +sentenceString(inner)+ ", and the tree struct: " +sentenceString(tree) )
     return pennTree
   }
 
@@ -137,7 +134,7 @@ object CoNLLParser {
 
 
   def cleanUpGunk(treeString:String):String ={
-    println("input to cleanup:" + treeString)
+//    println("input to cleanup:" + treeString)
     if(treeString.isEmpty ){
       //        println("i think there are no parens")
       return "-1"
@@ -168,12 +165,12 @@ object CoNLLParser {
 
   def findPhraseHeads(tr:List[String]):Map[Int, Int]={
          val arr = new scala.collection.mutable.HashMap[Int, Int]
-         println("sentence should have " + tr.length + " components")
+//         println("sentence should have " + tr.length + " components")
          val a = wordNums(tr.length, List[Int]())
          val s:String = createPennTree(a.map((i:Int)=>i.toString),tr)
-         println("tree created: " + s)
+//         println("tree created: " + s)
          val t:Tree = Tree.valueOf(s)
-         println("tree created:" + t.children())
+//         println("tree created:" + t.children())
          val trees:List[Tree] = t.getChildrenAsList.asScala.toList
          for(tree<- trees){
            if(!tree.isLeaf){

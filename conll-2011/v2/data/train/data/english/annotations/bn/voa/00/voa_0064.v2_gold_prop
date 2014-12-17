@@ -1,0 +1,14 @@
+bn/voa/00/voa_0064@0064@voa@bn@en@on 0 2 gold have-v have.01 ----- 2:0-rel
+bn/voa/00/voa_0064@0064@voa@bn@en@on 0 3 gold sign-v sign.01 ----- 3:0-rel 0:1-ARG0 4:1-ARGM-ADV 6:2-ARG1
+bn/voa/00/voa_0064@0064@voa@bn@en@on 0 8 gold allow-v allow.01 ----- 8:0-rel 6:1-ARG0 9:3-ARG1
+bn/voa/00/voa_0064@0064@voa@bn@en@on 1 4 gold say-v say.01 ----- 4:0-rel 0:1-ARGM-DIS 2:1-ARG0 5:3-ARG1
+bn/voa/00/voa_0064@0064@voa@bn@en@on 1 6 gold be-v be.01 ----- 6:0-rel 5:1-ARG1 7:0-ARGM-NEG 8:1-ARG2
+bn/voa/00/voa_0064@0064@voa@bn@en@on 2 1 gold purport-v purport.01 ----- 1:0-rel 0:1-ARG0 2:2-ARG1
+bn/voa/00/voa_0064@0064@voa@bn@en@on 2 3 gold allow-v allow.01 ----- 3:0-rel 4:2-ARG1
+bn/voa/00/voa_0064@0064@voa@bn@en@on 2 14 gold make-v make.02 ----- 14:0-rel 13:1-ARG0 15:3-ARG1
+bn/voa/00/voa_0064@0064@voa@bn@en@on 2 22 gold arrange-v arrange.01 ----- 22:0-rel 19:1-ARG0 23:2-ARG1
+bn/voa/00/voa_0064@0064@voa@bn@en@on 2 30 gold take-v take.14 ----- 30:0-rel 27:1-ARG1 31:1-ARG2
+bn/voa/00/voa_0064@0064@voa@bn@en@on 3 3 gold bar-v bar.01 ----- 3:0-rel 0:1-ARG0 4:2-ARG1 10:1-ARG2
+bn/voa/00/voa_0064@0064@voa@bn@en@on 3 11 gold provide-v provide.01 ----- 11:0-rel 12:2-ARG1 16:1-ARGM-ADV
+bn/voa/00/voa_0064@0064@voa@bn@en@on 4 3 gold prevent-v prevent.01 ----- 3:0-rel 0:1-ARG0 2:1-ARGM-DIS 4:2-ARG1 9:1-ARG2
+bn/voa/00/voa_0064@0064@voa@bn@en@on 4 10 gold ease-v ease.02 ----- 10:0-rel 11:2-ARG1

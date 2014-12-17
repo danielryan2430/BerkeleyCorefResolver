@@ -1,0 +1,18 @@
+nw/wsj/14/wsj_1465@1465@wsj@nw@en@on 0 11 gold appear-v appear.02 ----- 11:0-rel 0:4,12:2-ARG1
+nw/wsj/14/wsj_1465@1465@wsj@nw@en@on 2 2 gold be-v be.01 ----- 2:0-rel 0:1-ARG1 3:1-ARG2
+nw/wsj/14/wsj_1465@1465@wsj@nw@en@on 2 11 gold estimate-v estimate.01 ----- 11:0-rel 8:1-ARG0 12:3-ARG1
+nw/wsj/14/wsj_1465@1465@wsj@nw@en@on 2 15 gold sell-v sell.01 ----- 15:0-rel 12:1-ARG1 14:0-ARGM-MOD 4:1-LINK-PCR
+nw/wsj/14/wsj_1465@1465@wsj@nw@en@on 2 19 gold be-v be.01 ----- 19:0-rel 0:1-ARG1 20:1-ARG2 14:0-ARGM-MOD
+nw/wsj/14/wsj_1465@1465@wsj@nw@en@on 2 31 gold make-v make.03 ----- 31:0-rel 32:1-ARGM-MNR 24:1-LINK-SLC
+nw/wsj/14/wsj_1465@1465@wsj@nw@en@on 2 36 gold prove-v prove.01 ----- 36:0-rel 37:2-ARG1
+nw/wsj/14/wsj_1465@1465@wsj@nw@en@on 3 2 gold provide-v provide.01 ----- 2:0-rel 0:1-ARG0 3:1-ARG2 6:2-ARG1 23:2-ARGM-PNC 35:2-ARGM-ADV
+nw/wsj/14/wsj_1465@1465@wsj@nw@en@on 3 24 gold obtain-v obtain.01 ----- 24:0-rel 25:1-ARG1
+nw/wsj/14/wsj_1465@1465@wsj@nw@en@on 3 33 gold say-v say.01 ----- 33:0-rel 28:2-ARG0 23:2,6:2,3:1,2:0,35:2,0:1-ARG1
+nw/wsj/14/wsj_1465@1465@wsj@nw@en@on 3 36 gold take-v take.01 ----- 36:0-rel 35:1-ARGM-DIS 37:2-ARG1 0:1-LINK-PCR
+nw/wsj/14/wsj_1465@1465@wsj@nw@en@on 3 48 gold sell-v sell.01 ----- 48:0-rel 44:1-LINK-PCR
+nw/wsj/14/wsj_1465@1465@wsj@nw@en@on 4 4 gold auction-v auction.01 ----- 4:0,5:1-rel 6:1-ARGM-LOC 0:1-LINK-PCR
+nw/wsj/14/wsj_1465@1465@wsj@nw@en@on 4 16 gold include-v include.01 ----- 16:0-rel 0:2-ARG2 17:1-ARG1
+nw/wsj/14/wsj_1465@1465@wsj@nw@en@on 5 4 gold auction-v auction.02 ----- 4:0-rel 5:1-ARGM-TMP 0:1-LINK-PCR
+nw/wsj/14/wsj_1465@1465@wsj@nw@en@on 5 8 gold fetch-v fetch.01 ----- 8:0-rel 0:2-ARG0 9:3-ARG1
+nw/wsj/14/wsj_1465@1465@wsj@nw@en@on 6 11 gold remain-v remain.01 ----- 11:0-rel 0:1-ARGM-DIS 3:2-ARG1 12:2-ARG3
+nw/wsj/14/wsj_1465@1465@wsj@nw@en@on 6 14 gold sell-v sell.01 ----- 14:0-rel 15:1-ARGM-LOC 23:1-ARGM-TMP

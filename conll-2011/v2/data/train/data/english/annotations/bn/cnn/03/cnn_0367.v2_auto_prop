@@ -1,0 +1,4 @@
+cnn_0367.parse 0 2 predicted head-v head.01 ----- 2:0-rel  0:1-ARG0
+cnn_0367.parse 0 31 predicted do-v do.02 ----- 31:0-rel  32:1-ARG1
+cnn_0367.parse 0 33 predicted share-v share.01 ----- 33:0-rel  32:1-ARG0 34:2-ARG1
+cnn_0367.parse 1 6 predicted report-v report.01 ----- 6:0-rel  0:1-ARG0 7:1-ARG1

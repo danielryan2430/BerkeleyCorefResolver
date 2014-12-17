@@ -1,0 +1,8 @@
+cnn_0403.parse 0 10 predicted be-v be.01 ----- 10:0-rel  0:2-ARG1 11:1-ARG2
+cnn_0403.parse 0 11 predicted finish-v finish.02 ----- 11:0-rel  0:2-ARG1
+cnn_0403.parse 1 6 predicted try-v try.01 ----- 6:0-rel  7:2-ARG1
+cnn_0403.parse 1 8 predicted search-v search.01 ----- 8:0-rel  3:1-ARG0 10:1-ARGM-LOC
+cnn_0403.parse 1 16 predicted locate-v locate.01 ----- 16:0-rel  17:2-ARGM-LOC
+cnn_0403.parse 2 1 predicted be-v be.01 ----- 1:0-rel  0:1-ARG1
+cnn_0403.parse 2 20 predicted be-v be.01 ----- 20:0-rel  16:1-R-ARGM-RCL 18:1-ARG1 21:1-ARG2
+cnn_0403.parse 2 21 predicted kill-v kill.01 ----- 21:0-rel  15:1-ARGM-LOC 18:1-ARG1

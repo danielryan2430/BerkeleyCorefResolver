@@ -1,0 +1,13 @@
+bn/cnn/04/cnn_0437 0 4 force-v 1
+bn/cnn/04/cnn_0437 0 7 people-n 1
+bn/cnn/04/cnn_0437 0 10 home-n 1
+bn/cnn/04/cnn_0437 1 8 start-v 1
+bn/cnn/04/cnn_0437 1 14 haul-v 2
+bn/cnn/04/cnn_0437 2 2 consume-v 3
+bn/cnn/04/cnn_0437 2 7 be-v 1
+bn/cnn/04/cnn_0437 2 12 contain-v 1
+bn/cnn/04/cnn_0437 3 2 have-v 12
+bn/cnn/04/cnn_0437 3 3 be-v 1
+bn/cnn/04/cnn_0437 3 4 report-v 1
+bn/cnn/04/cnn_0437 3 1 injury-n 1
+bn/cnn/04/cnn_0437 3 8 time-n 12

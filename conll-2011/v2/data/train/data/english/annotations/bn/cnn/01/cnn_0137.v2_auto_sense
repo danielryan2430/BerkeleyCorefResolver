@@ -1,0 +1,14 @@
+bn/cnn/01/cnn_0137 0 7 have-v 2
+bn/cnn/01/cnn_0137 0 8 accept-v 1
+bn/cnn/01/cnn_0137 1 2 recognize-v 2
+bn/cnn/01/cnn_0137 1 6 end-v 2
+bn/cnn/01/cnn_0137 1 1 award-n 2
+bn/cnn/01/cnn_0137 1 4 effort-n 1
+bn/cnn/01/cnn_0137 2 4 be-v 1
+bn/cnn/01/cnn_0137 2 17 meet-v 2
+bn/cnn/01/cnn_0137 2 26 move-v 2
+bn/cnn/01/cnn_0137 2 3 country-n 3
+bn/cnn/01/cnn_0137 3 1 accept-v 1
+bn/cnn/01/cnn_0137 3 16 fight-v 3
+bn/cnn/01/cnn_0137 3 19 right-n 1
+bn/cnn/01/cnn_0137 3 21 peace-n 1

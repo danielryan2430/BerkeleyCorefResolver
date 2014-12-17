@@ -2,9 +2,6 @@ package classifier
 
 import resolver.parser.document._
 
-/**
- * Created by serenity on 11/10/14.
- */
 object bayesianClassifier {
 
   def classify(weights: Array[Double], d: Document, featureExtractor: (Document, Int, Int) => Seq[Int]): List[Int] = {
@@ -32,9 +29,10 @@ object bayesianClassifier {
     ((List[Int](), List[FeatureSet]()) /: d.features) {
       //Part one of the accum  the second part of the accumulator holds all of the references seen so far so we can build the mention list up correctly.
       //D: accum is the current list of tuples(refID, FeatureSet) while liveFeature represents a current mention that is being used to generate a new tuple value
-      (accum, liveFeature) => (accum._1 :+ ((liveFeature.refID, /*1*/ weightMult(featureExtractor(d, liveFeature.refID, liveFeature.refID))) /: accum._2)
-            {(maxChoiceAccum, maxChoiceFeat) => findBestCorrelatedFeature(maxChoiceAccum, maxChoiceFeat, liveFeature)}._1 // then return the choice Made.
-      , accum._2 :+ liveFeature) // bind to it the list of all choices to consider next time
+      (accum, liveFeature) => {
+        (accum._1 :+ ((liveFeature.refID, /*1*/ weightMult(featureExtractor(d, liveFeature.refID, liveFeature.refID))) /: accum._2)
+            {(maxChoiceAccum, maxChoiceFeat) => { findBestCorrelatedFeature(maxChoiceAccum, maxChoiceFeat, liveFeature)}}._1 // then return the choice Made.
+      , accum._2 :+ liveFeature)} // bind to it the list of all choices to consider next time
     }._1 //return the list of assigned mentions--it is ordered so it directly corresponds to an A vector.
   } // finish up.
 

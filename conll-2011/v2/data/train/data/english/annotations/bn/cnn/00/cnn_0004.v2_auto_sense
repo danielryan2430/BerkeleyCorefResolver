@@ -1,0 +1,11 @@
+bn/cnn/00/cnn_0004 0 1 be-v 1
+bn/cnn/00/cnn_0004 0 2 say-v 1
+bn/cnn/00/cnn_0004 0 7 leader-n 1
+bn/cnn/00/cnn_0004 1 10 join-v 3
+bn/cnn/00/cnn_0004 1 16 state-n 2
+bn/cnn/00/cnn_0004 2 1 service-n 3
+bn/cnn/00/cnn_0004 3 3 day-n 2
+bn/cnn/00/cnn_0004 4 3 come-v 1
+bn/cnn/00/cnn_0004 4 5 visit-v 1
+bn/cnn/00/cnn_0004 4 2 people-n 1
+bn/cnn/00/cnn_0004 5 1 die-v 1

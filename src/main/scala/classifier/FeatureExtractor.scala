@@ -1,12 +1,11 @@
 package classifier
 
 
+import java.io.{FileWriter, File}
+
 import edu.stanford.nlp.dcoref.Dictionaries
 import resolver.parser.document.{PronounDictionary, lexicalCounter, FeatureSet, Document}
 
-/**
- * Created by dimberman on 12/10/14.
- */
 class FeatureExtractor(docs:Seq[Document]) {
   val (featIndMap, featCount)=createFeatureIndex(docs)
   var cachedFeatures =Map[(String,Int,Int),Seq[Int]]()
@@ -27,6 +26,13 @@ class FeatureExtractor(docs:Seq[Document]) {
     }
   //  println("feature nonzero count: "+(0/:c){(a,b)=>if (b>0) a+1 else a})
   //   c
+  }
+
+  def dumpFeatures()={
+    val f = new File("./features.txt")
+    val write = new FileWriter(f)
+    for(pair <- featIndMap)
+      write.write(pair.toString()+"\n")
   }
 
   def featureVal(a: Boolean): Int = if (a) 1 else 0

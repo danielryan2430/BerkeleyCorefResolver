@@ -1,0 +1,16 @@
+bn/cnn/01/cnn_0155 0 3 be-v 1
+bn/cnn/01/cnn_0155 0 2 farmer-n 1
+bn/cnn/01/cnn_0155 1 1 be-v 1
+bn/cnn/01/cnn_0155 2 6 be-v 1
+bn/cnn/01/cnn_0155 2 7 be-v 1
+bn/cnn/01/cnn_0155 2 8 turn-v 1
+bn/cnn/01/cnn_0155 3 1 say-v 1
+bn/cnn/01/cnn_0155 3 4 be-v 1
+bn/cnn/01/cnn_0155 4 2 say-v 1
+bn/cnn/01/cnn_0155 4 4 be-v 1
+bn/cnn/01/cnn_0155 4 5 lose-v 5
+bn/cnn/01/cnn_0155 4 12 say-v 1
+bn/cnn/01/cnn_0155 4 15 comment-v 1
+bn/cnn/01/cnn_0155 4 16 say-v 1
+bn/cnn/01/cnn_0155 4 1 farmer-n 1
+bn/cnn/01/cnn_0155 4 11 government-n 1

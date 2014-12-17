@@ -1,0 +1,11 @@
+nw/wsj/12/wsj_1292 0 5 say-v 1
+nw/wsj/12/wsj_1292 0 8 add-v 1
+nw/wsj/12/wsj_1292 0 23 stock-n 1
+nw/wsj/12/wsj_1292 0 29 close-n 1
+nw/wsj/12/wsj_1292 0 31 trade-n 1
+nw/wsj/12/wsj_1292 1 12 be-v 1
+nw/wsj/12/wsj_1292 1 9 operator-n 3
+nw/wsj/12/wsj_1292 1 19 time-n 1
+nw/wsj/12/wsj_1292 2 2 be-v 1
+nw/wsj/12/wsj_1292 2 3 be-v 1
+nw/wsj/12/wsj_1292 2 4 acquire-v 3

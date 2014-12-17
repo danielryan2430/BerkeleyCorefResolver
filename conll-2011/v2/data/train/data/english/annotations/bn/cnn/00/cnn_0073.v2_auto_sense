@@ -1,0 +1,15 @@
+bn/cnn/00/cnn_0073 0 1 post-v 1
+bn/cnn/00/cnn_0073 0 11 help-v 1
+bn/cnn/00/cnn_0073 0 9 earnings-n 1
+bn/cnn/00/cnn_0073 0 15 sale-n 1
+bn/cnn/00/cnn_0073 1 8 say-v 1
+bn/cnn/00/cnn_0073 1 19 concentrate-v 1
+bn/cnn/00/cnn_0073 1 6 phone-n 1
+bn/cnn/00/cnn_0073 1 7 company-n 1
+bn/cnn/00/cnn_0073 1 14 plan-n 2
+bn/cnn/00/cnn_0073 1 23 operation-n 4
+bn/cnn/00/cnn_0073 1 29 stock-n 1
+bn/cnn/00/cnn_0073 1 30 price-n 1
+bn/cnn/00/cnn_0073 2 3 have-v 1
+bn/cnn/00/cnn_0073 2 4 fall-v 1
+bn/cnn/00/cnn_0073 2 11 beginning-n 4

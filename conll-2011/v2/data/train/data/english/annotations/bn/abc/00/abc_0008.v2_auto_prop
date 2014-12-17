@@ -1,0 +1,4 @@
+abc_0008.parse 0 4 predicted do-v do.02 ----- 4:0-rel  0:2-ARG0
+abc_0008.parse 0 6 predicted help-v help.01 ----- 6:0-rel  0:2-ARG0 5:0-ARGM-NEG 7:2-ARG1
+abc_0008.parse 0 18 predicted be-v be.02 ----- 18:0-rel  17:1-ARG1 19:1-ARG1 25:1-ARGM-CAU
+abc_0008.parse 0 27 predicted be-v be.02 ----- 27:0-rel  26:1-ARG1

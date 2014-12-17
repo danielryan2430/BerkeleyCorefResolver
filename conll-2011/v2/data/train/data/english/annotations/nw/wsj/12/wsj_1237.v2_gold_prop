@@ -1,0 +1,7 @@
+nw/wsj/12/wsj_1237@1237@wsj@nw@en@on 0 2 gold say-v say.01 ----- 2:0-rel 0:1-ARG0 3:3-ARG1
+nw/wsj/12/wsj_1237@1237@wsj@nw@en@on 0 4 gold sign-v sign.02 ----- 4:0-rel 3:1-ARG0 5:2-ARG1
+nw/wsj/12/wsj_1237@1237@wsj@nw@en@on 1 9 gold say-v say.01 ----- 9:0-rel 0:2-ARG0 10:3-ARG1
+nw/wsj/12/wsj_1237@1237@wsj@nw@en@on 1 13 gold expect-v expect.01 ----- 13:0-rel 10:1,14:2-ARG1
+nw/wsj/12/wsj_1237@1237@wsj@nw@en@on 1 15 gold close-v close.03 ----- 15:0-rel 16:1-ARGM-TMP
+nw/wsj/12/wsj_1237@1237@wsj@nw@en@on 2 3 gold have-v have.03 ----- 3:0-rel 0:1-ARG0 4:2-ARG1
+nw/wsj/12/wsj_1237@1237@wsj@nw@en@on 2 13 gold say-v say.01 ----- 13:0-rel 12:1-ARG0

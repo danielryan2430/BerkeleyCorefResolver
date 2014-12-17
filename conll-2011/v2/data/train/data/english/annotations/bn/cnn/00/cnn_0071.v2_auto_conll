@@ -1,0 +1,73 @@
+#begin document (bn/cnn/00/cnn_0071); part 000
+bn/cnn/00/cnn_0071   0    0           Tanks   NNS   (TOP(S(NP*)       -    -   -   -        *    (ARG1*)      (ARG0*)       *    -
+bn/cnn/00/cnn_0071   0    1             are   VBP         (VP*        be  01   -   -        *       (V*)           *        *    -
+bn/cnn/00/cnn_0071   0    2        blocking   VBG         (VP*     block  01   1   -        *    (ARG2*          (V*)       *    -
+bn/cnn/00/cnn_0071   0    3               a    DT      (NP(NP*        -    -   -   -        *         *            *        *    -
+bn/cnn/00/cnn_0071   0    4            main    JJ            *        -    -   -   -        *         *            *        *    -
+bn/cnn/00/cnn_0071   0    5    thoroughfare    NN            *)       -    -   -   -        *         *            *        *    -
+bn/cnn/00/cnn_0071   0    6              in    IN         (PP*        -    -   -   -        *         *            *        *    -
+bn/cnn/00/cnn_0071   0    7            Gaza   NNP       (NP*)))       -    -   -   -     (LOC)        *            *        *    -
+bn/cnn/00/cnn_0071   0    8       following   VBG         (PP*    follow  01   2   -        *         *   (ARGM-TMP*      (V*)   -
+bn/cnn/00/cnn_0071   0    9               a    DT      (NP(NP*        -    -   -   -        *         *            *   (ARG2*   (0
+bn/cnn/00/cnn_0071   0   10         suicide    NN            *        -    -   -   -        *         *            *        *    -
+bn/cnn/00/cnn_0071   0   11         bombing    NN            *)       -    -   -   -        *         *            *        *    -
+bn/cnn/00/cnn_0071   0   12           today    NN     (NP*)))))       -    -   2   -    (DATE)        *)           *)       *)   0)
+bn/cnn/00/cnn_0071   0   13               .     .           *))       -    -   -   -        *         *            *        *    -
+
+bn/cnn/00/cnn_0071   0    0              A    DT  (TOP(S(NP*      -    -   -   -   *   (ARG0*   (ARG0*   (1
+bn/cnn/00/cnn_0071   0    1          young    JJ           *      -    -   -   -   *        *        *    -
+bn/cnn/00/cnn_0071   0    2    Palestinian    JJ           *      -    -   -   -   *        *        *    -
+bn/cnn/00/cnn_0071   0    3            man    NN           *)     -    -   2   -   *        *)       *)   1)
+bn/cnn/00/cnn_0071   0    4         loaded   VBD     (VP(VP*    load  01   -   -   *      (V*)       *    -
+bn/cnn/00/cnn_0071   0    5              a    DT        (NP*      -    -   -   -   *   (ARG1*        *    -
+bn/cnn/00/cnn_0071   0    6        bicycle    NN           *)     -    -   -   -   *        *)       *    -
+bn/cnn/00/cnn_0071   0    7           with    IN        (PP*      -    -   -   -   *   (ARG2*        *    -
+bn/cnn/00/cnn_0071   0    8     explosives   NNS      (NP*)))     -    -   -   -   *        *)       *    -
+bn/cnn/00/cnn_0071   0    9            and    CC           *      -    -   -   -   *        *        *    -
+bn/cnn/00/cnn_0071   0   10         headed   VBD        (VP*    head  01   1   -   *        *      (V*)   -
+bn/cnn/00/cnn_0071   0   11         toward    IN        (PP*      -    -   -   -   *        *   (ARG1*    -
+bn/cnn/00/cnn_0071   0   12             an    DT        (NP*      -    -   -   -   *        *        *    -
+bn/cnn/00/cnn_0071   0   13        Israeli    JJ           *      -    -   -   -   *        *        *    -
+bn/cnn/00/cnn_0071   0   14       military    JJ           *      -    -   -   -   *        *        *    -
+bn/cnn/00/cnn_0071   0   15        outpost    NN        *))))     -    -   -   -   *        *        *)   -
+bn/cnn/00/cnn_0071   0   16              .     .          *))     -    -   -   -   *        *        *    -
+
+bn/cnn/00/cnn_0071   0   0           He   PRP   (TOP(S(NP*)     -    -   -   -   *        (ARG0*)       (ARG0*)   (1)
+bn/cnn/00/cnn_0071   0   1          hit   VBD      (VP(VP*     hit  02   3   -   *           (V*)            *     -
+bn/cnn/00/cnn_0071   0   2    defensive    JJ         (NP*      -    -   -   -   *        (ARG1*             *     -
+bn/cnn/00/cnn_0071   0   3     barriers   NNS            *)     -    -   1   -   *             *)            *     -
+bn/cnn/00/cnn_0071   0   4       nearby    RB      (ADVP*))     -    -   -   -   *    (ARGM-LOC*)            *     -
+bn/cnn/00/cnn_0071   0   5          and    CC            *      -    -   -   -   *             *             *     -
+bn/cnn/00/cnn_0071   0   6         blew   VBD         (VP*    blow  07   4   -   *             *           (V*)   (0)
+bn/cnn/00/cnn_0071   0   7      himself   PRP         (NP*)     -    -   -   -   *             *        (ARG1*)   (1)
+bn/cnn/00/cnn_0071   0   8           up    RP      (PRT*)))     -    -   -   -   *             *    (ARGM-DIR*)    -
+bn/cnn/00/cnn_0071   0   9            .     .           *))     -    -   -   -   *             *             *     -
+
+bn/cnn/00/cnn_0071   0   0         One    CD  (TOP(S(NP*      -    -   -   -    (CARDINAL)       (ARG1*   -
+bn/cnn/00/cnn_0071   0   1     Israeli    JJ           *      -    -   -   -            *             *   -
+bn/cnn/00/cnn_0071   0   2     soldier    NN           *)     -    -   -   -            *             *)  -
+bn/cnn/00/cnn_0071   0   3         was   VBD        (VP*      -    -   -   -            *             *   -
+bn/cnn/00/cnn_0071   0   4    slightly    RB      (ADVP*)     -    -   -   -            *    (ARGM-MNR*)  -
+bn/cnn/00/cnn_0071   0   5        hurt   VBN       (VP*))   hurt  01   1   -            *           (V*)  -
+bn/cnn/00/cnn_0071   0   6           .     .          *))     -    -   -   -            *        (ARG2*)  -
+
+bn/cnn/00/cnn_0071   0    0           Reuters   NNP     (TOP(S(NP*         -    -   -   -   (ORG*   (ARG0*         *         *         *    (2
+bn/cnn/00/cnn_0071   0    1              News   NNP              *         -    -   -   -       *        *         *         *         *     -
+bn/cnn/00/cnn_0071   0    2           Service   NNP              *)        -    -   -   -       *)       *)        *         *         *     2)
+bn/cnn/00/cnn_0071   0    3              says   VBZ           (VP*        say  01   1   -       *      (V*)        *         *         *     -
+bn/cnn/00/cnn_0071   0    4                it   PRP    (SBAR(S(NP*)        -    -   -   -       *   (ARG1*    (ARG0*)   (ARG0*)        *    (2)
+bn/cnn/00/cnn_0071   0    5               has   VBZ           (VP*       have  03   -   -       *        *       (V*)        *         *     -
+bn/cnn/00/cnn_0071   0    6          received   VBN           (VP*    receive  01   1   -       *        *    (ARG1*       (V*)        *     -
+bn/cnn/00/cnn_0071   0    7                 a    DT           (NP*         -    -   -   -       *        *         *    (ARG1*         *     -
+bn/cnn/00/cnn_0071   0    8            letter    NN              *)        -    -   1   -       *        *         *         *)        *     -
+bn/cnn/00/cnn_0071   0    9              from    IN           (PP*         -    -   -   -       *        *         *    (ARG2*         *     -
+bn/cnn/00/cnn_0071   0   10               the    DT         (S(NP*         -    -   -   -       *        *         *         *    (ARG0*     -
+bn/cnn/00/cnn_0071   0   11          militant    JJ              *         -    -   -   -       *        *         *         *         *     -
+bn/cnn/00/cnn_0071   0   12             group    NN              *         -    -   -   -       *        *         *         *         *     -
+bn/cnn/00/cnn_0071   0   13           Islamic   NNP              *         -    -   -   -   (ORG*        *         *         *         *     -
+bn/cnn/00/cnn_0071   0   14             Jihad   NNP              *)        -    -   -   -       *)       *         *         *         *)    -
+bn/cnn/00/cnn_0071   0   15          claiming   VBG           (VP*      claim  01   2   -       *        *         *         *       (V*)    -
+bn/cnn/00/cnn_0071   0   16    responsibility    NN   (NP*)))))))))        -    -   3   -       *        *)        *)        *)   (ARG1*)    -
+bn/cnn/00/cnn_0071   0   17                 .     .             *))        -    -   -   -       *        *         *         *         *     -
+
+#end document

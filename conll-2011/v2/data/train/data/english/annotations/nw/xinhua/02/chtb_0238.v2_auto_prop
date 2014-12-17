@@ -1,0 +1,153 @@
+chtb_0238.parse 1 5 predicted be-v be.01 ----- 5:0-rel  0:1-ARG1 3:0-ARGM-MOD 4:1-ARGM-TMP
+chtb_0238.parse 1 6 predicted visit-v visit.01 ----- 6:0-rel  0:1-ARG0 3:0-ARGM-MOD 4:1-ARGM-TMP 7:2-ARG1
+chtb_0238.parse 2 5 predicted interview-v interview.01 ----- 5:0-rel  0:1-ARGM-TMP 2:1-ARG1 4:1-ARGM-ADV 6:1-ARG0
+chtb_0238.parse 2 24 predicted answer-v answer.01 ----- 24:0-rel  0:1-ARGM-TMP 2:1-ARG0 25:3-ARG1
+chtb_0238.parse 3 3 predicted ask-v ask.02 ----- 3:0-rel  0:1-ARGM-TMP 1:1-ARG0 4:1-ARG1
+chtb_0238.parse 3 22 predicted say-v say.01 ----- 22:0-rel  0:2-ARGM-TMP 19:1-ARG0
+chtb_0238.parse 3 32 predicted have-v have.03 ----- 32:0-rel  29:1-ARG0
+chtb_0238.parse 3 33 predicted be-v be.01 ----- 33:0-rel  29:1-ARG1 34:1-ARG2
+chtb_0238.parse 3 34 predicted develop-v develop.02 ----- 34:0-rel  29:1-ARG1 35:1-ARGM-MNR 36:1-ARGM-LOC
+chtb_0238.parse 4 2 predicted have-v have.03 ----- 2:0-rel  0:1-ARG0 3:1-ARG1
+chtb_0238.parse 4 3 predicted maintain-v maintain.01 ----- 3:0-rel  0:1-ARG0 4:2-ARG1
+chtb_0238.parse 4 14 predicted have-v have.03 ----- 14:0-rel  10:2-ARG0 15:1-ARG1
+chtb_0238.parse 4 15 predicted achieve-v achieve.01 ----- 15:0-rel  10:2-ARG0 16:1-ARG1
+chtb_0238.parse 4 21 predicted have-v have.03 ----- 21:0-rel  19:1-ARG0 22:1-ARG1
+chtb_0238.parse 4 22 predicted be-v be.01 ----- 22:0-rel  19:1-ARG1
+chtb_0238.parse 4 23 predicted make-v make.03 ----- 23:0-rel  19:1-ARG1 24:1-ARG2
+chtb_0238.parse 5 2 predicted have-v have.03 ----- 2:0-rel  0:1-ARG0 3:1-ARG1
+chtb_0238.parse 5 3 predicted exceed-v exceed.01 ----- 3:0-rel  0:1-ARG0 4:2-ARG1
+chtb_0238.parse 6 3 predicted have-v have.03 ----- 3:0-rel  0:1-ARG0
+chtb_0238.parse 7 1 predicted say-v say.01 ----- 1:0-rel  0:1-ARG0 2:1-ARG1
+chtb_0238.parse 7 11 predicted be-v be.01 ----- 11:0-rel  4:2-ARG1 12:1-ARG2
+chtb_0238.parse 8 1 predicted think-v think.01 ----- 1:0-rel  0:1-ARG0 2:1-ARG1
+chtb_0238.parse 8 14 predicted be-v be.01 ----- 14:0-rel  3:2-ARG1 15:1-ARG2
+chtb_0238.parse 9 2 predicted say-v say.01 ----- 2:0-rel  0:1-ARG0 3:1-ARG2
+chtb_0238.parse 9 17 predicted be-v be.01 ----- 17:0-rel  8:1-ARGM-ADV 15:1-ARG1 16:0-ARGM-MOD 22:1-ARGM-TMP
+chtb_0238.parse 9 18 predicted visit-v visit.01 ----- 18:0-rel  8:1-ARGM-ADV 15:1-ARG0 16:0-ARGM-MOD 19:1-ARG1 22:1-ARGM-TMP
+chtb_0238.parse 10 11 predicted explore-v explore.01 ----- 11:0-rel  0:2-ARGM-MNR 9:1-ARG0 10:0-ARGM-MOD 12:2-ARG1
+chtb_0238.parse 10 12 predicted establish-v establish.01 ----- 12:0-rel  9:1-ARG0
+chtb_0238.parse 10 26 predicted extend-v extend.01 ----- 26:0-rel  13:1-ARG0 24:1-R-ARG1 25:0-ARGM-MOD 27:1-ARGM-TMP 31:2-ARGM-PRP
+chtb_0238.parse 10 34 predicted raise-v raise.01 ----- 34:0-rel  35:2-ARG1 44:1-ARG4
+chtb_0238.parse 11 3 predicted ask-v ask.02 ----- 3:0-rel  0:1-ARGM-TMP 1:1-ARG0 4:1-ARG1
+chtb_0238.parse 11 15 predicted overstay-v overstay.- ----- 15:0-rel  8:1-ARGM-TMP 9:2-ARG0 16:2-ARG1
+chtb_0238.parse 11 39 predicted be-v be.01 ----- 39:0-rel  35:1-ARGM-MNR 36:1-ARG1 38:0-ARGM-MOD 40:1-ARG2
+chtb_0238.parse 11 40 predicted solve-v solve.01 ----- 40:0-rel  35:1-ARG2 36:1-ARG1 38:0-ARGM-MOD
+chtb_0238.parse 11 44 predicted express-v express.01 ----- 44:0-rel  42:1-ARG0 45:1-ARG1
+chtb_0238.parse 11 66 predicted be-v be.01 ----- 66:0-rel  46:1-ARGM-ADV 62:0-ARGM-DIS 63:1-ARG1 67:1-ARGM-TMP 70:1-ARG2
+chtb_0238.parse 11 69 predicted isolate-v isolate.01 ----- 69:0-rel  63:1-ARG1 67:1-ARGM-TMP 70:1-ARGM-ADV
+chtb_0238.parse 11 78 predicted have-v have.03 ----- 78:0-rel  0:4-ARG0 79:1-ARG1
+chtb_0238.parse 11 79 predicted expand-v expand.01 ----- 79:0-rel  0:4-ARG0 81:1-ARGM-ADV
+chtb_0238.parse 11 83 predicted increase-v increase.01 ----- 83:0-rel  82:1-ARGM-MNR 84:1-ARG1
+chtb_0238.parse 12 2 predicted be-v be.01 ----- 2:0-rel  0:1-ARG1 3:1-ARG2
+chtb_0238.parse 13 1 predicted say-v say.01 ----- 1:0-rel  0:1-ARG0 2:1-ARG1
+chtb_0238.parse 13 11 predicted keep-v keep.02 ----- 11:0-rel  5:2-ARG0 9:0-ARGM-MOD 10:0-ARGM-NEG 12:1-ARG1 13:1-ARG1
+chtb_0238.parse 13 25 predicted occur-v occur.01 ----- 25:0-rel  21:2-ARG1
+chtb_0238.parse 13 35 predicted result-v result.01 ----- 35:0-rel  36:1-ARG2
+chtb_0238.parse 14 1 predicted hold-v hold.01 ----- 1:0-rel  0:1-ARG0
+chtb_0238.parse 14 7 predicted be-v be.01 ----- 7:0-rel  3:2-ARG1 9:1-ARG2
+chtb_0238.parse 14 12 predicted be-v be.01 ----- 12:0-rel  3:2-ARG1 11:0-ARGM-MOD 13:1-ARG2
+chtb_0238.parse 14 13 predicted improve-v improve.01 ----- 13:0-rel  3:2-ARG1 11:0-ARGM-MOD
+chtb_0238.parse 14 15 predicted stop-v stop.01 ----- 15:0-rel  3:2-ARG1 11:0-ARGM-MOD
+chtb_0238.parse 15 6 predicted have-v have.03 ----- 6:0-rel  0:1-ARGM-TMP 4:1-ARG0 7:1-ARG1
+chtb_0238.parse 15 7 predicted improve-v improve.01 ----- 7:0-rel  0:1-ARGM-TMP 4:1-ARG1 8:1-ARGM-EXT 12:1-ARGM-CAU
+chtb_0238.parse 15 15 predicted have-v have.03 ----- 15:0-rel  13:1-ARG0 16:1-ARG1
+chtb_0238.parse 15 16 predicted cooperate-v cooperate.01 ----- 16:0-rel  13:1-ARG0 17:1-ARG2
+chtb_0238.parse 16 2 predicted say-v say.01 ----- 2:0-rel  0:1-ARG0 3:1-ARG1
+chtb_0238.parse 16 9 predicted stop-v stop.01 ----- 9:0-rel  5:1-ARG0 6:0-ARGM-MOD 7:0-ARGM-NEG 10:2-ARG1
+chtb_0238.parse 16 10 predicted eat-v eat.01 ----- 10:0-rel  5:1-ARG0
+chtb_0238.parse 17 1 predicted hold-v hold.01 ----- 1:0-rel  0:1-ARG0
+chtb_0238.parse 17 4 predicted be-v be.01 ----- 4:0-rel  3:1-ARG1
+chtb_0238.parse 17 8 predicted appear-v appear.02 ----- 8:0-rel  5:1-ARG1
+chtb_0238.parse 17 15 predicted be-v be.01 ----- 15:0-rel  10:2-ARG1 16:1-ARG2
+chtb_0238.parse 17 16 predicted be-v be.01 ----- 16:0-rel  10:2-ARG1 17:1-ARG2
+chtb_0238.parse 17 17 predicted develop-v develop.02 ----- 17:0-rel  10:2-ARG1
+chtb_0238.parse 17 26 predicted take-v take.01 ----- 26:0-rel  5:1-ARG0 22:1-ARG0 27:2-ARG1 35:1-ARG2
+chtb_0238.parse 17 43 predicted be-v be.01 ----- 43:0-rel  5:1-ARG1 9:1-ARGM-ADV 40:1-ARG1 42:0-ARGM-MOD 44:1-ARG2
+chtb_0238.parse 17 44 predicted solve-v solve.01 ----- 44:0-rel  40:1-ARG1 42:0-ARGM-MOD 45:1-ARG2
+chtb_0238.parse 17 50 predicted be-v be.01 ----- 50:0-rel  49:1-ARG1 51:0-ARGM-NEG
+chtb_0238.parse 17 56 predicted be-v be.01 ----- 56:0-rel  54:0-ARGM-MOD 55:1-ARG1 57:2-ARG2
+chtb_0238.parse 18 23 predicted say-v say.01 ----- 23:0-rel  0:2-ARGM-ADV 21:1-ARG0 24:1-ARG1
+chtb_0238.parse 18 27 predicted have-v have.03 ----- 27:0-rel  26:1-ARG0
+chtb_0238.parse 18 28 predicted notice-v notice.01 ----- 28:0-rel  26:1-ARG0 29:1-ARG1
+chtb_0238.parse 18 30 predicted compare-v compare.01 ----- 30:0-rel  31:1-ARG2
+chtb_0238.parse 18 39 predicted be-v be.02 ----- 39:0-rel  30:1-ARGM-ADV
+chtb_0238.parse 19 5 predicted be-v be.01 ----- 5:0-rel  0:2-ARG1 6:1-ARG2
+chtb_0238.parse 19 12 predicted be-v be.01 ----- 12:0-rel  8:1-ARG1 13:1-ARG2
+chtb_0238.parse 19 13 predicted implement-v implement.01 ----- 13:0-rel  8:1-ARG0 14:1-ARG1
+chtb_0238.parse 19 19 predicted be-v be.02 ----- 19:0-rel  18:1-ARG1 20:2-ARG1
+chtb_0238.parse 19 34 predicted have-v have.03 ----- 34:0-rel  29:2-ARG0 35:1-ARGM-ADV
+chtb_0238.parse 19 36 predicted bring-v bring.01 ----- 36:0-rel  29:2-ARG0 35:1-ARGM-ADV 37:2-ARG1
+chtb_0238.parse 20 10 predicted happen-v happen.01 ----- 10:0-rel  0:1-ARGM-LOC 4:2-ARG1 11:1-ARGM-TMP
+chtb_0238.parse 21 1 predicted believe-v believe.01 ----- 1:0-rel  0:1-ARG0 2:1-ARG1
+chtb_0238.parse 21 14 predicted be-v be.01 ----- 14:0-rel  3:2-ARG1 15:1-ARG2
+chtb_0238.parse 22 7 predicted encourage-v encourage.02 ----- 7:0-rel  8:3-ARG1 17:2-ARG2
+chtb_0238.parse 22 18 predicted develop-v develop.02 ----- 18:0-rel  19:1-ARG1
+chtb_0238.parse 22 26 predicted develop-v develop.02 ----- 26:0-rel  0:1-ARGM-ADV 21:2-ARG1 25:0-ARGM-MOD 27:2-ARGM-MNR
+chtb_0238.parse 23 1 predicted be-v be.02 ----- 1:0-rel  2:1-ARG1
+chtb_0238.parse 23 10 predicted be-v be.01 ----- 10:0-rel  5:2-ARG1 9:0-ARGM-MOD 11:1-ARG2
+chtb_0238.parse 24 1 predicted interview-v interview.01 ----- 1:0-rel  0:1-ARGM-TMP 2:1-ARG0
+chtb_0238.parse 24 8 predicted say-v say.01 ----- 8:0-rel  0:2-ARGM-TMP 6:1-ARG0 9:1-ARG1
+chtb_0238.parse 24 22 predicted have-v have.03 ----- 22:0-rel  11:2-ARG0 29:1-ARGM-TMP
+chtb_0238.parse 24 23 predicted be-v be.01 ----- 23:0-rel  11:2-ARG1 24:1-ARG2 26:1-ARGM-TMP 29:1-ARGM-TMP
+chtb_0238.parse 25 3 predicted visit-v visit.01 ----- 3:0-rel  0:2-ARG0 4:1-ARG1 5:1-ARGM-TMP
+chtb_0238.parse 25 18 predicted be-v be.01 ----- 18:0-rel  9:1-ARGM-TMP 10:1-ARGM-ADV 16:1-ARG1 17:0-ARGM-MOD 19:1-ARG2
+chtb_0238.parse 25 19 predicted carry-v carry.01 ----- 19:0-rel  9:1-ARGM-TMP 10:1-ARGM-LOC 16:1-ARG0 17:0-ARGM-MOD 20:1-ARGM-DIR 21:2-ARG1 25:1-ARGM-PNC
+chtb_0238.parse 26 6 predicted have-v have.03 ----- 6:0-rel  0:2-ARG0 7:1-ARGM-ADV
+chtb_0238.parse 26 10 predicted reach-v reach.01 ----- 10:0-rel  0:2-ARG0 7:1-ARGM-ADV 8:1-ARGM-MNR 11:2-ARG1
+chtb_0238.parse 27 12 predicted increase-v increase.01 ----- 12:0-rel  0:1-ARGM-TMP 8:2-ARG1 13:1-ARG2 16:1-ARGM-ADV
+chtb_0238.parse 27 16 predicted compare-v compare.01 ----- 16:0-rel  13:1-C-ARG1 17:1-ARG2
+chtb_0238.parse 28 2 predicted point-v point.02 ----- 2:0-rel  0:1-ARG0 3:1-ARGM-DIR 4:2-ARG1
+chtb_0238.parse 28 8 predicted be-v be.01 ----- 8:0-rel  5:2-ARG1 9:1-ARG2
+chtb_0238.parse 28 21 predicted be-v be.01 ----- 21:0-rel  19:1-ARG1 22:1-ARG2
+chtb_0238.parse 29 2 predicted have-v have.03 ----- 2:0-rel  0:1-ARG0 3:2-ARG1
+chtb_0238.parse 30 1 predicted say-v say.01 ----- 1:0-rel  0:1-ARG0 2:1-ARG1
+chtb_0238.parse 30 5 predicted believe-v believe.01 ----- 5:0-rel  4:1-ARG0 6:1-ARG1
+chtb_0238.parse 30 12 predicted make-v make.02 ----- 12:0-rel  10:1-ARG0
+chtb_0238.parse 30 25 predicted continue-v continue.01 ----- 25:0-rel  7:2-ARGM-ADV 16:2-ARG1 23:0-ARGM-MOD 24:1-ARGM-ADV 26:2-C-ARG1
+chtb_0238.parse 30 27 predicted develop-v develop.02 ----- 27:0-rel  16:2-ARG1 28:1-ARGM-ADV
+chtb_0238.parse 30 47 predicted issue-v issue.01 ----- 47:0-rel  44:1-ARG1 48:1-ARGM-TMP 51:1-ARGM-TMP
+chtb_0238.parse 31 2 predicted ask-v ask.02 ----- 2:0-rel  0:1-ARGM-TMP 1:1-ARG0 3:1-ARG1
+chtb_0238.parse 31 16 predicted emphasize-v emphasize.01 ----- 16:0-rel  0:2-ARGM-TMP 14:1-ARG0 17:1-ARG1
+chtb_0238.parse 31 19 predicted be-v be.02 ----- 19:0-rel  18:1-ARG1
+chtb_0238.parse 31 23 predicted be-v be.01 ----- 23:0-rel  20:1-ARG1 22:1-ARG1 24:1-ARG2
+chtb_0238.parse 31 24 predicted seek-v seek.01 ----- 24:0-rel  20:1-ARG1 22:1-ARG0 25:1-ARG1
+chtb_0238.parse 31 30 predicted maintain-v maintain.01 ----- 30:0-rel  31:2-ARG1
+chtb_0238.parse 32 1 predicted say-v say.01 ----- 1:0-rel  0:1-ARG0 2:1-ARG1
+chtb_0238.parse 32 5 predicted have-v have.03 ----- 5:0-rel  4:1-ARG0 6:1-ARGM-TMP
+chtb_0238.parse 32 7 predicted advocate-v advocate.01 ----- 7:0-rel  4:1-ARG0 6:1-ARGM-TMP 8:1-ARG1 9:1-ARGM-MNR
+chtb_0238.parse 33 1 predicted welcome-v welcome.01 ----- 1:0-rel  0:1-ARG0 2:2-ARG1
+chtb_0238.parse 33 5 predicted achieve-v achieve.01 ----- 5:0-rel  2:1-ARG1 6:1-ARG0
+chtb_0238.parse 33 17 predicted have-v have.03 ----- 17:0-rel  0:1-ARG0 18:1-ARG1
+chtb_0238.parse 33 18 predicted be-v be.01 ----- 18:0-rel  0:1-ARG1 19:1-ARG2
+chtb_0238.parse 33 19 predicted play-v play.02 ----- 19:0-rel  0:1-ARG0 20:1-ARG1
+chtb_0238.parse 34 1 predicted answer-v answer.01 ----- 1:0-rel  0:1-ARGM-TMP 2:2-ARG1
+chtb_0238.parse 34 9 predicted be-v be.01 ----- 9:0-rel  6:2-ARG1 10:1-ARG2
+chtb_0238.parse 34 10 predicted hope-v hope.01 ----- 10:0-rel  6:2-ARG0 11:1-ARG1
+chtb_0238.parse 34 20 predicted want-v want.01 ----- 20:0-rel  6:2-ARG0 21:2-ARG1
+chtb_0238.parse 34 22 predicted have-v have.03 ----- 22:0-rel  6:2-ARG0 23:2-ARG1
+chtb_0238.parse 34 31 predicted say-v say.01 ----- 31:0-rel  0:2-ARGM-TMP 29:1-ARG0 32:1-ARG1
+chtb_0238.parse 34 35 predicted be-v be.01 ----- 35:0-rel  34:1-ARG1 36:1-ARG2
+chtb_0238.parse 34 38 predicted have-v have.03 ----- 38:0-rel  34:1-ARG0 39:2-ARG1 43:1-ARGM-LOC
+chtb_0238.parse 34 47 predicted develop-v develop.02 ----- 47:0-rel  34:1-ARG0 46:1-ARGM-DIS 48:2-ARG1
+chtb_0238.parse 35 1 predicted think-v think.01 ----- 1:0-rel  0:1-ARG0 2:1-ARG1
+chtb_0238.parse 35 5 predicted be-v be.01 ----- 5:0-rel  3:1-ARG1 6:1-ARG2
+chtb_0238.parse 36 3 predicted ask-v ask.02 ----- 3:0-rel  0:1-ARGM-TMP 1:1-ARG0 4:2-ARG1
+chtb_0238.parse 36 11 predicted be-v be.01 ----- 11:0-rel  4:1-ARG1 7:2-ARG1 10:0-ARGM-MOD 12:1-ARG2
+chtb_0238.parse 36 12 predicted extend-v extend.01 ----- 12:0-rel  7:2-ARG1 10:0-ARGM-MOD 13:1-ARG0
+chtb_0238.parse 36 17 predicted maintain-v maintain.01 ----- 17:0-rel  14:1-ARG0 16:1-R-ARG0 18:2-ARG1
+chtb_0238.parse 36 25 predicted emphasize-v emphasize.01 ----- 25:0-rel  0:2-ARGM-TMP 23:1-ARG0 26:2-ARG1
+chtb_0238.parse 36 30 predicted have-v have.03 ----- 30:0-rel  27:1-ARG0 29:1-R-ARG0 31:1-ARG1
+chtb_0238.parse 36 31 predicted establish-v establish.01 ----- 31:0-rel  27:1-ARG0 29:1-R-ARG0 32:2-ARG1
+chtb_0238.parse 36 36 predicted have-v have.03 ----- 36:0-rel  27:2-ARG0 37:1-ARG1
+chtb_0238.parse 36 37 predicted express-v express.01 ----- 37:0-rel  27:2-ARG0 38:1-ARG1
+chtb_0238.parse 36 47 predicted be-v be.01 ----- 47:0-rel  41:3-ARG1 48:2-ARG2
+chtb_0238.parse 36 52 predicted represent-v represent.01 ----- 52:0-rel  48:1-ARG0 53:2-ARG1
+chtb_0238.parse 36 60 predicted be-v be.01 ----- 60:0-rel  59:1-ARG1 61:2-ARG2
+chtb_0238.parse 37 1 predicted promise-v promise.01 ----- 1:0-rel  0:1-ARG0 2:1-ARG2
+chtb_0238.parse 37 4 predicted establish-v establish.01 ----- 4:0-rel  0:1-ARG0 2:0-ARGM-NEG 5:1-ARG1
+chtb_0238.parse 37 8 predicted have-v have.03 ----- 8:0-rel  0:1-ARG0 2:0-ARGM-NEG 9:3-ARG1
+chtb_0238.parse 37 13 predicted be-v be.01 ----- 13:0-rel  9:2-ARG1 12:1-R-ARG1 14:1-ARG2
+chtb_0238.parse 38 1 predicted say-v say.01 ----- 1:0-rel  0:1-ARG0 2:1-ARG1
+chtb_0238.parse 38 4 predicted have-v have.03 ----- 4:0-rel  3:1-ARG0 5:3-ARG1
+chtb_0238.parse 38 12 predicted keep-v keep.02 ----- 12:0-rel  8:2-ARG1 13:1-ARG2
+chtb_0238.parse 38 18 predicted be-v be.01 ----- 18:0-rel  17:1-ARG1 19:1-ARGM-ADV 20:2-ARG2

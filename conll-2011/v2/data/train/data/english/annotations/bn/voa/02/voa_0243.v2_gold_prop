@@ -1,0 +1,6 @@
+bn/voa/02/voa_0243@0243@voa@bn@en@on 0 4 gold have-v have.01 ----- 4:0-rel
+bn/voa/02/voa_0243@0243@voa@bn@en@on 0 5 gold hold-v hold.04 ----- 5:0-rel 0:2-ARG0 6:1-ARG1 7:1-ARG2 15:1-ARGM-LOC
+bn/voa/02/voa_0243@0243@voa@bn@en@on 0 24 gold be-v be.03 ----- 24:0-rel
+bn/voa/02/voa_0243@0243@voa@bn@en@on 0 25 gold report-v report.01 ----- 25:0-rel
+bn/voa/02/voa_0243@0243@voa@bn@en@on 1 4 gold last-v last.01 ----- 4:0-rel 5:2-ARG2 0:1-LINK-SLC
+bn/voa/02/voa_0243@0243@voa@bn@en@on 1 9 gold follow-v follow.01 ----- 9:0-rel 0:2-ARG1 10:2-ARG2

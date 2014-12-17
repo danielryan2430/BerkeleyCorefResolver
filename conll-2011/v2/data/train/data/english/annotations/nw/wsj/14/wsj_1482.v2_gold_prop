@@ -1,0 +1,4 @@
+nw/wsj/14/wsj_1482@1482@wsj@nw@en@on 0 1 gold follow-v follow.04 ----- 1:0-rel 2:0,3:0,4:0,5:0,6:0,7:0,8:0-ARG1
+nw/wsj/14/wsj_1482@1482@wsj@nw@en@on 0 11 gold schedule-v schedule.01 ----- 11:0-rel 10:1-ARGM-MNR 12:1-ARG2 14:1-ARG3 17:1-ARGM-ADV
+nw/wsj/14/wsj_1482@1482@wsj@nw@en@on 2 4 gold sell-v sell.01 ----- 4:0-rel 5:3-ARG1 0:1-LINK-PCR
+nw/wsj/14/wsj_1482@1482@wsj@nw@en@on 23 11 gold include-v include.01 ----- 11:0-rel 2:2,5:1-ARG2 12:4-ARG1

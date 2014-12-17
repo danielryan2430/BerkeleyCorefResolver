@@ -1,0 +1,8 @@
+bn/cnn/04/cnn_0419 0 8 be-v 1
+bn/cnn/04/cnn_0419 0 4 factor-n 1
+bn/cnn/04/cnn_0419 1 1 return-v 1
+bn/cnn/04/cnn_0419 1 8 follow-v 2
+bn/cnn/04/cnn_0419 1 15 hunter-n 2
+bn/cnn/04/cnn_0419 2 9 rape-v 1
+bn/cnn/04/cnn_0419 2 5 trial-n 3
+bn/cnn/04/cnn_0419 2 13 woman-n 1

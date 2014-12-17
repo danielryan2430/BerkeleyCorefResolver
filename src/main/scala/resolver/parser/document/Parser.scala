@@ -5,9 +5,6 @@ import java.io.File
 import scala.collection.mutable.ListBuffer
 
 
-/**
- * Created by dimberman on 12/11/14.
- */
 object Parser {
      def parse(file:File):List[Document] = {
        println("Parse begin: "+file.getName)

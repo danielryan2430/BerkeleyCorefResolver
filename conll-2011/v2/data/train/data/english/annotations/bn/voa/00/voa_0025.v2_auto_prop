@@ -1,0 +1,4 @@
+voa_0025.parse 0 2 predicted have-v have.03 ----- 2:0-rel  0:1-ARG0 3:1-ARG1
+voa_0025.parse 0 3 predicted meet-v meet.03 ----- 3:0-rel  0:1-ARG0 4:1-ARG1
+voa_0025.parse 0 14 predicted visit-v visit.01 ----- 14:0-rel  0:1-ARG0 5:1-ARG0 15:1-ARG1
+voa_0025.parse 1 2 predicted describe-v describe.01 ----- 2:0-rel  0:1-ARG0 22:1-ARG2

@@ -1,0 +1,99 @@
+#begin document (nw/wsj/10/wsj_1030); part 000
+nw/wsj/10/wsj_1030   0    0        Keith   NNP  (TOP(S(NP*      -    -   -   -   (PERSON*   (ARG1*    (0
+nw/wsj/10/wsj_1030   0    1           A.   NNP           *      -    -   -   -          *        *     -
+nw/wsj/10/wsj_1030   0    2       Tucker   NNP           *)     -    -   -   -          *)       *)    0)
+nw/wsj/10/wsj_1030   0    3          was   VBD        (VP*      -    -   -   -          *        *     -
+nw/wsj/10/wsj_1030   0    4        named   VBN        (VP*    name  01   3   -          *      (V*)   (1)
+nw/wsj/10/wsj_1030   0    5            a    DT   (S(NP(NP*      -    -   -   -          *   (ARG2*     -
+nw/wsj/10/wsj_1030   0    6     director    NN           *)     -    -   1   -          *        *     -
+nw/wsj/10/wsj_1030   0    7           of    IN        (PP*      -    -   -   -          *        *     -
+nw/wsj/10/wsj_1030   0    8         this    DT        (NP*      -    -   -   -          *        *    (2
+nw/wsj/10/wsj_1030   0    9    insurance    NN   (NML(NML*)     -    -   3   -          *        *     -
+nw/wsj/10/wsj_1030   0   10          and    CC           *      -    -   -   -          *        *     -
+nw/wsj/10/wsj_1030   0   11    financial    JJ       (NML*      -    -   -   -          *        *     -
+nw/wsj/10/wsj_1030   0   12     services   NNS          *))     -    -   1   -          *        *     -
+nw/wsj/10/wsj_1030   0   13      concern    NN      *))))))     -    -   3   -          *        *)    2)
+nw/wsj/10/wsj_1030   0   14            .     .          *))     -    -   -   -          *        *     -
+
+nw/wsj/10/wsj_1030   0    0           Mr.   NNP   (TOP(S(NP(NP*      -    -   -   -          *   (ARG1*             *            *   (0
+nw/wsj/10/wsj_1030   0    1        Tucker   NNP               *)     -    -   -   -    (PERSON)       *             *            *    -
+nw/wsj/10/wsj_1030   0    2             ,     ,               *      -    -   -   -          *        *             *            *    -
+nw/wsj/10/wsj_1030   0    3           44     CD      (ADJP(NML*      -    -   -   -     (DATE*        *             *            *    -
+nw/wsj/10/wsj_1030   0    4         years   NNS               *)     -    -   -   -          *        *             *            *    -
+nw/wsj/10/wsj_1030   0    5           old    JJ               *)     -    -   -   -          *)       *             *            *    -
+nw/wsj/10/wsj_1030   0    6             ,     ,               *)     -    -   -   -          *        *)            *            *    0)
+nw/wsj/10/wsj_1030   0    7            is   VBZ            (VP*      be  01   2   -          *      (V*)            *            *    -
+nw/wsj/10/wsj_1030   0    8     president    NN   (NP(NP(NP(NP*)     -    -   1   -          *   (ARG2*             *            *    -
+nw/wsj/10/wsj_1030   0    9            of    IN            (PP*      -    -   -   -          *        *             *            *    -
+nw/wsj/10/wsj_1030   0   10       Trivest   NNP            (NP*      -    -   -   -      (ORG*        *             *            *    -
+nw/wsj/10/wsj_1030   0   11    Securities   NNP               *      -    -   -   -          *        *             *            *    -
+nw/wsj/10/wsj_1030   0   12         Corp.   NNP             *)))     -    -   -   -          *)       *             *            *    -
+nw/wsj/10/wsj_1030   0   13           and    CC               *      -    -   -   -          *        *             *            *    -
+nw/wsj/10/wsj_1030   0   14        senior    JJ            (NP*      -    -   -   -          *        *             *            *    -
+nw/wsj/10/wsj_1030   0   15          vice    NN               *      -    -   4   -          *        *             *            *    -
+nw/wsj/10/wsj_1030   0   16     president    NN              *))     -    -   1   -          *        *             *            *    -
+nw/wsj/10/wsj_1030   0   17            of    IN            (PP*      -    -   -   -          *        *             *            *    -
+nw/wsj/10/wsj_1030   0   18       Trivest   NNP         (NP(NP*      -    -   -   -      (ORG*        *             *            *    -
+nw/wsj/10/wsj_1030   0   19          Inc.   NNP               *)     -    -   -   -          *)       *             *            *    -
+nw/wsj/10/wsj_1030   0   20             ,     ,               *      -    -   -   -          *        *             *            *    -
+nw/wsj/10/wsj_1030   0   21       closely    RB    (NP(NP(ADJP*      -    -   -   -          *        *    (ARGM-MNR*)      (ARG1*    -
+nw/wsj/10/wsj_1030   0   22          held   VBN               *)   hold  01   8   -          *        *           (V*)           *    -
+nw/wsj/10/wsj_1030   0   23    investment    NN               *      -    -   3   -          *        *             *            *    -
+nw/wsj/10/wsj_1030   0   24     companies   NNS               *)     -    -   1   -          *        *             *            *)   -
+nw/wsj/10/wsj_1030   0   25         based   VBN            (VP*    base  01   3   -          *        *             *          (V*)   -
+nw/wsj/10/wsj_1030   0   26            in    IN            (PP*      -    -   -   -          *        *             *   (ARGM-LOC*    -
+nw/wsj/10/wsj_1030   0   27         Miami   NNP     (NP*))))))))     -    -   -   -       (GPE)       *)            *            *)   -
+nw/wsj/10/wsj_1030   0   28             .     .              *))     -    -   -   -          *        *             *            *    -
+
+nw/wsj/10/wsj_1030   0    0          His   PRP$  (TOP(S(NP*          -    -   -   -            *   (ARG0*    (1|(0)
+nw/wsj/10/wsj_1030   0    1    selection     NN           *)         -    -   3   -            *        *)       1)
+nw/wsj/10/wsj_1030   0    2    increases    VBZ        (VP*    increase  01   -   -            *      (V*)       -
+nw/wsj/10/wsj_1030   0    3          the     DT     (NP(NP*          -    -   -   -            *   (ARG1*        -
+nw/wsj/10/wsj_1030   0    4         size     NN           *)         -    -   -   -            *        *        -
+nw/wsj/10/wsj_1030   0    5           of     IN        (PP*          -    -   -   -            *        *        -
+nw/wsj/10/wsj_1030   0    6          the     DT        (NP*          -    -   -   -            *        *        -
+nw/wsj/10/wsj_1030   0    7        board     NN         *)))         -    -   4   -            *        *)       -
+nw/wsj/10/wsj_1030   0    8           to     IN        (PP*          -    -   -   -            *   (ARG4*        -
+nw/wsj/10/wsj_1030   0    9          12      CD        (NP*          -    -   -   -    (CARDINAL)       *        -
+nw/wsj/10/wsj_1030   0   10      members    NNS         *)))         -    -   1   -            *        *)       -
+nw/wsj/10/wsj_1030   0   11            .      .          *))         -    -   -   -            *        *        -
+
+nw/wsj/10/wsj_1030   0    0    Torchmark   NNP               (TOP(S(NP*)       -    -   -   -       (ORG)       (ARG0*)       *        *        *    (2)
+nw/wsj/10/wsj_1030   0    1         also    RB                   (ADVP*)       -    -   -   -          *    (ARGM-DIS*)       *        *        *     -
+nw/wsj/10/wsj_1030   0    2         said   VBD                     (VP*       say  01   1   -          *           (V*)       *        *        *     -
+nw/wsj/10/wsj_1030   0    3         that    IN                   (SBAR*        -    -   -   -          *        (ARG1*        *        *        *     -
+nw/wsj/10/wsj_1030   0    4       Samuel   NNP             (S(NP(NP(NP*        -    -   -   -   (PERSON*             *   (ARG1*   (ARG0*        *     -
+nw/wsj/10/wsj_1030   0    5           E.   NNP                        *        -    -   -   -          *             *        *        *        *     -
+nw/wsj/10/wsj_1030   0    6     Upchurch   NNP                        *        -    -   -   -          *             *        *        *        *     -
+nw/wsj/10/wsj_1030   0    7          Jr.   NNP                        *)       -    -   -   -          *)            *        *        *        *     -
+nw/wsj/10/wsj_1030   0    8            ,     ,                        *        -    -   -   -          *             *        *        *        *     -
+nw/wsj/10/wsj_1030   0    9          37     CD                    (NP*))       -    -   -   -      (DATE)            *        *        *        *     -
+nw/wsj/10/wsj_1030   0   10            ,     ,                        *        -    -   -   -          *             *        *        *        *     -
+nw/wsj/10/wsj_1030   0   11         vice    NN                  (NP(NP*        -    -   4   -          *             *        *        *        *     -
+nw/wsj/10/wsj_1030   0   12    president    NN                        *)       -    -   1   -          *             *        *        *        *     -
+nw/wsj/10/wsj_1030   0   13          and    CC                        *        -    -   -   -          *             *        *        *        *     -
+nw/wsj/10/wsj_1030   0   14      general    JJ                     (NP*        -    -   -   -          *             *        *        *        *     -
+nw/wsj/10/wsj_1030   0   15      counsel    NN                       *))       -    -   -   -          *             *        *        *        *     -
+nw/wsj/10/wsj_1030   0   16            ,     ,                        *)       -    -   -   -          *             *        *)       *)       *     -
+nw/wsj/10/wsj_1030   0   17          was   VBD                     (VP*        -    -   -   -          *             *        *        *        *     -
+nw/wsj/10/wsj_1030   0   18     selected   VBN                     (VP*    select  01   -   -          *             *      (V*)       *        *     -
+nw/wsj/10/wsj_1030   0   19           to    TO                   (S(VP*        -    -   -   -          *             *   (ARG3*        *        *     -
+nw/wsj/10/wsj_1030   0   20        serve    VB                     (VP*     serve  01   1   -          *             *        *      (V*)       *     -
+nw/wsj/10/wsj_1030   0   21          the    DT                  (NP(NP*        -    -   -   -          *             *        *   (ARG1*        *     -
+nw/wsj/10/wsj_1030   0   22    remainder    NN                        *)       -    -   -   -          *             *        *        *        *     -
+nw/wsj/10/wsj_1030   0   23           of    IN                     (PP*        -    -   -   -          *             *        *        *        *     -
+nw/wsj/10/wsj_1030   0   24          the    DT                  (NP(NP*        -    -   -   -          *             *        *        *   (ARG1*     -
+nw/wsj/10/wsj_1030   0   25         term    NN                        *)       -    -   2   -          *             *        *        *        *)    -
+nw/wsj/10/wsj_1030   0   26      vacated   VBN                     (VP*    vacate  01   -   -          *             *        *        *      (V*)    -
+nw/wsj/10/wsj_1030   0   27           by    IN                     (PP*        -    -   -   -          *             *        *        *   (ARG0*     -
+nw/wsj/10/wsj_1030   0   28         John   NNP                  (NP(NP*        -    -   -   -   (PERSON*             *        *        *        *     -
+nw/wsj/10/wsj_1030   0   29         S.P.   NNP                        *        -    -   -   -          *             *        *        *        *     -
+nw/wsj/10/wsj_1030   0   30      Samford   NNP                        *)       -    -   -   -          *)            *        *        *        *     -
+nw/wsj/10/wsj_1030   0   31            ,     ,                        *        -    -   -   -          *             *        *        *        *     -
+nw/wsj/10/wsj_1030   0   32          who    WP              (SBAR(WHNP*)       -    -   -   -          *             *        *        *        *     -
+nw/wsj/10/wsj_1030   0   33     resigned   VBD                   (S(VP*        -    -   -   -          *             *        *        *        *     -
+nw/wsj/10/wsj_1030   0   34           as    IN                     (PP*        -    -   -   -          *             *        *        *        *     -
+nw/wsj/10/wsj_1030   0   35     director    NN   (NP*)))))))))))))))))))       -    -   1   -          *             *)       *)       *)       *)    -
+nw/wsj/10/wsj_1030   0   36            .     .                       *))       -    -   -   -          *             *        *        *        *     -
+
+#end document

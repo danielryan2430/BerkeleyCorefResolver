@@ -1,0 +1,6 @@
+voa_0065.parse 0 6 predicted have-v have.03 ----- 6:0-rel  2:3-ARG0 7:1-ARG1
+voa_0065.parse 0 7 predicted be-v be.01 ----- 7:0-rel  0:1-ARG1 2:3-ARG1
+voa_0065.parse 0 8 predicted wounded-v wounded.- ----- 8:0-rel  0:1-ARG1 2:3-ARG1 9:1-ARGM-LOC 11:1-ARGM-TMP
+voa_0065.parse 1 8 predicted appear-v appear.02 ----- 8:0-rel  0:1-ARGM-TMP 2:2-ARG1 9:1-ARGM-LOC 11:2-ARGM-ADV
+voa_0065.parse 1 11 predicted call-v call.01 ----- 11:0-rel  2:2-ARG0 12:1-ARG1 14:2-ARG2
+voa_0065.parse 1 15 predicted carry-v carry.01 ----- 15:0-rel  13:1-ARG0 16:1-ARGM-DIR 17:2-ARG1

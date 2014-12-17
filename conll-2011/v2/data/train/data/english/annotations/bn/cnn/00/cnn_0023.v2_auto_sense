@@ -1,0 +1,14 @@
+bn/cnn/00/cnn_0023 0 5 take-v 4
+bn/cnn/00/cnn_0023 0 9 door-n 1
+bn/cnn/00/cnn_0023 0 16 book-n 1
+bn/cnn/00/cnn_0023 1 1 write-v 1
+bn/cnn/00/cnn_0023 1 9 receive-v 1
+bn/cnn/00/cnn_0023 1 19 go-v 4
+bn/cnn/00/cnn_0023 1 24 choose-v 2
+bn/cnn/00/cnn_0023 1 11 report-n 2
+bn/cnn/00/cnn_0023 2 1 say-v 1
+bn/cnn/00/cnn_0023 2 4 think-v 1
+bn/cnn/00/cnn_0023 2 7 handle-v 2
+bn/cnn/00/cnn_0023 3 2 admit-v 1
+bn/cnn/00/cnn_0023 3 8 grab-v 1
+bn/cnn/00/cnn_0023 3 12 strike-v 8
