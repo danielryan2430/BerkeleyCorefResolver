@@ -1,5 +1,0 @@
-nw/wsj/13/wsj_1383@1383@wsj@nw@en@on 0 7 gold say-v say.01 ----- 7:0-rel 0:2-ARG0 8:3-ARG1
-nw/wsj/13/wsj_1383@1383@wsj@nw@en@on 0 9 gold complete-v complete.01 ----- 9:0-rel 8:1-ARG0 10:2-ARG1
-nw/wsj/13/wsj_1383@1383@wsj@nw@en@on 1 10 gold say-v say.01 ----- 10:0-rel 0:2-ARG0 11:3-ARG1
-nw/wsj/13/wsj_1383@1383@wsj@nw@en@on 1 13 gold have-v have.03 ----- 13:0-rel 11:1-ARG0 14:2-ARG1
-nw/wsj/13/wsj_1383@1383@wsj@nw@en@on 2 3 gold release-v release.01 ----- 3:0-rel 0:1-ARG0 2:0-ARGM-NEG 4:2-ARG1

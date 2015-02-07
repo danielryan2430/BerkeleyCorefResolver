@@ -1,7 +1,0 @@
-wsj_1527.parse 0 9 predicted elect-v elect.01 ----- 9:0-rel  0:2-ARG1 10:3-ARG2
-wsj_1527.parse 1 1 predicted succeed-v succeed.02 ----- 1:0-rel  0:1-ARG0 2:3-ARG1
-wsj_1527.parse 1 9 predicted be-v be.01 ----- 9:0-rel  2:1-ARG1 8:1-ARG1 10:1-ARG2
-wsj_1527.parse 1 10 predicted retire-v retire.01 ----- 10:0-rel  2:2-ARG0 8:1-R-ARG0 11:1-ARG1
-wsj_1527.parse 1 15 predicted remain-v remain.01 ----- 15:0-rel  2:1-ARG1 8:1-R-ARG1 16:2-ARG3
-wsj_1527.parse 2 2 predicted have-v have.03 ----- 2:0-rel  0:1-ARG0 3:1-ARG1
-wsj_1527.parse 2 3 predicted be-v be.01 ----- 3:0-rel  0:1-ARG1 4:3-ARG2

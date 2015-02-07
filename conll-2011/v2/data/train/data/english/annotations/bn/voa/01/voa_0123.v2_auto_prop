@@ -1,5 +1,0 @@
-voa_0123.parse 0 5 predicted win-v win.01 ----- 5:0-rel  0:2-ARG0 11:1-ARGM-TMP
-voa_0123.parse 0 14 predicted re-elect-v re-elect.- ----- 14:0-rel  12:1-ARG1
-voa_0123.parse 1 4 predicted make-v make.03 ----- 4:0-rel  0:1-ARG1 5:1-ARG1 16:1-ARGM-TMP
-voa_0123.parse 1 10 predicted be-v be.01 ----- 10:0-rel  0:1-ARG1 11:1-ARG2
-voa_0123.parse 1 11 predicted depose-v depose.01 ----- 11:0-rel  12:1-ARGM-LOC

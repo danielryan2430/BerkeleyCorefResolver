@@ -1,6 +1,0 @@
-pri_0110.parse 0 8 predicted have-v have.03 ----- 8:0-rel  0:2-ARG0 9:1-ARG1
-pri_0110.parse 0 9 predicted be-v be.01 ----- 9:0-rel  0:2-ARG1
-pri_0110.parse 0 10 predicted shoot-v shoot.02 ----- 10:0-rel  0:2-ARG1 11:2-ARGM-PRD
-pri_0110.parse 1 2 predicted open-v open.01 ----- 2:0-rel  0:1-ARG0 3:1-ARG1 4:1-ARGM-LOC 7:1-ARGM-LOC
-pri_0110.parse 1 19 predicted be-v be.01 ----- 19:0-rel  14:2-ARG1 20:1-ARG2
-pri_0110.parse 2 2 predicted listen-v listen.01 ----- 2:0-rel  0:1-ARG0 3:1-ARG1

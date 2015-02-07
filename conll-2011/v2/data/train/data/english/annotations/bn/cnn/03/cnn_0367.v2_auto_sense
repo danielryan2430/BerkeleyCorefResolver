@@ -1,9 +1,0 @@
-bn/cnn/03/cnn_0367 0 2 head-v 1
-bn/cnn/03/cnn_0367 0 22 soar-v 2
-bn/cnn/03/cnn_0367 0 31 do-v 1
-bn/cnn/03/cnn_0367 0 33 share-v 1
-bn/cnn/03/cnn_0367 0 6 summit-n 3
-bn/cnn/03/cnn_0367 0 24 rating-n 2
-bn/cnn/03/cnn_0367 0 28 public-n 1
-bn/cnn/03/cnn_0367 1 6 report-v 1
-bn/cnn/03/cnn_0367 1 9 result-n 3

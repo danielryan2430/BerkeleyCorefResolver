@@ -1,3 +1,0 @@
-nbc_0038.parse 0 10 predicted be-v be.02 ----- 10:0-rel  8:1-ARG1 9:0-ARGM-MOD 11:2-ARG1 19:1-ARGM-TMP
-nbc_0038.parse 1 4 predicted end-v end.01 ----- 4:0-rel  0:2-ARG1 5:1-ARGM-TMP 7:1-ARGM-ADV
-nbc_0038.parse 1 10 predicted strike-v strike.01 ----- 10:0-rel  8:1-ARG1

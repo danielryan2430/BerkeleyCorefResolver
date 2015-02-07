@@ -1,8 +1,0 @@
-bn/cnn/00/cnn_0031 0 4 company-n 1
-bn/cnn/00/cnn_0031 0 14 market-n 1
-bn/cnn/00/cnn_0031 1 6 approve-v 1
-bn/cnn/00/cnn_0031 1 14 do-v 7
-bn/cnn/00/cnn_0031 2 3 have-v 12
-bn/cnn/00/cnn_0031 2 4 be-v 1
-bn/cnn/00/cnn_0031 2 2 company-n 1
-bn/cnn/00/cnn_0031 3 2 business-n 1
